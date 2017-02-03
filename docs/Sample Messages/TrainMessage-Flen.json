@@ -1,0 +1,33 @@
+/* 
+Request:
+
+<REQUEST>
+      <LOGIN authenticationkey="openapiconsolekey" />
+      <QUERY objecttype="TrainMessage">
+            <FILTER>
+                  <EQ name="AffectedLocation" value="Fle" />
+            </FILTER>
+            <INCLUDE>StartDateTime</INCLUDE>
+            <INCLUDE>LastUpdateDateTime</INCLUDE>
+            <INCLUDE>ExternalDescription</INCLUDE>
+            <INCLUDE>ReasonCodeText</INCLUDE>
+      </QUERY>
+</REQUEST>
+*/
+
+{
+  "RESPONSE": {
+    "RESULT": [
+      {
+        "TrainMessage": [
+          {
+            "StartDateTime": "2017-02-02T11:23:00",
+            "LastUpdateDateTime": "2017-02-02T12:47:19",
+            "ExternalDescription": "Göteborg-Skövde-Stockholm:\nDet är förseningar i tågtrafiken mellan Göteborg och Stockholm. Detta påverkar både tåg på sträckan Göteborg-Alingsås samt Göteborg-Skövde-Stockholm. Tågtrafiken beräknas kunna köra som vanligt igen under eftermiddagen. För mer information om din resa, kontakta ditt tågbolag. Orsaken är ett växelfel som medför att det bara går att köra på ett av tre spår förbi Vårgårda\n \n\n",
+            "ReasonCodeText": "spårfel"
+          }
+        ]
+      }
+    ]
+  }
+}

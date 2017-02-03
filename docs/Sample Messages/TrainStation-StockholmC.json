@@ -1,0 +1,92 @@
+/*
+Request:
+
+<REQUEST>
+  <LOGIN authenticationkey="openapiconsolekey" />
+  <QUERY objecttype="TrainStation">
+    <FILTER>
+      <LIKE name="AdvertisedLocationName" value="Stockholm C" />
+    </FILTER>
+  </QUERY>
+</REQUEST>
+ */
+
+{
+  "RESPONSE": {
+    "RESULT": [
+      {
+        "TrainStation": [
+          {
+            "Advertised": true,
+            "AdvertisedLocationName": "Stockholm Central",
+            "AdvertisedShortLocationName": "Stockholm C",
+            "CountryCode": "SE",
+            "CountyNo": [
+              2,
+              1
+            ],
+            "Geometry": {
+              "SWEREF99TM": "POINT (673924 6580788)",
+              "WGS84": "POINT (18.0572670185758 59.3299708428723)"
+            },
+            "LocationInformationText": "Arlanda Express omfattas ej. &lt;br&gt;Spåruppgifterna är preliminära och kan ändras.",
+            "LocationSignature": "Cst",
+            "ModifiedTime": "2016-02-26T10:00:03.843Z",
+            "PlatformLine": [
+              "1",
+              "10",
+              "11",
+              "12",
+              "12a",
+              "12b",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "17b",
+              "18",
+              "18b",
+              "19",
+              "19b",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "17a",
+              "18a",
+              "19a",
+              "2"
+            ],
+            "Prognosticated": true
+          },
+          {
+            "Advertised": true,
+            "AdvertisedLocationName": "Stockholm City",
+            "AdvertisedShortLocationName": "Stockholm City",
+            "CountryCode": "SE",
+            "CountyNo": [
+              2,
+              1
+            ],
+            "Geometry": {
+              "SWEREF99TM": "POINT (674343 6581075)",
+              "WGS84": "POINT (18.0648520222019 59.3323716520208)"
+            },
+            "LocationSignature": "Sci",
+            "ModifiedTime": "2016-02-04T15:00:04.607Z",
+            "PlatformLine": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "Prognosticated": false
+          }
+        ]
+      }
+    ]
+  }
+}

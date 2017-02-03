@@ -1,0 +1,264 @@
+/*
+Request:
+
+<REQUEST>
+      <LOGIN authenticationkey="openapiconsolekey" />
+      <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation">
+            <FILTER>
+                  <AND>
+                        <EQ name="ActivityType" value="Avgang" />
+                        <EQ name="LocationSignature" value="Fle" />
+                        <OR>
+                              <AND>
+                                    <GT name="AdvertisedTimeAtLocation" value="$dateadd(-00:15:00)" />
+                                    <LT name="AdvertisedTimeAtLocation" value="$dateadd(14:00:00)" />
+                              </AND>
+                              <AND>
+                                    <LT name="AdvertisedTimeAtLocation" value="$dateadd(00:30:00)" />
+                                    <GT name="EstimatedTimeAtLocation" value="$dateadd(-00:15:00)" />
+                              </AND>
+                        </OR>
+                  </AND>
+            </FILTER>
+            <INCLUDE>AdvertisedTrainIdent</INCLUDE>
+            <INCLUDE>AdvertisedTimeAtLocation</INCLUDE>
+            <INCLUDE>TrackAtLocation</INCLUDE>
+            <INCLUDE>ToLocation</INCLUDE>
+      </QUERY>
+</REQUEST>
+ */
+
+{
+  "RESPONSE": {
+    "RESULT": [
+      {
+        "TrainAnnouncement": [
+          {
+            "AdvertisedTrainIdent": "2043",
+            "AdvertisedTimeAtLocation": "2017-02-02T18:13:00"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T18:15:00",
+            "AdvertisedTrainIdent": "2156",
+            "ToLocation": [
+              {
+                "LocationName": "Sl",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTrainIdent": "286",
+            "AdvertisedTimeAtLocation": "2017-02-02T18:16:00"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T18:24:00",
+            "AdvertisedTrainIdent": "142",
+            "ToLocation": [
+              {
+                "LocationName": "Cst",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "2"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T18:44:00",
+            "AdvertisedTrainIdent": "2151",
+            "ToLocation": [
+              {
+                "LocationName": "Lp",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T18:48:00",
+            "AdvertisedTrainIdent": "143",
+            "ToLocation": [
+              {
+                "LocationName": "Hpbg",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "1"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T19:17:00",
+            "AdvertisedTrainIdent": "2160",
+            "ToLocation": [
+              {
+                "LocationName": "Sl",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T19:44:00",
+            "AdvertisedTrainIdent": "2155",
+            "ToLocation": [
+              {
+                "LocationName": "Lp",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T19:54:00",
+            "AdvertisedTrainIdent": "145",
+            "ToLocation": [
+              {
+                "LocationName": "Hpbg",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "1"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T20:05:00",
+            "AdvertisedTrainIdent": "144",
+            "ToLocation": [
+              {
+                "LocationName": "Cst",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "2"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T20:15:00",
+            "AdvertisedTrainIdent": "2164",
+            "ToLocation": [
+              {
+                "LocationName": "Sl",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T20:44:00",
+            "AdvertisedTrainIdent": "2159",
+            "ToLocation": [
+              {
+                "LocationName": "Lp",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T21:13:00",
+            "AdvertisedTrainIdent": "2168",
+            "ToLocation": [
+              {
+                "LocationName": "Vå",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T21:30:00",
+            "AdvertisedTrainIdent": "148",
+            "ToLocation": [
+              {
+                "LocationName": "Cst",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "2"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T21:31:00",
+            "AdvertisedTrainIdent": "149",
+            "ToLocation": [
+              {
+                "LocationName": "Hpbg",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "1"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T21:44:00",
+            "AdvertisedTrainIdent": "2185",
+            "ToLocation": [
+              {
+                "LocationName": "Lp",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T22:46:00",
+            "AdvertisedTrainIdent": "2167",
+            "ToLocation": [
+              {
+                "LocationName": "Lp",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-02T23:03:00",
+            "AdvertisedTrainIdent": "151",
+            "ToLocation": [
+              {
+                "LocationName": "Hpbg",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "1"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-03T06:09:00",
+            "AdvertisedTrainIdent": "118",
+            "ToLocation": [
+              {
+                "LocationName": "Cst",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "2"
+          },
+          {
+            "AdvertisedTimeAtLocation": "2017-02-03T06:12:00",
+            "AdvertisedTrainIdent": "2108",
+            "ToLocation": [
+              {
+                "LocationName": "Sl",
+                "Priority": 1,
+                "Order": 0
+              }
+            ],
+            "TrackAtLocation": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

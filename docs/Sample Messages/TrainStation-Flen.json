@@ -1,0 +1,62 @@
+/*
+ Request:
+
+<REQUEST>
+  <LOGIN authenticationkey="openapiconsolekey" />
+  <QUERY objecttype="TrainStation">
+    <FILTER>
+      <LIKE name="AdvertisedLocationName" value="Flen" />
+    </FILTER>
+  </QUERY>
+</REQUEST>
+ */
+
+
+{
+  "RESPONSE": {
+    "RESULT": [
+      {
+        "TrainStation": [
+          {
+            "Advertised": true,
+            "AdvertisedLocationName": "Flen",
+            "AdvertisedShortLocationName": "Flen",
+            "CountryCode": "SE",
+            "CountyNo": [
+              4
+            ],
+            "Geometry": {
+              "SWEREF99TM": "POINT (590922 6547472)",
+              "WGS84": "POINT (16.5852782322459 59.0569465930196)"
+            },
+            "LocationSignature": "Fle",
+            "ModifiedTime": "2015-12-17T10:25:51.046Z",
+            "PlatformLine": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "Prognosticated": true
+          },
+          {
+            "Advertised": false,
+            "AdvertisedLocationName": "Flens övre",
+            "AdvertisedShortLocationName": "Flens övre",
+            "CountryCode": "SE",
+            "CountyNo": [
+              4
+            ],
+            "Geometry": {
+              "SWEREF99TM": "POINT (591460 6547998)",
+              "WGS84": "POINT (16.5948733003207 59.0615535592257)"
+            },
+            "LocationSignature": "Fsö",
+            "ModifiedTime": "2015-12-17T10:25:51.187Z",
+            "Prognosticated": false
+          }
+        ]
+      }
+    ]
+  }
+}
