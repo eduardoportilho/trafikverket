@@ -1,6 +1,6 @@
 # Trafikverket Wrapper
 
-A wrapper for the [Trafikverket API](http://api.trafikinfo.trafikverket.se/API/) which provides information about trains in Sweden.
+A wrapper for the [Trafikverket API](http://api.trafikinfo.trafikverket.se/API/) that provides information about trains in Sweden.
 
 ## Usage
 
