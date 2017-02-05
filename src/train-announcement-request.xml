@@ -1,0 +1,23 @@
+<REQUEST>
+  <LOGIN authenticationkey="{apikey}" />
+    <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation asc">
+    <FILTER>
+      <AND>
+        <EQ name="AdvertisedTrainIdent" value="{trainId}" />
+        <GT name="AdvertisedTimeAtLocation" value="$dateadd(-12:00:00)" />
+        <LT name="AdvertisedTimeAtLocation" value="$dateadd(12:00:00)" />
+      </AND>
+    </FILTER>
+    <INCLUDE>Canceled</INCLUDE>
+    <INCLUDE>InformationOwner</INCLUDE>
+    <INCLUDE>ActivityType</INCLUDE>
+    <INCLUDE>AdvertisedTimeAtLocation</INCLUDE>
+    <INCLUDE>EstimatedTimeAtLocation</INCLUDE>
+    <INCLUDE>TrackAtLocation</INCLUDE>
+    <INCLUDE>Deviation</INCLUDE>
+    <INCLUDE>EstimatedTimeIsPreliminary</INCLUDE>
+    <INCLUDE>LocationSignature</INCLUDE>
+    <INCLUDE>ScheduledDepartureDateTime</INCLUDE>
+    <INCLUDE>TimeAtLocation</INCLUDE> 
+  </QUERY>
+</REQUEST>
