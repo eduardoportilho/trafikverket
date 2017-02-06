@@ -104,6 +104,7 @@
     }
   },
   "dependencies": {
+    "browser-request": "^0.3.3",
     "promise": "^7.1.1",
     "request": "^2.79.0"
   },
