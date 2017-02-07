@@ -1,6 +1,6 @@
-let env = require('./environment_config')
-let request = require('browser-request')
-let Promise = require('promise')
+import env from './environment-config.js'
+import request from 'request'
+import Promise from 'promise'
 
 function getDeparturesFrom (stationName) {
   return new Promise(function (resolve, reject) {
