@@ -3,11 +3,13 @@ import request from 'request'
 import Promise from 'promise'
 
 function getDeparturesFrom (stationName) {
+  let requestOptions = {
+    method: 'POST',
+    url: env['url'],
+    body: 'body'
+  }
   return new Promise(function (resolve, reject) {
-    request({
-      method: 'POST',
-      url: env['url'],
-      body: 'body',
+    request(requestOptions,
       function (err, response, body) {
         if (err) {
           reject(err)
@@ -15,7 +17,7 @@ function getDeparturesFrom (stationName) {
         var bodyObj = JSON.parse(body)
         resolve(bodyObj)
       }
-    })
+    )
   })
 }
 
