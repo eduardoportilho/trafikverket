@@ -1,13 +1,15 @@
 <REQUEST>
-  <LOGIN authenticationkey="{apikey}" />
-    <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation asc">
+    <LOGIN authenticationkey="{apikey}" />
+    <QUERY objecttype="TrainAnnouncement" orderby="AdvertisedTimeAtLocation">
     <FILTER>
       <AND>
-        <EQ name="AdvertisedTrainIdent" value="{trainId}" />
-        <GT name="AdvertisedTimeAtLocation" value="$dateadd(-12:00:00)" />
-        <LT name="AdvertisedTimeAtLocation" value="$dateadd(12:00:00)" />
+        <EQ name="ActivityType" value="Avgang" />
+        <EQ name="LocationSignature" value="{fromStationId}" />
+        <GT name="AdvertisedTimeAtLocation" value="$dateadd(-00:30:00)" />
+        <LT name="AdvertisedTimeAtLocation" value="$dateadd(3:00:00)" />
+        {optionalFilters}
       </AND>
-    </FILTER>
+    </FILTER>    
     <INCLUDE>Canceled</INCLUDE>
     <INCLUDE>InformationOwner</INCLUDE>
     <INCLUDE>ActivityType</INCLUDE>
