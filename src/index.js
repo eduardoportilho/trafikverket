@@ -1,10 +1,10 @@
 import env from './environment-config.js'
 import request from 'request'
 import Promise from 'promise'
-import fs from 'fs';
+import fs from 'fs'
 
 function getDepartures (fromStationId, toStationId) {
-  let xmlRequestFile = 'train-announcement-request.xml';
+  let xmlRequestFile = 'train-announcement-request.xml'
   let optionalFilters = ''
   if (toStationId) {
     optionalFilters += '<EQ name="ToLocation.LocationName" value="' + toStationId + '"/>'
@@ -13,9 +13,8 @@ function getDepartures (fromStationId, toStationId) {
     .toString()
     .replace('{apikey}', env.apiKey)
     .replace('{fromStationId}', fromStationId)
-    .replace('{optionalFilters}', optionalFilters);
+    .replace('{optionalFilters}', optionalFilters)
 
-console.log(xmlRequest)
   let requestOptions = {
     method: 'POST',
     url: env.url,
@@ -30,12 +29,13 @@ console.log(xmlRequest)
         let bodyObj = JSON.parse(body)
         let anouncements = bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
           var datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
+          var location = anouncement['ToLocation']
           return {
             train: anouncement['AdvertisedTrainIdent'],
             track: anouncement['TrackAtLocation'],
             date: datetime[0],
             time: datetime[1],
-            destination: anouncement['ToLocation']['LocationName']
+            destination: location ? location['LocationName'] : undefined
           }
         })
         resolve(anouncements)

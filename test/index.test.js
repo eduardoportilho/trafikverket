@@ -8,10 +8,14 @@ describe('trafikverket', function () {
   it('should call request with args', function () {
     //given
     let request = sinon.spy();
-    let trafik = proxyquire('../src/index', {'request': request});
+    let files = sinon.stub().returns('body');
+    let trafik = proxyquire('../src/index', {
+      'request': request,
+      'fs':files
+    });
     
     //when
-    trafik.getDeparturesFrom('test');
+    trafik.getDepartures('test');
 
     //then
     sinon.assert.calledWithMatch(request, {
@@ -27,7 +31,7 @@ describe('trafikverket', function () {
     let trafik = proxyquire('../src/index', {'request': request})
 
     //when
-    trafik.getDeparturesFrom('test')
+    trafik.getDepartures('test')
       .then(function (result) {
         //then
         expect(result).to.equal({'status': 'success'})
@@ -45,7 +49,7 @@ describe('trafikverket', function () {
     let trafik = proxyquire('../src/index', {'request': request})
 
     //when
-    trafik.getDeparturesFrom('test')
+    trafik.getDepartures('test')
       .then(function (result) {
         //never
         assert.fail('Unexpected resolve: ' + result)
