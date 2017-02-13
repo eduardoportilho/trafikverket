@@ -21,11 +21,14 @@ function getDepartures (fromStationId, toStationId) {
     body: xmlRequest
   }
   return new Promise(function (resolve, reject) {
-    request(requestOptions,
+    request(
+      requestOptions,
       function (err, response, body) {
         if (err) {
           reject(err)
+          return
         }
+
         let bodyObj = JSON.parse(body)
         let anouncements = bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
           var datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
