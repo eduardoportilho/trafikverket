@@ -3,61 +3,90 @@ import proxyquire from 'proxyquire'
 import sinon from 'sinon'
 import env from '../src/environment-config'
 
-describe('trafikverket', function () {
+describe('Trafikverket', function (done) {
   
-  it('should call request with args', function () {
-    //given
-    let request = sinon.spy();
-    let files = sinon.stub().returns('body');
-    let trafik = proxyquire('../src/index', {
-      'request': request,
-      'fs':files
-    });
-    
-    //when
-    trafik.getDepartures('test');
+  describe('Request', function() {
+    it('should call request with args', function () {
+      //given
+      let request = sinon.spy();
+      let fs = {'readFileSync': sinon.stub().returns('body')}
+      let trafik = proxyquire('../src/index', {
+        'request': request,
+        'fs': fs
+      });
+      
+      //when
+      trafik.getDepartures('test');
 
-    //then
-    sinon.assert.calledWithMatch(request, {
-      method: 'POST',
-      url: env['url'],
-      body: 'body'
+      //then
+      sinon.assert.calledWithMatch(request, {
+        method: 'POST',
+        url: env['url'],
+        body: 'body'
+      })
+    })
+
+    it('should handle request failure', function () {
+      //given
+      let request = sinon.stub()
+      let fs = {'readFileSync': sinon.stub().returns('body')}
+      let trafik = proxyquire('../src/index', {
+        'request': request,
+        'fs':fs
+      });
+
+      //when
+      trafik.getDepartures('test')
+        .catch(function (reason) {
+          //then
+          expect(reason).to.equal('Test error')
+        })
+        //Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+        
+        request.invokeCallback('Test error', undefined, '{"status": "failure"}')
     })
   })
 
-  it('should handle request success', function () {
-    //given
-    let request = sinon.stub()
-    let trafik = proxyquire('../src/index', {'request': request})
+  describe('Sucess responses', function() {
+    // var request, trafik
 
-    //when
-    trafik.getDepartures('test')
-      .then(function (result) {
-        //then
-        expect(result).to.equal({'status': 'success'})
-      })
-      .catch(function (reason) {
-        //never
-        assert.fail('Unexpected reject: ' + reason)
-      })
-      request.invokeCallback(undefined, undefined, '{"status": "success"}')
-  })
+    before(function () {
+    })
 
-  it('should handle request failure', function () {
-    //given
-    let request = sinon.stub()
-    let trafik = proxyquire('../src/index', {'request': request})
+    it('should handle request success', function (done) {
+      let fs = {'readFileSync': sinon.stub().returns('body')}
+      let request = sinon.stub()
+      let trafik = proxyquire('../src/index', {
+        'request': request,
+        'fs':fs
+      })
 
-    //when
-    trafik.getDepartures('test')
-      .then(function (result) {
-        //never
-        assert.fail('Unexpected resolve: ' + result)
+      //given
+      let response = JSON.stringify({
+        'RESPONSE': {
+          'RESULT': [
+            {
+              'TrainAnnouncement': []
+            }
+          ]
+        }
       })
-      .catch(function (reason) {
-        //then
-        expect(reason).to.equal('Test error')
-      })
-      request.invokeCallback('Test error', undefined, '{"status": "failure"}')
+
+      //when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result).to.be.empty;
+          done()
+        })
+        //Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+
+        request.invokeCallback(undefined, undefined, response)
+    })
   })
 })
