@@ -1,24 +1,23 @@
-import {assert, expect} from 'chai'
+import {expect} from 'chai'
 import proxyquire from 'proxyquire'
 import sinon from 'sinon'
 import env from '../src/environment-config'
 
 describe('Trafikverket', function (done) {
-  
-  describe('Request', function() {
+  describe('Request', function () {
     it('should call request with args', function () {
-      //given
-      let request = sinon.spy();
+      // given
+      let request = sinon.spy()
       let fs = {'readFileSync': sinon.stub().returns('body')}
       let trafik = proxyquire('../src/index', {
         'request': request,
         'fs': fs
-      });
-      
-      //when
-      trafik.getDepartures('test');
+      })
 
-      //then
+      // when
+      trafik.getDepartures('test')
+
+      // then
       sinon.assert.calledWithMatch(request, {
         method: 'POST',
         url: env['url'],
@@ -27,44 +26,38 @@ describe('Trafikverket', function (done) {
     })
 
     it('should handle request failure', function () {
-      //given
+      // given
       let request = sinon.stub()
       let fs = {'readFileSync': sinon.stub().returns('body')}
       let trafik = proxyquire('../src/index', {
         'request': request,
-        'fs':fs
-      });
+        'fs': fs
+      })
 
-      //when
+      // when
       trafik.getDepartures('test')
         .catch(function (reason) {
-          //then
+          // then
           expect(reason).to.equal('Test error')
         })
-        //Catch the AssertionError thrown if the expectation above is not met
+        // Catch the AssertionError thrown if the expectation above is not met
         .catch(function (err) {
           done(err)
         })
-        
-        request.invokeCallback('Test error', undefined, '{"status": "failure"}')
+      request.invokeCallback('Test error', undefined, '{"status": "failure"}')
     })
   })
 
-  describe('Sucess responses', function() {
-    // var request, trafik
-
-    before(function () {
-    })
-
+  describe('Sucess responses', function () {
     it('should handle request success', function (done) {
       let fs = {'readFileSync': sinon.stub().returns('body')}
       let request = sinon.stub()
       let trafik = proxyquire('../src/index', {
         'request': request,
-        'fs':fs
+        'fs': fs
       })
 
-      //given
+      // given
       let response = JSON.stringify({
         'RESPONSE': {
           'RESULT': [
@@ -75,18 +68,18 @@ describe('Trafikverket', function (done) {
         }
       })
 
-      //when
+      // when
       trafik.getDepartures('test')
         .then(function (result) {
-          expect(result).to.be.empty;
+          expect(result).to.be.empty
           done()
         })
-        //Catch the AssertionError thrown if the expectation above is not met
+        // Catch the AssertionError thrown if the expectation above is not met
         .catch(function (err) {
           done(err)
         })
 
-        request.invokeCallback(undefined, undefined, response)
+      request.invokeCallback(undefined, undefined, response)
     })
   })
 })
