@@ -2,8 +2,9 @@ import {expect} from 'chai'
 import proxyquire from 'proxyquire'
 import sinon from 'sinon'
 import env from '../src/environment-config'
+let emptyResponse = '{"RESPONSE":{"RESULT":[{"TrainAnnouncement":[]}]}}'
 
-describe('Trafikverket', function (done) {
+describe('Trafikverket', function () {
   describe('Request', function () {
     it('should call request with args', function () {
       // given
@@ -48,15 +49,60 @@ describe('Trafikverket', function (done) {
     })
   })
 
-  describe('Sucess responses', function () {
-    it('should handle request success', function (done) {
-      let fs = {'readFileSync': sinon.stub().returns('body')}
-      let request = sinon.stub()
+  describe('Request queries', function () {
+    it('should replace api key and origin', function () {
+      let request = sinon.spy()
+      let fs = {'readFileSync': sinon.stub().returns('{apikey}|{fromStationId}')}
+      let trafik = proxyquire('../src/index', {
+        'request': request,
+        'fs': fs
+      })
+      let expectedBody = env['apiKey'] + '|test-origin'
+
+      // when
+      trafik.getDepartures('test-origin')
+
+      // then
+      sinon.assert.calledWithMatch(request, {
+        method: 'POST',
+        url: env['url'],
+        body: expectedBody
+      })
+    })    
+
+    it('should add optional filter if destination is provided', function () {
+      let request = sinon.spy()
+      let fs = {'readFileSync': sinon.stub().returns('{optionalFilters}')}
       let trafik = proxyquire('../src/index', {
         'request': request,
         'fs': fs
       })
 
+      // when
+      trafik.getDepartures('test-origin', 'test-destination')
+
+      // then
+      sinon.assert.calledWithMatch(request, {
+        method: 'POST',
+        url: env['url'],
+        body: '<EQ name="ToLocation.LocationName" value="test-destination"/>'
+      })
+    })
+  })
+
+  describe('Success responses', function () {
+    var fs, request, trafik
+
+    beforeEach(function () {
+      fs = {'readFileSync': sinon.stub().returns('body')}
+      request = sinon.stub()
+      trafik = proxyquire('../src/index', {
+        'request': request,
+        'fs': fs
+      })
+    })
+
+    it('should handle empty response', function (done) {
       // given
       let response = JSON.stringify({
         'RESPONSE': {
@@ -78,7 +124,39 @@ describe('Trafikverket', function (done) {
         .catch(function (err) {
           done(err)
         })
+      request.invokeCallback(undefined, undefined, response)
+    })
 
+    it('should handle a complete response', function (done) {
+      // given
+      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
+              'TrainAnnouncement': [
+                {
+                  'AdvertisedTimeAtLocation': '2017-01-01T11:22',
+                  'TrackAtLocation': 'test-track',
+                  'AdvertisedTrainIdent': 'test-train',
+                  'ToLocation': {
+                    'LocationName': 'test-location'
+                  }
+                }
+              ]
+            }]}})
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result).to.have.lengthOf(1)
+          expect(result[0].train).to.equal('test-train')
+          expect(result[0].track).to.equal('test-track')
+          expect(result[0].date).to.equal('2017-01-01')
+          expect(result[0].time).to.equal('11:22')
+          expect(result[0].destination).to.equal('test-location')
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
       request.invokeCallback(undefined, undefined, response)
     })
   })
