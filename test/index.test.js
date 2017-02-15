@@ -2,7 +2,6 @@ import {expect} from 'chai'
 import proxyquire from 'proxyquire'
 import sinon from 'sinon'
 import env from '../src/environment-config'
-let emptyResponse = '{"RESPONSE":{"RESULT":[{"TrainAnnouncement":[]}]}}'
 
 describe('Trafikverket', function () {
   describe('Request', function () {
@@ -26,7 +25,7 @@ describe('Trafikverket', function () {
       })
     })
 
-    it('should handle request failure', function () {
+    it('should handle request failure', function (done) {
       // given
       let request = sinon.stub()
       let fs = {'readFileSync': sinon.stub().returns('body')}
@@ -40,6 +39,7 @@ describe('Trafikverket', function () {
         .catch(function (reason) {
           // then
           expect(reason).to.equal('Test error')
+          done()
         })
         // Catch the AssertionError thrown if the expectation above is not met
         .catch(function (err) {
@@ -68,7 +68,7 @@ describe('Trafikverket', function () {
         url: env['url'],
         body: expectedBody
       })
-    })    
+    })
 
     it('should add optional filter if destination is provided', function () {
       let request = sinon.spy()
@@ -130,17 +130,17 @@ describe('Trafikverket', function () {
     it('should handle a complete response', function (done) {
       // given
       let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
-              'TrainAnnouncement': [
-                {
-                  'AdvertisedTimeAtLocation': '2017-01-01T11:22',
-                  'TrackAtLocation': 'test-track',
-                  'AdvertisedTrainIdent': 'test-train',
-                  'ToLocation': {
-                    'LocationName': 'test-location'
-                  }
-                }
-              ]
-            }]}})
+        'TrainAnnouncement': [
+          {
+            'AdvertisedTimeAtLocation': '2017-01-01T11:22',
+            'TrackAtLocation': 'test-track',
+            'AdvertisedTrainIdent': 'test-train',
+            'ToLocation': {
+              'LocationName': 'test-location'
+            }
+          }
+        ]
+      }]}})
 
       // when
       trafik.getDepartures('test')
@@ -163,12 +163,12 @@ describe('Trafikverket', function () {
     it('should handle a minimum response', function (done) {
       // given
       let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
-              'TrainAnnouncement': [
-                {
-                  'AdvertisedTrainIdent': 'test-train'
-                }
-              ]
-            }]}})
+        'TrainAnnouncement': [
+          {
+            'AdvertisedTrainIdent': 'test-train'
+          }
+        ]
+      }]}})
 
       // when
       trafik.getDepartures('test')

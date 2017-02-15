@@ -37,7 +37,7 @@ function getDepartures (fromStationId, toStationId) {
             date = datetime[0]
             time = datetime[1]
           }
-          
+
           let location = anouncement['ToLocation']
           return {
             train: anouncement['AdvertisedTrainIdent'],
