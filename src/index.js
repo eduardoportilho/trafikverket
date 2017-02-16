@@ -31,20 +31,22 @@ function getDepartures (fromStationId, toStationId) {
 
         let bodyObj = JSON.parse(body)
         let anouncements = bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
-          var date, time
+          var date, time, location
           if (anouncement['AdvertisedTimeAtLocation']) {
             let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
             date = datetime[0]
             time = datetime[1]
           }
 
-          let location = anouncement['ToLocation']
+          if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
+            location = anouncement['ToLocation'][0]['LocationName']
+          }
           return {
             train: anouncement['AdvertisedTrainIdent'],
             track: anouncement['TrackAtLocation'],
             date: date,
             time: time,
-            destination: location ? location['LocationName'] : undefined
+            destination: location
           }
         })
         resolve(anouncements)

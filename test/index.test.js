@@ -135,9 +135,9 @@ describe('Trafikverket', function () {
             'AdvertisedTimeAtLocation': '2017-01-01T11:22',
             'TrackAtLocation': 'test-track',
             'AdvertisedTrainIdent': 'test-train',
-            'ToLocation': {
+            'ToLocation': [{
               'LocationName': 'test-location'
-            }
+            }]
           }
         ]
       }]}})
@@ -166,6 +166,35 @@ describe('Trafikverket', function () {
         'TrainAnnouncement': [
           {
             'AdvertisedTrainIdent': 'test-train'
+          }
+        ]
+      }]}})
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result).to.have.lengthOf(1)
+          expect(result[0].train).to.equal('test-train')
+          expect(result[0].track).to.be.undefined
+          expect(result[0].date).to.be.undefined
+          expect(result[0].time).to.be.undefined
+          expect(result[0].destination).to.be.undefined
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+      request.invokeCallback(undefined, undefined, response)
+    })
+
+    it('should handle a empty ToLocation', function (done) {
+      // given
+      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
+        'TrainAnnouncement': [
+          {
+            'AdvertisedTrainIdent': 'test-train',
+            'ToLocation': []
           }
         ]
       }]}})
