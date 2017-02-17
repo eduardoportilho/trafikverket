@@ -2,6 +2,7 @@ import env from './environment-config.js'
 import request from 'request'
 import Promise from 'promise'
 import fs from 'fs'
+import trainStations from './train-stations.json'
 
 function getDepartures (fromStationId, toStationId) {
   let xmlRequestFile = 'train-announcement-request.xml'
@@ -40,6 +41,9 @@ function getDepartures (fromStationId, toStationId) {
 
           if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
             location = anouncement['ToLocation'][0]['LocationName']
+            if (trainStations[location]) {
+              location = trainStations[location].name;
+            }
           }
           return {
             train: anouncement['AdvertisedTrainIdent'],

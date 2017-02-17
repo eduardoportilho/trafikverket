@@ -216,5 +216,34 @@ describe('Trafikverket', function () {
         })
       request.invokeCallback(undefined, undefined, response)
     })
+
+    it('should use station name if available', function (done) {
+      // given
+      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
+        'TrainAnnouncement': [
+          {
+            'AdvertisedTrainIdent': 'test-train',
+            'ToLocation': [{
+              'LocationName': 'Cst'
+            }]
+          }
+        ]
+      }]}})
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result).to.have.lengthOf(1)
+          expect(result[0].train).to.equal('test-train')
+          expect(result[0].destination).to.equal('Stockholm Central')
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+      request.invokeCallback(undefined, undefined, response)
+    })
   })
+
 })

@@ -1,0 +1,30 @@
+{
+  "Fle": {
+    "name": "Flen",
+    "shortName": "Flen"
+  },
+  "Cst":{
+    "name": "Stockholm Central",
+    "shortName": "Stockholm C"
+  },
+  "Sl":{
+    "name": "Långsele",
+    "shortName": "Långsele"
+  },
+  "Hpbg":{
+    "name": "Hallsberg",
+    "shortName": "Hallsberg"
+  },
+  "Lp":{
+    "name": "Altorp",
+    "shortName": "Altorp"
+  },
+  "Blg":{
+    "name": "Borlänge C",
+    "shortName": "Borlänge"
+  },
+  "Söö":{
+    "name": "Södertälje Syd",
+    "shortName": "Södertälje S"
+  }
+}
