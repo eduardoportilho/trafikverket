@@ -6,7 +6,7 @@ A wrapper for the [Trafikverket API](http://api.trafikinfo.trafikverket.se/API/)
 
 ```javascript
 let trafikverket = require('trafikverket')
-trafikverket.getDeparturesFrom('Flen')
+trafikverket.getDepartures('Flen')
 ```
 
 ## FAQ
@@ -17,5 +17,5 @@ trafikverket.getDeparturesFrom('Flen')
 ```
 $ env TRAFIKVERKET_API_KEY=<your API key> NODE_ENV=production node
 > let trafik = require('./index')
-> trafik.getDeparturesFrom('Fle').then((obj) => console.log(JSON.stringify(obj)))
+> trafik.getDepartures('Fle').then((obj) => console.log(JSON.stringify(obj)))
 ```
