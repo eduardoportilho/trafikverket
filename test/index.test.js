@@ -90,6 +90,12 @@ describe('Trafikverket', function () {
     })
   })
 
+  /**************************
+   *
+   * RESPONSE HANDLING
+   * 
+   **************************/
+
   describe('Response handling', function () {
     var fs, request, trafik
 
@@ -154,6 +160,11 @@ describe('Trafikverket', function () {
             'AdvertisedTrainIdent': 'test-train',
             'ToLocation': [{
               'LocationName': 'test-location'
+            }],
+            'ViaToLocation': [{
+              'LocationName': 'test-location-1'
+            }, {
+              'LocationName': 'test-location-2'
             }]
           }
         ]
@@ -168,6 +179,7 @@ describe('Trafikverket', function () {
           expect(result[0].date).to.equal('2017-01-01')
           expect(result[0].time).to.equal('11:22')
           expect(result[0].destination).to.equal('test-location')
+          expect(result[0].via).to.deep.equal(['test-location-1', 'test-location-2'])
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met
