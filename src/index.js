@@ -8,7 +8,7 @@ function getDepartures (fromStationId, toStationId) {
   let xmlRequestFile = 'train-announcement-request.xml'
   let optionalFilters = ''
   if (toStationId) {
-    optionalFilters += '<EQ name="ToLocation.LocationName" value="' + toStationId + '"/>'
+    optionalFilters += '<EQ name="ViaToLocation.LocationName" value="' + toStationId + '"/>'
   }
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
@@ -40,7 +40,7 @@ function getDepartures (fromStationId, toStationId) {
           return resolve([])
         }
         let anouncements = bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
-          var date, time, location
+          var date, time, location, via
           if (anouncement['AdvertisedTimeAtLocation']) {
             let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
             date = datetime[0]
@@ -53,12 +53,21 @@ function getDepartures (fromStationId, toStationId) {
               location = trainStations[location].name
             }
           }
+
+          via = []
+          if (anouncement['ViaToLocation']) {
+            via = anouncement['ViaToLocation'].map(function (station) {
+              return station['LocationName']
+            })
+          }
+
           return {
             train: anouncement['AdvertisedTrainIdent'],
             track: anouncement['TrackAtLocation'],
             date: date,
             time: time,
-            destination: location
+            destination: location,
+            via: via
           }
         })
         resolve(anouncements)

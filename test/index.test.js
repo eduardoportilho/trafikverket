@@ -85,7 +85,7 @@ describe('Trafikverket', function () {
       sinon.assert.calledWithMatch(request, {
         method: 'POST',
         url: env['url'],
-        body: '<EQ name="ToLocation.LocationName" value="test-destination"/>'
+        body: '<EQ name="ViaToLocation.LocationName" value="test-destination"/>'
       })
     })
   })

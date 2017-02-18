@@ -6,7 +6,7 @@
             <EQ name="ActivityType" value="Avgang" />
             <EQ name="LocationSignature" value="{fromStationId}" />
             <GT name="AdvertisedTimeAtLocation" value="$dateadd(-00:30:00)" />
-            <LT name="AdvertisedTimeAtLocation" value="$dateadd(3:00:00)" />
+            <LT name="AdvertisedTimeAtLocation" value="$dateadd(9:00:00)" />
             {optionalFilters}
           </AND>
         </FILTER>    
@@ -20,8 +20,9 @@
         <INCLUDE>EstimatedTimeIsPreliminary</INCLUDE>
         <INCLUDE>LocationSignature</INCLUDE>
         <INCLUDE>ScheduledDepartureDateTime</INCLUDE>
-        <INCLUDE>TimeAtLocation</INCLUDE> 
-        <INCLUDE>ToLocation</INCLUDE>
+        <INCLUDE>TimeAtLocation</INCLUDE>
         <INCLUDE>FromLocation</INCLUDE>
+        <INCLUDE>ToLocation</INCLUDE>
+        <INCLUDE>ViaToLocation</INCLUDE>
     </QUERY>
 </REQUEST>
