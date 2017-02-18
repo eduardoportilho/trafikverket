@@ -90,7 +90,7 @@ describe('Trafikverket', function () {
     })
   })
 
-  describe('Success responses', function () {
+  describe('Response handling', function () {
     var fs, request, trafik
 
     beforeEach(function () {
@@ -103,6 +103,23 @@ describe('Trafikverket', function () {
     })
 
     it('should handle empty response', function (done) {
+      // given
+      let response = '{}'
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result).to.be.empty
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+      request.invokeCallback(undefined, undefined, response)
+    })
+
+    it('should handle response without announcements', function (done) {
       // given
       let response = JSON.stringify({
         'RESPONSE': {
@@ -245,5 +262,4 @@ describe('Trafikverket', function () {
       request.invokeCallback(undefined, undefined, response)
     })
   })
-
 })

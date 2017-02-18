@@ -26,11 +26,19 @@ function getDepartures (fromStationId, toStationId) {
       requestOptions,
       function (err, response, body) {
         if (err) {
-          reject(err)
-          return
+          return reject(err)
         }
-
         let bodyObj = JSON.parse(body)
+        if (
+          !bodyObj ||
+          !bodyObj['RESPONSE'] ||
+          !bodyObj['RESPONSE']['RESULT'] ||
+          !bodyObj['RESPONSE']['RESULT'].length ||
+          !bodyObj['RESPONSE']['RESULT'][0] ||
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement']
+          ) {
+          return resolve([])
+        }
         let anouncements = bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
           var date, time, location
           if (anouncement['AdvertisedTimeAtLocation']) {
@@ -42,7 +50,7 @@ function getDepartures (fromStationId, toStationId) {
           if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
             location = anouncement['ToLocation'][0]['LocationName']
             if (trainStations[location]) {
-              location = trainStations[location].name;
+              location = trainStations[location].name
             }
           }
           return {
