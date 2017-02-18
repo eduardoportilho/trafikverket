@@ -27,5 +27,6 @@ $ env TRAFIKVERKET_API_KEY=<your API key> NODE_ENV=production node
 
 ## To do:
 
-- [ ] `trafik.getDepartures('Cst', 'Fle')` (When 'Fle' is not the final destination)
-- [ ] Fetch train station info when not available.
+- [x] `trafik.getDepartures('Cst', 'Fle')` (When 'Fle' is not the final destination)
+- [ ] Create service to return station info (sync?)
+- [ ] Parametrize the time interval
