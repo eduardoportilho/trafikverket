@@ -34,7 +34,9 @@ function getTrainStationInfo (stationId) {
           !bodyObj['RESPONSE']['RESULT'] ||
           !bodyObj['RESPONSE']['RESULT'].length ||
           !bodyObj['RESPONSE']['RESULT'][0] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'] ||
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']['AdvertisedLocationName'] ||
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']['AdvertisedShortLocationName']
           ) {
           return resolve([])
         }
