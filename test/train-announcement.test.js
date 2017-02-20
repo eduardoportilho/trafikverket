@@ -3,7 +3,7 @@ import proxyquire from 'proxyquire'
 import sinon from 'sinon'
 import env from '../src/environment-config'
 
-describe('Trafikverket', function () {
+describe('train-announcement', function () {
   describe('Request', function () {
     it('should call request with args', function () {
       // given

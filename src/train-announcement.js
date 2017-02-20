@@ -4,9 +4,9 @@ import Promise from 'promise'
 import path from 'path'
 import fs from 'fs'
 import trainStations from './train-stations.json'
+let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
 
 function getDepartures (fromStationId, toStationId) {
-  let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
   let optionalFilters = ''
   if (toStationId) {
     optionalFilters += '<EQ name="ViaToLocation.LocationName" value="' + toStationId + '"/>'
