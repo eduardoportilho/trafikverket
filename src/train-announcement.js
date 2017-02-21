@@ -3,13 +3,13 @@ import request from 'request'
 import Promise from 'promise'
 import path from 'path'
 import fs from 'fs'
-import trainStations from './train-stations.json'
+import trainStation from './train-station.js'
 let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
 
 function getDepartures (fromStationId, toStationId) {
   let optionalFilters = ''
   if (toStationId) {
-    optionalFilters += '<EQ name="ViaToLocation.LocationName" value="' + toStationId + '"/>'
+    optionalFilters += `<EQ name="ViaToLocation.LocationName" value="${toStationId}"/>`
   }
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
@@ -41,7 +41,7 @@ function getDepartures (fromStationId, toStationId) {
           return resolve([])
         }
         let anouncements = bodyObj['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
-          var date, time, location, via
+          var date, time, toLocation, viaLocations
           if (anouncement['AdvertisedTimeAtLocation']) {
             let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
             date = datetime[0]
@@ -49,16 +49,17 @@ function getDepartures (fromStationId, toStationId) {
           }
 
           if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
-            location = anouncement['ToLocation'][0]['LocationName']
-            if (trainStations[location]) {
-              location = trainStations[location].name
-            }
+            var stationId = anouncement['ToLocation'][0]['LocationName']
+            var stationInfo = trainStation.getTrainStationInfo(stationId)
+            toLocation = stationInfo.name
           }
 
-          via = []
+          viaLocations = []
           if (anouncement['ViaToLocation']) {
-            via = anouncement['ViaToLocation'].map(function (station) {
-              return station['LocationName']
+            viaLocations = anouncement['ViaToLocation'].map(function (station) {
+              var stationId = station['LocationName']
+              var stationInfo = trainStation.getTrainStationInfo(stationId)
+              return stationInfo.name
             })
           }
 
@@ -67,8 +68,8 @@ function getDepartures (fromStationId, toStationId) {
             track: anouncement['TrackAtLocation'],
             date: date,
             time: time,
-            destination: location,
-            via: via
+            destination: toLocation,
+            via: viaLocations
           }
         })
         resolve(anouncements)

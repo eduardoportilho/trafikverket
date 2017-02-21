@@ -38,7 +38,9 @@ function getTrainStationInfo (stationId) {
           !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']['AdvertisedLocationName'] ||
           !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']['AdvertisedShortLocationName']
           ) {
-          return resolve([])
+          return resolve({
+            'name': stationId
+          })
         }
         let trainStationResponse = bodyObj['RESPONSE']['RESULT'][0]['TrainStation']
         return resolve({

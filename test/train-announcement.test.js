@@ -101,15 +101,17 @@ describe('train-announcement', function () {
    **************************/
 
   describe('Response handling', function () {
-    var fs, request, trafik
+    var fs, request, trafik, getTrainStationInfoStub
 
     beforeEach(function () {
       fs = {'readFileSync': sinon.stub().returns('body')}
       request = sinon.stub()
+      getTrainStationInfoStub = sinon.stub()
       trafik = proxyquire('../src/train-announcement', {
         'request': request,
         'path': sinon.stub().returns('path'),
-        'fs': fs
+        'fs': fs,
+        './train-station.js': {getTrainStationInfo: getTrainStationInfoStub}
       })
     })
 
@@ -175,6 +177,10 @@ describe('train-announcement', function () {
         ]
       }]}})
 
+      getTrainStationInfoStub.withArgs('test-location').returns({'name': 'test-location-name'})
+      getTrainStationInfoStub.withArgs('test-location-1').returns({'name': 'test-location-name-1'})
+      getTrainStationInfoStub.withArgs('test-location-2').returns({'name': 'test-location-name-2'})
+
       // when
       trafik.getDepartures('test')
         .then(function (result) {
@@ -183,8 +189,8 @@ describe('train-announcement', function () {
           expect(result[0].track).to.equal('test-track')
           expect(result[0].date).to.equal('2017-01-01')
           expect(result[0].time).to.equal('11:22')
-          expect(result[0].destination).to.equal('test-location')
-          expect(result[0].via).to.deep.equal(['test-location-1', 'test-location-2'])
+          expect(result[0].destination).to.equal('test-location-name')
+          expect(result[0].via).to.deep.equal(['test-location-name-1', 'test-location-name-2'])
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met
@@ -242,34 +248,6 @@ describe('train-announcement', function () {
           expect(result[0].date).to.be.undefined
           expect(result[0].time).to.be.undefined
           expect(result[0].destination).to.be.undefined
-          done()
-        })
-        // Catch the AssertionError thrown if the expectation above is not met
-        .catch(function (err) {
-          done(err)
-        })
-      request.invokeCallback(undefined, undefined, response)
-    })
-
-    it('should use station name if available', function (done) {
-      // given
-      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
-        'TrainAnnouncement': [
-          {
-            'AdvertisedTrainIdent': 'test-train',
-            'ToLocation': [{
-              'LocationName': 'Cst'
-            }]
-          }
-        ]
-      }]}})
-
-      // when
-      trafik.getDepartures('test')
-        .then(function (result) {
-          expect(result).to.have.lengthOf(1)
-          expect(result[0].train).to.equal('test-train')
-          expect(result[0].destination).to.equal('Stockholm Central')
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met

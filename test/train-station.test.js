@@ -7,7 +7,7 @@ describe('train-station', function () {
   describe('getTrainStationInfo', function () {
     describe('Request', function () {
       it('should get info from cache', function () {
-        //given
+        // given
         let expectedTrainStation = {
           'name': 'test-name',
           'shortName': 'test-short-name'
@@ -98,7 +98,7 @@ describe('train-station', function () {
         // when
         trainStation.getTrainStationInfo('test')
           .then(function (result) {
-            expect(result).to.be.empty
+            expect(result.name).to.equal('test')
             done()
           })
           // Catch the AssertionError thrown if the expectation above is not met
@@ -123,7 +123,7 @@ describe('train-station', function () {
         // when
         trainStation.getTrainStationInfo('test')
           .then(function (result) {
-            expect(result).to.be.empty
+            expect(result.name).to.equal('test')
             done()
           })
           // Catch the AssertionError thrown if the expectation above is not met
