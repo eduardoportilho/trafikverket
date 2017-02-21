@@ -6,7 +6,7 @@ import env from '../src/environment-config'
 describe('train-station', function () {
   describe('getTrainStationInfo', function () {
     describe('Request', function () {
-      it('should get info from cache', function () {
+      it('should get info from cache', function (done) {
         // given
         let expectedTrainStation = {
           'name': 'test-name',
@@ -23,11 +23,16 @@ describe('train-station', function () {
         })
 
         // when
-        let trainStationInfo = trainStation.getTrainStationInfo('test')
-
-        // then
-        sinon.assert.notCalled(request)
-        expect(trainStationInfo).to.be.deep.equal(expectedTrainStation)
+        trainStation.getTrainStationInfo('test')
+          .then(function (result) {
+            sinon.assert.notCalled(request)
+            expect(result).to.be.deep.equal(expectedTrainStation)
+            done()
+          })
+          // Catch the AssertionError thrown if the expectation above is not met
+          .catch(function (err) {
+            done(err)
+          })
       })
 
       it('should handle request failure', function (done) {
@@ -124,6 +129,37 @@ describe('train-station', function () {
         trainStation.getTrainStationInfo('test')
           .then(function (result) {
             expect(result.name).to.equal('test')
+            done()
+          })
+          // Catch the AssertionError thrown if the expectation above is not met
+          .catch(function (err) {
+            done(err)
+          })
+        request.invokeCallback(undefined, undefined, response)
+      })
+
+      it('should handle complete response', function (done) {
+        // given
+        let response = JSON.stringify({
+          'RESPONSE': {
+            'RESULT': [
+              {
+                'TrainStation': [
+                  {
+                    'AdvertisedLocationName': 'test-name',
+                    'AdvertisedShortLocationName': 'test-short-name'
+                  }
+                ]
+              }
+            ]
+          }
+        })
+
+        // when
+        trainStation.getTrainStationInfo('test')
+          .then(function (result) {
+            expect(result.name).to.equal('test-name')
+            expect(result.shortName).to.equal('test-short-name')
             done()
           })
           // Catch the AssertionError thrown if the expectation above is not met

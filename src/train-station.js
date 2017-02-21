@@ -7,9 +7,6 @@ import cache from './train-stations.json'
 let xmlRequestFile = path.join(__dirname, 'train-station.xml')
 
 function getTrainStationInfo (stationId) {
-  if (cache[stationId]) {
-    return cache[stationId]
-  }
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
     .replace('{apikey}', env.apiKey)
@@ -21,6 +18,9 @@ function getTrainStationInfo (stationId) {
     body: xmlRequest
   }
   return new Promise(function (resolve, reject) {
+    if (cache[stationId]) {
+      return resolve(cache[stationId])
+    }
     request(
       requestOptions,
       function (err, response, body) {
@@ -35,14 +35,15 @@ function getTrainStationInfo (stationId) {
           !bodyObj['RESPONSE']['RESULT'].length ||
           !bodyObj['RESPONSE']['RESULT'][0] ||
           !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']['AdvertisedLocationName'] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation']['AdvertisedShortLocationName']
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0] ||
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedLocationName'] ||
+          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedShortLocationName']
           ) {
           return resolve({
             'name': stationId
           })
         }
-        let trainStationResponse = bodyObj['RESPONSE']['RESULT'][0]['TrainStation']
+        let trainStationResponse = bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0]
         return resolve({
           'name': trainStationResponse['AdvertisedLocationName'],
           'shortName': trainStationResponse['AdvertisedShortLocationName']
