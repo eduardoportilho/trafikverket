@@ -23,7 +23,7 @@ function getTrainStationInfo (stationId) {
           return reject(err)
         }
         let bodyObj = JSON.parse(body)
-        let stationInfo = handleStationResponse(bodyObj)
+        let stationInfo = handleStationResponse(bodyObj, stationId)
         return resolve(stationInfo)
       }
     )
@@ -38,7 +38,7 @@ function getTrainStationsInfo (stationIds) {
     .toString()
     .replace('{apikey}', env.apiKey)
     .replace('{filters}', filter)
-    
+
   return new Promise(function (resolve, reject) {
     request(
       { method: 'POST', url: env.url, body: xmlRequest },
@@ -47,14 +47,15 @@ function getTrainStationsInfo (stationIds) {
           return reject(err)
         }
         let bodyObj = JSON.parse(body)
-        let stationsInfo = bodyObj.map((stationInfo) => handleStationResponse(stationInfo))
+        let stationsInfo = bodyObj.map((stationResponse) => handleStationResponse(stationResponse, null))
+        // TODO convert array to map and fill the gaps
         return resolve(stationsInfo)
       }
     )
   })
 }
 
-function handleStationResponse(response) {
+function handleStationResponse (response, defaultName) {
   if (
     !response ||
     !response['RESPONSE'] ||
@@ -66,9 +67,7 @@ function handleStationResponse(response) {
     !response['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedLocationName'] ||
     !response['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedShortLocationName']
     ) {
-    return {
-      'name': stationId
-    }
+    return { 'name': defaultName }
   }
   let trainStationResponse = response['RESPONSE']['RESULT'][0]['TrainStation'][0]
   return {
@@ -78,7 +77,8 @@ function handleStationResponse(response) {
 }
 
 const mainExport = {
-  getTrainStationInfo: getTrainStationInfo
+  getTrainStationInfo: getTrainStationInfo,
+  getTrainStationsInfo: getTrainStationsInfo
 }
 
 export default mainExport

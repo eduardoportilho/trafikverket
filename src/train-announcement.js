@@ -38,17 +38,17 @@ function getDepartures (fromStationId, toStationId) {
   })
 }
 
-function getStationIdsFromDepartures(departures) {
+function getStationIdsFromDepartures (departures) {
   let allStationIds = departures.map(function (departure) {
     return departure.via.concat([departure.destination])
   }).reduce(function (acc, val) {
     return acc.concat(val)
   }, [])
-  //unique
-  return [...new Set(allStationIds)];
+  // unique
+  return [...new Set(allStationIds)]
 }
 
-function replaceStationIdsForNamesInDepartures(departures, stationsInfo) {
+function replaceStationIdsForNamesInDepartures (departures, stationsInfo) {
   departures.forEach(function (departure) {
     let destinationId = departure.destination
     departure.destination = stationsInfo[destinationId].name
@@ -61,7 +61,7 @@ function replaceStationIdsForNamesInDepartures(departures, stationsInfo) {
   return departures
 }
 
-function handleDeparturesResponse(jsonResponse) {
+function handleDeparturesResponse (jsonResponse) {
   if (
     !jsonResponse ||
     !jsonResponse['RESPONSE'] ||
@@ -72,7 +72,7 @@ function handleDeparturesResponse(jsonResponse) {
     ) {
     return []
   }
-  let anouncements = jsonResponse['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
+  return jsonResponse['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
     var date, time, toLocation, viaLocations
     if (anouncement['AdvertisedTimeAtLocation']) {
       let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
