@@ -12,50 +12,70 @@ function getTrainStationInfo (stationId) {
     .replace('{apikey}', env.apiKey)
     .replace('{filters}', `<EQ name="LocationSignature" value="${stationId}"/>`)
 
-  let requestOptions = {
-    method: 'POST',
-    url: env.url,
-    body: xmlRequest
-  }
   return new Promise(function (resolve, reject) {
     if (cache[stationId]) {
       return resolve(cache[stationId])
     }
     request(
-      requestOptions,
+      { method: 'POST', url: env.url, body: xmlRequest },
       function (err, response, body) {
         if (err) {
           return reject(err)
         }
         let bodyObj = JSON.parse(body)
-        if (
-          !bodyObj ||
-          !bodyObj['RESPONSE'] ||
-          !bodyObj['RESPONSE']['RESULT'] ||
-          !bodyObj['RESPONSE']['RESULT'].length ||
-          !bodyObj['RESPONSE']['RESULT'][0] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedLocationName'] ||
-          !bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedShortLocationName']
-          ) {
-          return resolve({
-            'name': stationId
-          })
-        }
-        let trainStationResponse = bodyObj['RESPONSE']['RESULT'][0]['TrainStation'][0]
-        return resolve({
-          'name': trainStationResponse['AdvertisedLocationName'],
-          'shortName': trainStationResponse['AdvertisedShortLocationName']
-        })
+        let stationInfo = handleStationResponse(bodyObj)
+        return resolve(stationInfo)
       }
     )
   })
 }
 
-// function findTrainStationsByNameLike(partOfStationName) {
-//       <LIKE name="AdvertisedLocationName" value="Stockholm C" />
-// }
+function getTrainStationsInfo (stationIds) {
+  let filter = '<OR>' +
+    stationIds.map((stationId) => `<EQ name="LocationSignature" value="${stationId}"/>`) +
+    '</OR>'
+  let xmlRequest = fs.readFileSync(xmlRequestFile)
+    .toString()
+    .replace('{apikey}', env.apiKey)
+    .replace('{filters}', filter)
+    
+  return new Promise(function (resolve, reject) {
+    request(
+      { method: 'POST', url: env.url, body: xmlRequest },
+      function (err, response, body) {
+        if (err) {
+          return reject(err)
+        }
+        let bodyObj = JSON.parse(body)
+        let stationsInfo = bodyObj.map((stationInfo) => handleStationResponse(stationInfo))
+        return resolve(stationsInfo)
+      }
+    )
+  })
+}
+
+function handleStationResponse(response) {
+  if (
+    !response ||
+    !response['RESPONSE'] ||
+    !response['RESPONSE']['RESULT'] ||
+    !response['RESPONSE']['RESULT'].length ||
+    !response['RESPONSE']['RESULT'][0] ||
+    !response['RESPONSE']['RESULT'][0]['TrainStation'] ||
+    !response['RESPONSE']['RESULT'][0]['TrainStation'][0] ||
+    !response['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedLocationName'] ||
+    !response['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedShortLocationName']
+    ) {
+    return {
+      'name': stationId
+    }
+  }
+  let trainStationResponse = response['RESPONSE']['RESULT'][0]['TrainStation'][0]
+  return {
+    'name': trainStationResponse['AdvertisedLocationName'],
+    'shortName': trainStationResponse['AdvertisedShortLocationName']
+  }
+}
 
 const mainExport = {
   getTrainStationInfo: getTrainStationInfo
