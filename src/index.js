@@ -3,6 +3,7 @@ import trainAnnouncement from './train-announcement.js'
 
 const mainExport = {
   getTrainStationInfo: trainStation.getTrainStationInfo,
+  getTrainStationsInfo: trainStation.getTrainStationsInfo,
   getDepartures: trainAnnouncement.getDepartures
 }
 

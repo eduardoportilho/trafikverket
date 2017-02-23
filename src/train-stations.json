@@ -1,29 +1,36 @@
 {
   "Fle": {
+    "id": "Fle",
     "name": "Flen",
     "shortName": "Flen"
   },
   "Cst":{
+    "id": "Cst",
     "name": "Stockholm Central",
     "shortName": "Stockholm C"
   },
   "Sl":{
+    "id": "Sl",
     "name": "Långsele",
     "shortName": "Långsele"
   },
   "Hpbg":{
+    "id": "Hpbg",
     "name": "Hallsberg",
     "shortName": "Hallsberg"
   },
   "Lp":{
+    "id": "Lp",
     "name": "Altorp",
     "shortName": "Altorp"
   },
   "Blg":{
+    "id": "Blg",
     "name": "Borlänge C",
     "shortName": "Borlänge"
   },
   "Söö":{
+    "id": "Söö",
     "name": "Södertälje Syd",
     "shortName": "Södertälje S"
   }

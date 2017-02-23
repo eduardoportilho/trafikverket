@@ -23,7 +23,11 @@ function getTrainStationInfo (stationId) {
           return reject(err)
         }
         let bodyObj = JSON.parse(body)
-        let stationInfo = handleStationResponse(bodyObj, stationId)
+        let stationsResponse = getStationsResponse(bodyObj)
+        if (stationsResponse.length <= 0) {
+          return resolve({ 'id': stationId, 'name': stationId })
+        }
+        let stationInfo = buildStationInfo(stationsResponse[0])
         return resolve(stationInfo)
       }
     )
@@ -32,7 +36,7 @@ function getTrainStationInfo (stationId) {
 
 function getTrainStationsInfo (stationIds) {
   let filter = '<OR>' +
-    stationIds.map((stationId) => `<EQ name="LocationSignature" value="${stationId}"/>`) +
+    stationIds.map((stationId) => `<EQ name="LocationSignature" value="${stationId}"/>`).join('') +
     '</OR>'
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
@@ -47,30 +51,36 @@ function getTrainStationsInfo (stationIds) {
           return reject(err)
         }
         let bodyObj = JSON.parse(body)
-        let stationsInfo = bodyObj.map((stationResponse) => handleStationResponse(stationResponse, null))
-        // TODO convert array to map and fill the gaps
+        let stationsResponse = getStationsResponse(bodyObj)
+        let stationsInfo = stationsResponse
+          .map((stationResponse) => buildStationInfo(stationResponse))
+          .reduce(function (map, stationInfo) {
+            map[stationInfo.id] = stationInfo
+            return map
+          }, {})
         return resolve(stationsInfo)
       }
     )
   })
 }
 
-function handleStationResponse (response, defaultName) {
+function getStationsResponse (jsonResponse) {
   if (
-    !response ||
-    !response['RESPONSE'] ||
-    !response['RESPONSE']['RESULT'] ||
-    !response['RESPONSE']['RESULT'].length ||
-    !response['RESPONSE']['RESULT'][0] ||
-    !response['RESPONSE']['RESULT'][0]['TrainStation'] ||
-    !response['RESPONSE']['RESULT'][0]['TrainStation'][0] ||
-    !response['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedLocationName'] ||
-    !response['RESPONSE']['RESULT'][0]['TrainStation'][0]['AdvertisedShortLocationName']
+    !jsonResponse ||
+    !jsonResponse['RESPONSE'] ||
+    !jsonResponse['RESPONSE']['RESULT'] ||
+    !jsonResponse['RESPONSE']['RESULT'].length ||
+    !jsonResponse['RESPONSE']['RESULT'][0] ||
+    !jsonResponse['RESPONSE']['RESULT'][0]['TrainStation']
     ) {
-    return { 'name': defaultName }
+    return []
   }
-  let trainStationResponse = response['RESPONSE']['RESULT'][0]['TrainStation'][0]
+  return jsonResponse['RESPONSE']['RESULT'][0]['TrainStation']
+}
+
+function buildStationInfo (trainStationResponse) {
   return {
+    'id': trainStationResponse['LocationSignature'],
     'name': trainStationResponse['AdvertisedLocationName'],
     'shortName': trainStationResponse['AdvertisedShortLocationName']
   }
