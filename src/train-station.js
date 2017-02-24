@@ -3,36 +3,7 @@ import request from 'request'
 import Promise from 'promise'
 import path from 'path'
 import fs from 'fs'
-import cache from './train-stations.json'
 let xmlRequestFile = path.join(__dirname, 'train-station.xml')
-
-function getTrainStationInfo (stationId) {
-  let xmlRequest = fs.readFileSync(xmlRequestFile)
-    .toString()
-    .replace('{apikey}', env.apiKey)
-    .replace('{filters}', `<EQ name="LocationSignature" value="${stationId}"/>`)
-
-  return new Promise(function (resolve, reject) {
-    if (cache[stationId]) {
-      return resolve(cache[stationId])
-    }
-    request(
-      { method: 'POST', url: env.url, body: xmlRequest },
-      function (err, response, body) {
-        if (err) {
-          return reject(err)
-        }
-        let bodyObj = JSON.parse(body)
-        let stationsResponse = getStationsResponse(bodyObj)
-        if (stationsResponse.length <= 0) {
-          return resolve({ 'id': stationId, 'name': stationId })
-        }
-        let stationInfo = buildStationInfo(stationsResponse[0])
-        return resolve(stationInfo)
-      }
-    )
-  })
-}
 
 function getTrainStationsInfo (stationIds) {
   let filter = '<OR>' +
@@ -58,6 +29,12 @@ function getTrainStationsInfo (stationIds) {
             map[stationInfo.id] = stationInfo
             return map
           }, {})
+          // add info for not found stationIds
+          stationIds.forEach((stationId) => {
+            if (!stationsInfo[stationId]) {
+              stationsInfo[stationId] = buildNotFoundStationInfo(stationId)
+            }
+          })
         return resolve(stationsInfo)
       }
     )
@@ -86,8 +63,15 @@ function buildStationInfo (trainStationResponse) {
   }
 }
 
+function buildNotFoundStationInfo (stationId) {
+  return {
+    'id': stationId,
+    'name': stationId,
+    'shortName': stationId
+  }
+}
+
 const mainExport = {
-  getTrainStationInfo: getTrainStationInfo,
   getTrainStationsInfo: getTrainStationsInfo
 }
 

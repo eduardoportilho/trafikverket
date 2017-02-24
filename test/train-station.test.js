@@ -6,34 +6,6 @@ import env from '../src/environment-config'
 describe('train-station', function () {
   describe('getTrainStationInfo', function () {
     describe('Request', function () {
-      it('should get info from cache', function (done) {
-        // given
-        let expectedTrainStation = {
-          'name': 'test-name',
-          'shortName': 'test-short-name'
-        }
-        let request = sinon.spy()
-        let trainStation = proxyquire('../src/train-station', {
-          'request': request,
-          'path': sinon.stub(),
-          'fs': sinon.stub(),
-          './train-stations.json': {
-            'test': expectedTrainStation
-          }
-        })
-
-        // when
-        trainStation.getTrainStationInfo('test')
-          .then(function (result) {
-            sinon.assert.notCalled(request)
-            expect(result).to.be.deep.equal(expectedTrainStation)
-            done()
-          })
-          // Catch the AssertionError thrown if the expectation above is not met
-          .catch(function (err) {
-            done(err)
-          })
-      })
 
       it('should handle request failure', function (done) {
         // given
@@ -46,7 +18,7 @@ describe('train-station', function () {
         })
 
         // when
-        trainStation.getTrainStationInfo('test')
+        trainStation.getTrainStationsInfo(['test'])
           .catch(function (reason) {
             // then
             expect(reason).to.equal('Test error')
@@ -68,10 +40,10 @@ describe('train-station', function () {
           'fs': fs,
           './train-stations.json': {}
         })
-        let expectedBody = env['apiKey'] + '|<EQ name="LocationSignature" value="test"/>'
+        let expectedBody = env['apiKey'] + '|<OR><EQ name="LocationSignature" value="test"/></OR>'
 
         // when
-        trainStation.getTrainStationInfo('test')
+        trainStation.getTrainStationsInfo(['test'])
 
         // then
         sinon.assert.calledWithMatch(request, {
@@ -122,14 +94,16 @@ describe('train-station', function () {
         })
       })
 
-      it('should handle empty response', function (done) {
+      it('should return id as names when not found', function (done) {
         // given
         let response = '{}'
 
         // when
-        trainStation.getTrainStationInfo('test')
+        trainStation.getTrainStationsInfo(['test-1', 'test-2'])
           .then(function (result) {
-            expect(result.name).to.equal('test')
+            expect(Object.keys(result).length).to.equal(2)
+            expect(result['test-1'].name).to.equal('test-1')
+            expect(result['test-2'].name).to.equal('test-2')
             done()
           })
           // Catch the AssertionError thrown if the expectation above is not met
@@ -152,42 +126,10 @@ describe('train-station', function () {
         })
 
         // when
-        trainStation.getTrainStationInfo('test')
+        trainStation.getTrainStationsInfo(['test'])
           .then(function (result) {
-            expect(result.name).to.equal('test')
-            done()
-          })
-          // Catch the AssertionError thrown if the expectation above is not met
-          .catch(function (err) {
-            done(err)
-          })
-        request.invokeCallback(undefined, undefined, response)
-      })
-
-      it('should handle complete response', function (done) {
-        // given
-        let response = JSON.stringify({
-          'RESPONSE': {
-            'RESULT': [
-              {
-                'TrainStation': [
-                  {
-                    'LocationSignature': 'test-id',
-                    'AdvertisedLocationName': 'test-name',
-                    'AdvertisedShortLocationName': 'test-short-name'
-                  }
-                ]
-              }
-            ]
-          }
-        })
-
-        // when
-        trainStation.getTrainStationInfo('test-id')
-          .then(function (result) {
-            expect(result.id).to.equal('test-id')
-            expect(result.name).to.equal('test-name')
-            expect(result.shortName).to.equal('test-short-name')
+            expect(Object.keys(result).length).to.equal(1)
+            expect(result['test'].name).to.equal('test')
             done()
           })
           // Catch the AssertionError thrown if the expectation above is not met
