@@ -3,7 +3,7 @@ import request from 'request'
 import Promise from 'promise'
 import path from 'path'
 import fs from 'fs'
-let xmlRequestFile = path.join(__dirname, 'train-station.xml')
+let xmlRequestFile = path.join(__dirname, 'train-station-request.xml')
 
 function getTrainStationsInfo (stationIds) {
   let filter = '<OR>' +
