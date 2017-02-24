@@ -50,8 +50,10 @@ function getStationIdsFromDepartures (departures) {
 
 function replaceStationIdsForNamesInDepartures (departures, stationsInfo) {
   departures.forEach(function (departure) {
-    let destinationId = departure.destination
-    departure.destination = stationsInfo[destinationId].name
+    if (departure.destination) {
+      let destinationId = departure.destination
+      departure.destination = stationsInfo[destinationId].name
+    }
 
     let viaDestinationIds = departure.via
     departure.via = viaDestinationIds.map(function (viaDestinationId) {

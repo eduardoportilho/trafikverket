@@ -101,17 +101,20 @@ describe('train-announcement', function () {
    **************************/
 
   describe('Response handling', function () {
-    var fs, request, trafik, getTrainStationInfoStub
+    var fs, request, trafik, getTrainStationsInfoStub
 
     beforeEach(function () {
       fs = {'readFileSync': sinon.stub().returns('body')}
       request = sinon.stub()
-      getTrainStationInfoStub = sinon.stub()
+      getTrainStationsInfoStub = sinon.stub()
+        .returns(new Promise((resolve, reject) => {
+          resolve({})
+        }))
       trafik = proxyquire('../src/train-announcement', {
         'request': request,
         'path': sinon.stub().returns('path'),
         'fs': fs,
-        './train-station.js': {getTrainStationInfo: getTrainStationInfoStub}
+        './train-station.js': {getTrainStationsInfo: getTrainStationsInfoStub}
       })
     })
 
@@ -177,9 +180,13 @@ describe('train-announcement', function () {
         ]
       }]}})
 
-      getTrainStationInfoStub.withArgs('test-location').returns({'name': 'test-location-name'})
-      getTrainStationInfoStub.withArgs('test-location-1').returns({'name': 'test-location-name-1'})
-      getTrainStationInfoStub.withArgs('test-location-2').returns({'name': 'test-location-name-2'})
+      getTrainStationsInfoStub.returns(new Promise((resolve, reject) => {
+        resolve({
+          'test-location': {'name': 'test-location-name'},
+          'test-location-1': {'name': 'test-location-name-1'},
+          'test-location-2': {'name': 'test-location-name-2'}
+        })
+      }))
 
       // when
       trafik.getDepartures('test')
