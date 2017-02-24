@@ -6,7 +6,6 @@ import env from '../src/environment-config'
 describe('train-station', function () {
   describe('getTrainStationInfo', function () {
     describe('Request', function () {
-
       it('should handle request failure', function (done) {
         // given
         let request = sinon.stub()

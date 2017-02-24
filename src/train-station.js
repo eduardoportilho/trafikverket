@@ -29,12 +29,12 @@ function getTrainStationsInfo (stationIds) {
             map[stationInfo.id] = stationInfo
             return map
           }, {})
-          // add info for not found stationIds
-          stationIds.forEach((stationId) => {
-            if (!stationsInfo[stationId]) {
-              stationsInfo[stationId] = buildNotFoundStationInfo(stationId)
-            }
-          })
+        // add info for not found stationIds
+        stationIds.forEach((stationId) => {
+          if (!stationsInfo[stationId]) {
+            stationsInfo[stationId] = buildNotFoundStationInfo(stationId)
+          }
+        })
         return resolve(stationsInfo)
       }
     )
