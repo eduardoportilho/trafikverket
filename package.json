@@ -1,6 +1,6 @@
 {
   "name": "trafikverket",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "A wrapper for the Trafikverket API that provides information about trains in Sweden.",
   "main": "dist/index.js",
   "scripts": {
