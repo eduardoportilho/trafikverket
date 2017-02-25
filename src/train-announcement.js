@@ -6,7 +6,24 @@ import fs from 'fs'
 import trainStationService from './train-station.js'
 let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
 
-function getDepartures (fromStationId, toStationId) {
+/**
+ * Query the departures from a station
+ * @param  {string} fromStationId Id of the station of departure
+ * @param  {string} toStationId   Id of a station on the route of the train (optional)
+ * @param  {string} fromTime      HH:mm:ss Includes trains leaving how long BEFORE the current time? (default: 00:30:00)
+ * @param  {string} toTime        HH:mm:ss Includes trains leaving how long AFTER the current time? (default: 03:00:00)
+ * @return {array}                Array of departure objects containing the following keys:
+ *                                  - train: Train id
+ *                                  - track: Track nunber at departing station
+ *                                  - date: Date of departure (DD/MM/YYYY)
+ *                                  - time: Time of departure (HH:mm:ss)
+ *                                  - destination: Name of the final destination station
+ *                                  - via: Name of the stations where the train stops
+ */
+function getDepartures (fromStationId, toStationId, fromTime, toTime) {
+  fromTime = fromTime || '00:30:00'
+  toTime = toTime || '03:00:00'
+
   let optionalFilters = ''
   if (toStationId) {
     optionalFilters += `<EQ name="ViaToLocation.LocationName" value="${toStationId}"/>`
@@ -16,6 +33,8 @@ function getDepartures (fromStationId, toStationId) {
     .replace('{apikey}', env.apiKey)
     .replace('{fromStationId}', fromStationId)
     .replace('{optionalFilters}', optionalFilters)
+    .replace('{fromTime}', fromTime)
+    .replace('{toTime}', toTime)
 
   return new Promise(function (resolve, reject) {
     request(

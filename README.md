@@ -38,5 +38,5 @@ $ env TRAFIKVERKET_API_KEY=<your API key> NODE_ENV=production node
 
 - [x] `trafik.getDepartures('Cst', 'Fle')` (When 'Fle' is not the final destination)
 - [x] Create service to return station info (sync?)
-- [ ] Parametrize the time interval
+- [x] Parametrize the time interval
 - [ ] Filter anouncements without data

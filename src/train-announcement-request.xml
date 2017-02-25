@@ -5,8 +5,8 @@
           <AND>
             <EQ name="ActivityType" value="Avgang" />
             <EQ name="LocationSignature" value="{fromStationId}" />
-            <GT name="AdvertisedTimeAtLocation" value="$dateadd(-00:30:00)" />
-            <LT name="AdvertisedTimeAtLocation" value="$dateadd(9:00:00)" />
+            <GT name="AdvertisedTimeAtLocation" value="$dateadd(-{fromTime})" />
+            <LT name="AdvertisedTimeAtLocation" value="$dateadd({toTime})" />
             {optionalFilters}
           </AND>
         </FILTER>    
