@@ -17,6 +17,8 @@ let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
  *                                  - track: Track nunber at departing station
  *                                  - date: Date of departure (DD/MM/YYYY)
  *                                  - time: Time of departure (HH:mm:ss)
+ *                                  - estimatedDate: Estimated date of departure (DD/MM/YYYY)
+ *                                  - estimatedTime: Estimated time of departure (HH:mm:ss)
  *                                  - destination: Name of the final destination station
  *                                  - via: Name of the stations where the train stops
  */
@@ -26,7 +28,10 @@ function getDepartures (fromStationId, toStationId, fromTime, toTime) {
 
   let optionalFilters = ''
   if (toStationId) {
-    optionalFilters += `<EQ name="ViaToLocation.LocationName" value="${toStationId}"/>`
+    optionalFilters += `<OR>
+  <EQ name="ViaToLocation.LocationName" value="${toStationId}"/>
+  <EQ name="ViaToLocation.ToLocation" value="${toStationId}"/>
+</OR>`
   }
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
@@ -94,11 +99,16 @@ function handleDeparturesResponse (jsonResponse) {
     return []
   }
   return jsonResponse['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
-    var date, time, toLocation, viaLocations
+    var date, time, estimatedDate, estimatedTime, toLocation, viaLocations
     if (anouncement['AdvertisedTimeAtLocation']) {
       let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
       date = datetime[0]
       time = datetime[1]
+    }
+    if (anouncement['EstimatedTimeAtLocation']) {
+      let estimatedDatetime = anouncement['EstimatedTimeAtLocation'].split('T')
+      estimatedDate = estimatedDatetime[0]
+      estimatedTime = estimatedDatetime[1]
     }
 
     if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
@@ -117,6 +127,8 @@ function handleDeparturesResponse (jsonResponse) {
       track: anouncement['TrackAtLocation'],
       date: date,
       time: time,
+      estimatedDate: estimatedDate,
+      estimatedTime: estimatedTime,
       destination: toLocation,
       via: viaLocations
     }
