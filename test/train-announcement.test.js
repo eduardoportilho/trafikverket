@@ -89,7 +89,10 @@ describe('train-announcement', function () {
       sinon.assert.calledWithMatch(request, {
         method: 'POST',
         url: env['url'],
-        body: '<EQ name="ViaToLocation.LocationName" value="test-destination"/>'
+        body: '<OR>' +
+          '<EQ name="ViaToLocation.LocationName" value="test-destination"/>' +
+          '<EQ name="ToLocation.LocationName" value="test-destination"/>' +
+          '</OR>'
       })
     })
   })

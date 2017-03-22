@@ -28,10 +28,10 @@ function getDepartures (fromStationId, toStationId, fromTime, toTime) {
 
   let optionalFilters = ''
   if (toStationId) {
-    optionalFilters += `<OR>
-  <EQ name="ViaToLocation.LocationName" value="${toStationId}"/>
-  <EQ name="ViaToLocation.ToLocation" value="${toStationId}"/>
-</OR>`
+    optionalFilters += '<OR>' +
+      `<EQ name="ViaToLocation.LocationName" value="${toStationId}"/>` +
+      `<EQ name="ToLocation.LocationName" value="${toStationId}"/>` +
+      '</OR>'
   }
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
