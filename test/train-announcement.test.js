@@ -178,7 +178,10 @@ describe('train-announcement', function () {
               'LocationName': 'test-location-1'
             }, {
               'LocationName': 'test-location-2'
-            }]
+            }],
+            'EstimatedTimeAtLocation': '2017-01-01T11:33',
+            'Canceled': false,
+            'Deviation': ['Deviation 1', 'Deviation 2']
           }
         ]
       }]}})
@@ -201,6 +204,10 @@ describe('train-announcement', function () {
           expect(result[0].time).to.equal('11:22')
           expect(result[0].destination).to.equal('test-location-name')
           expect(result[0].via).to.deep.equal(['test-location-name-1', 'test-location-name-2'])
+          expect(result[0].estimatedDate).to.equal('2017-01-01')
+          expect(result[0].estimatedTime).to.equal('11:33')
+          expect(result[0].canceled).to.equal(false)
+          expect(result[0].deviation).to.deep.equal(['Deviation 1', 'Deviation 2'])
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met

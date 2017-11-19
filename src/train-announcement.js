@@ -13,14 +13,15 @@ let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
  * @param  {string} fromTime      HH:mm:ss Includes trains leaving how long BEFORE the current time? (default: 00:30:00)
  * @param  {string} toTime        HH:mm:ss Includes trains leaving how long AFTER the current time? (default: 03:00:00)
  * @return {array}                Array of departure objects containing the following keys:
- *                                  - train: Train id
- *                                  - track: Track nunber at departing station
- *                                  - date: Date of departure (DD/MM/YYYY)
- *                                  - time: Time of departure (HH:mm:ss)
- *                                  - estimatedDate: Estimated date of departure (DD/MM/YYYY)
- *                                  - estimatedTime: Estimated time of departure (HH:mm:ss)
- *                                  - destination: Name of the final destination station
- *                                  - via: Name of the stations where the train stops
+ *                                  - train {string}: Train id
+ *                                  - track {string}: Track nunber at departing station
+ *                                  - date {string}: Date of departure (DD/MM/YYYY)
+ *                                  - time {string}: Time of departure (HH:mm:ss)
+ *                                  - estimatedDate {string}: Estimated date of departure (DD/MM/YYYY)
+ *                                  - estimatedTime {string}: Estimated time of departure (HH:mm:ss)
+ *                                  - destination {string}: Name of the final destination station
+ *                                  - via {string[]}: Name of the stations where the train stops
+ *                                  - cancelled {boolean}: Departure cancelled?
  */
 function getDepartures (fromStationId, toStationId, fromTime, toTime) {
   fromTime = fromTime || '00:30:00'
@@ -99,7 +100,7 @@ function handleDeparturesResponse (jsonResponse) {
     return []
   }
   return jsonResponse['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
-    var date, time, estimatedDate, estimatedTime, toLocation, viaLocations
+    let date, time, estimatedDate, estimatedTime, toLocation, viaLocations
     if (anouncement['AdvertisedTimeAtLocation']) {
       let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
       date = datetime[0]
@@ -125,6 +126,8 @@ function handleDeparturesResponse (jsonResponse) {
     return {
       train: anouncement['AdvertisedTrainIdent'],
       track: anouncement['TrackAtLocation'],
+      canceled: anouncement['Canceled'],
+      deviation: anouncement['Deviation'],
       date: date,
       time: time,
       estimatedDate: estimatedDate,
