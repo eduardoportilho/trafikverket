@@ -10,6 +10,7 @@
             {optionalFilters}
           </AND>
         </FILTER>    
+        <INCLUDE>InformationOwner</INCLUDE>
         <INCLUDE>Canceled</INCLUDE>
         <INCLUDE>InformationOwner</INCLUDE>
         <INCLUDE>ActivityType</INCLUDE>

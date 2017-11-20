@@ -156,6 +156,7 @@ function handleDeparturesResponse (jsonResponse) {
     }
 
     return {
+      _informationOwner: anouncement['InformationOwner'],
       train: anouncement['AdvertisedTrainIdent'],
       track: anouncement['TrackAtLocation'],
       canceled: anouncement['Canceled'],
@@ -172,7 +173,7 @@ function handleDeparturesResponse (jsonResponse) {
       destination: toLocation,
       via: viaLocations
     }
-  })
+  }).filter(departure => departure._informationOwner === 'SJ')
 }
 
 const mainExport = {
