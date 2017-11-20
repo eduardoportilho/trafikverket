@@ -16,6 +16,7 @@ let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
  *                                  - train {string}: Train id
  *                                  - track {string}: Track nunber at departing station
  *                                  - cancelled {boolean}: Departure cancelled?
+ *                                  - delayed {boolean}: Departure delayed?
  *                                  - deviation {string[]}: Deiations, for example: "Bus Replacement"
  *                                  - date {string}: Date of departure (DD/MM/YYYY)
  *                                  - time {string}: Time of departure (HH:mm:ss)
@@ -114,7 +115,8 @@ function handleDeparturesResponse (jsonResponse) {
       scheduledDepartureDate,
       scheduledDepartureTime,
       toLocation,
-      viaLocations
+      viaLocations,
+      delayed
 
     if (anouncement['AdvertisedTimeAtLocation']) {
       let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
@@ -122,10 +124,12 @@ function handleDeparturesResponse (jsonResponse) {
       time = datetime[1]
     }
 
+    delayed = false
     if (anouncement['EstimatedTimeAtLocation']) {
       let estimatedDatetime = anouncement['EstimatedTimeAtLocation'].split('T')
       estimatedDate = estimatedDatetime[0]
       estimatedTime = estimatedDatetime[1]
+      delayed = estimatedDate !== date || estimatedTime !== time
     }
 
     if (anouncement['PlannedEstimatedTimeAtLocation']) {
@@ -155,6 +159,7 @@ function handleDeparturesResponse (jsonResponse) {
       train: anouncement['AdvertisedTrainIdent'],
       track: anouncement['TrackAtLocation'],
       canceled: anouncement['Canceled'],
+      delayed: delayed,
       deviation: anouncement['Deviation'],
       date: date,
       time: time,

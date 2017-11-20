@@ -203,6 +203,7 @@ describe('train-announcement', function () {
           expect(result[0].train).to.equal('test-train')
           expect(result[0].track).to.equal('test-track')
           expect(result[0].canceled).to.equal(false)
+          expect(result[0].delayed).to.equal(true)
           expect(result[0].deviation).to.deep.equal(['Deviation 1', 'Deviation 2'])
           expect(result[0].date).to.equal('2017-01-01')
           expect(result[0].time).to.equal('11:22')
@@ -271,6 +272,31 @@ describe('train-announcement', function () {
           expect(result[0].date).to.be.undefined
           expect(result[0].time).to.be.undefined
           expect(result[0].destination).to.be.undefined
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+      request.invokeCallback(undefined, undefined, response)
+    })
+
+    it('should not flag as delayed if estimated equals datetime', function (done) {
+      // given
+      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
+        'TrainAnnouncement': [
+          {
+            'AdvertisedTrainIdent': 'test-train',
+            'AdvertisedTimeAtLocation': '2017-01-01T11:22',
+            'EstimatedTimeAtLocation': '2017-01-01T11:22'
+          }
+        ]
+      }]}})
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result[0].delayed).to.equal(false)
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met
