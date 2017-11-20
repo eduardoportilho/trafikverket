@@ -15,13 +15,18 @@ let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
  * @return {array}                Array of departure objects containing the following keys:
  *                                  - train {string}: Train id
  *                                  - track {string}: Track nunber at departing station
+ *                                  - cancelled {boolean}: Departure cancelled?
+ *                                  - deviation {string[]}: Deiations, for example: "Bus Replacement"
  *                                  - date {string}: Date of departure (DD/MM/YYYY)
  *                                  - time {string}: Time of departure (HH:mm:ss)
  *                                  - estimatedDate {string}: Estimated date of departure (DD/MM/YYYY)
  *                                  - estimatedTime {string}: Estimated time of departure (HH:mm:ss)
+ *                                  - plannedEstimatedDate {string}: Planned delayed departure date (DD/MM/YYYY)
+ *                                  - plannedEstimatedTime {string}: Planned delayed departure time (HH:mm:ss)
+ *                                  - scheduledDepartureDate {string}: The train's announced departure date (DD/MM/YYYY)
+ *                                  - scheduledDepartureTime {string}: The train's announced departure time (HH:mm:ss)
  *                                  - destination {string}: Name of the final destination station
  *                                  - via {string[]}: Name of the stations where the train stops
- *                                  - cancelled {boolean}: Departure cancelled?
  */
 function getDepartures (fromStationId, toStationId, fromTime, toTime) {
   fromTime = fromTime || '00:30:00'
@@ -100,16 +105,39 @@ function handleDeparturesResponse (jsonResponse) {
     return []
   }
   return jsonResponse['RESPONSE']['RESULT'][0]['TrainAnnouncement'].map(function (anouncement) {
-    let date, time, estimatedDate, estimatedTime, toLocation, viaLocations
+    let date,
+      time,
+      estimatedDate,
+      estimatedTime,
+      plannedEstimatedDate,
+      plannedEstimatedTime,
+      scheduledDepartureDate,
+      scheduledDepartureTime,
+      toLocation,
+      viaLocations
+
     if (anouncement['AdvertisedTimeAtLocation']) {
       let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
       date = datetime[0]
       time = datetime[1]
     }
+
     if (anouncement['EstimatedTimeAtLocation']) {
       let estimatedDatetime = anouncement['EstimatedTimeAtLocation'].split('T')
       estimatedDate = estimatedDatetime[0]
       estimatedTime = estimatedDatetime[1]
+    }
+
+    if (anouncement['PlannedEstimatedTimeAtLocation']) {
+      let plannedEstimatedDatetime = anouncement['PlannedEstimatedTimeAtLocation'].split('T')
+      plannedEstimatedDate = plannedEstimatedDatetime[0]
+      plannedEstimatedTime = plannedEstimatedDatetime[1]
+    }
+
+    if (anouncement['ScheduledDepartureDateTime']) {
+      let scheduledDepartureDatetime = anouncement['ScheduledDepartureDateTime'].split('T')
+      scheduledDepartureDate = scheduledDepartureDatetime[0]
+      scheduledDepartureTime = scheduledDepartureDatetime[1]
     }
 
     if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
@@ -132,6 +160,10 @@ function handleDeparturesResponse (jsonResponse) {
       time: time,
       estimatedDate: estimatedDate,
       estimatedTime: estimatedTime,
+      plannedEstimatedDate: plannedEstimatedDate,
+      plannedEstimatedTime: plannedEstimatedTime,
+      scheduledDepartureDate: scheduledDepartureDate,
+      scheduledDepartureTime: scheduledDepartureTime,
       destination: toLocation,
       via: viaLocations
     }

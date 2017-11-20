@@ -15,11 +15,13 @@
         <INCLUDE>ActivityType</INCLUDE>
         <INCLUDE>AdvertisedTimeAtLocation</INCLUDE>
         <INCLUDE>EstimatedTimeAtLocation</INCLUDE>
+        <INCLUDE>EstimatedTimeIsPreliminary</INCLUDE>
+        <INCLUDE>PlannedEstimatedTimeAtLocation</INCLUDE>
+        <INCLUDE>PlannedEstimatedTimeAtLocationIsValid</INCLUDE>
+        <INCLUDE>ScheduledDepartureDateTime</INCLUDE>
         <INCLUDE>TrackAtLocation</INCLUDE>
         <INCLUDE>Deviation</INCLUDE>
-        <INCLUDE>EstimatedTimeIsPreliminary</INCLUDE>
         <INCLUDE>LocationSignature</INCLUDE>
-        <INCLUDE>ScheduledDepartureDateTime</INCLUDE>
         <INCLUDE>TimeAtLocation</INCLUDE>
         <INCLUDE>FromLocation</INCLUDE>
         <INCLUDE>ToLocation</INCLUDE>

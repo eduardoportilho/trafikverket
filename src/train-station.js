@@ -6,9 +6,12 @@ import fs from 'fs'
 let xmlRequestFile = path.join(__dirname, 'train-station-request.xml')
 
 function getTrainStationsInfo (stationIds) {
-  let filter = '<OR>' +
-    stationIds.map((stationId) => `<EQ name="LocationSignature" value="${stationId}"/>`).join('') +
+  let filter = ''
+  if (stationIds && stationIds.length) {
+    filter = '<OR>' +
+      stationIds.map((stationId) => `<EQ name="LocationSignature" value="${stationId}"/>`).join('') +
     '</OR>'
+  }
   let xmlRequest = fs.readFileSync(xmlRequestFile)
     .toString()
     .replace('{apikey}', env.apiKey)

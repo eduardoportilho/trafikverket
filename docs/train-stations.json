@@ -1,37 +1,9427 @@
 {
+  "A": {
+    "id": "A",
+    "name": "Alingsås",
+    "shortName": "Alingsås"
+  },
+  "Aft": {
+    "id": "Aft",
+    "name": "Alfta",
+    "shortName": "Alfta"
+  },
+  "Ahm": {
+    "id": "Ahm",
+    "name": "Aleholm",
+    "shortName": "Aleholm"
+  },
+  "Ag": {
+    "id": "Ag",
+    "name": "Anneberg",
+    "shortName": "Anneberg"
+  },
+  "Aal": {
+    "id": "Aal",
+    "name": "Annedal",
+    "shortName": "Annedal"
+  },
+  "Ab": {
+    "id": "Ab",
+    "name": "Arbrå",
+    "shortName": "Arbrå"
+  },
+  "Abb": {
+    "id": "Abb",
+    "name": "Abborrträsk",
+    "shortName": "Abborrträsk"
+  },
+  "Acm": {
+    "id": "Acm",
+    "name": "Avesta centrum",
+    "shortName": "Avesta centrum"
+  },
+  "Agb": {
+    "id": "Agb",
+    "name": "Agnesberg",
+    "shortName": "Agnesberg"
+  },
+  "Agg": {
+    "id": "Agg",
+    "name": "Algutsgården",
+    "shortName": "Algutsgården"
+  },
+  "Ak": {
+    "id": "Ak",
+    "name": "Abisko Östra",
+    "shortName": "Abisko Ö"
+  },
+  "Aik": {
+    "id": "Aik",
+    "name": "Aitik",
+    "shortName": "Aitik"
+  },
+  "Ajr": {
+    "id": "Ajr",
+    "name": "Arvidsjaur",
+    "shortName": "Arvidsjaur"
+  },
+  "Akm": {
+    "id": "Akm",
+    "name": "Ankarsrum",
+    "shortName": "Ankarsrum"
+  },
+  "Al": {
+    "id": "Al",
+    "name": "Arlöv",
+    "shortName": "Arlöv"
+  },
+  "Akt": {
+    "id": "Akt",
+    "name": "Abisko turiststation",
+    "shortName": "Abisko turist"
+  },
+  "Alg": {
+    "id": "Alg",
+    "name": "Almunge",
+    "shortName": "Almunge"
+  },
+  "Ali": {
+    "id": "Ali",
+    "name": "Arlövs industrispår",
+    "shortName": "Arlövs industrispår"
+  },
+  "Alh": {
+    "id": "Alh",
+    "name": "Alvhem",
+    "shortName": "Alvhem"
+  },
+  "Aln": {
+    "id": "Aln",
+    "name": "Alelyckan",
+    "shortName": "Alelyckan"
+  },
+  "Alv": {
+    "id": "Alv",
+    "name": "Astrid Lindgrens värld",
+    "shortName": "Astrid Lindgrens värld"
+  },
+  "Alp": {
+    "id": "Alp",
+    "name": "Altorp",
+    "shortName": "Altorp"
+  },
+  "Alä": {
+    "id": "Alä",
+    "name": "Almnäs",
+    "shortName": "Almnäs"
+  },
+  "Am": {
+    "id": "Am",
+    "name": "Almedal",
+    "shortName": "Almedal"
+  },
+  "Amk": {
+    "id": "Amk",
+    "name": "Arnemark",
+    "shortName": "Arnemark"
+  },
+  "An": {
+    "id": "An",
+    "name": "Arvån",
+    "shortName": "Arvån"
+  },
+  "Any": {
+    "id": "Any",
+    "name": "Aneby",
+    "shortName": "Aneby"
+  },
+  "Ap": {
+    "id": "Ap",
+    "name": "Aspeå",
+    "shortName": "Aspeå"
+  },
+  "Anö": {
+    "id": "Anö",
+    "name": "Anundsjö",
+    "shortName": "Anundsjö"
+  },
+  "Apd": {
+    "id": "Apd",
+    "name": "Aplared",
+    "shortName": "Aplared"
+  },
+  "Apl": {
+    "id": "Apl",
+    "name": "Arjeplog",
+    "shortName": "Arjeplog"
+  },
+  "Apn": {
+    "id": "Apn",
+    "name": "Aspen",
+    "shortName": "Aspen"
+  },
+  "Apt": {
+    "id": "Apt",
+    "name": "Aptas",
+    "shortName": "Aptas"
+  },
+  "Ar": {
+    "id": "Ar",
+    "name": "Arvika",
+    "shortName": "Arvika"
+  },
+  "Ara": {
+    "id": "Ara",
+    "name": "Arnäsvall",
+    "shortName": "Arnäsvall"
+  },
+  "Arb": {
+    "id": "Arb",
+    "name": "Arboga",
+    "shortName": "Arboga"
+  },
+  "Arne": {
+    "id": "Arne",
+    "name": "Arlanda nedre",
+    "shortName": "Arlanda nedre"
+  },
+  "Arnc": {
+    "id": "Arnc",
+    "name": "Arlanda C",
+    "shortName": "Arlanda"
+  },
+  "Arns": {
+    "id": "Arns",
+    "name": "Arlanda S",
+    "shortName": "Arlanda S"
+  },
+  "Arnn": {
+    "id": "Arnn",
+    "name": "Arlanda N",
+    "shortName": "Arlanda N"
+  },
+  "Asb": {
+    "id": "Asb",
+    "name": "Assberg",
+    "shortName": "Assberg"
+  },
+  "Aska": {
+    "id": "Aska",
+    "name": "Aska",
+    "shortName": "Aska"
+  },
+  "Asd": {
+    "id": "Asd",
+    "name": "Aspedalen",
+    "shortName": "Aspedalen"
+  },
+  "Atp": {
+    "id": "Atp",
+    "name": "Attarp",
+    "shortName": "Attarp"
+  },
+  "Av": {
+    "id": "Av",
+    "name": "Alvesta",
+    "shortName": "Alvesta"
+  },
+  "Avky": {
+    "id": "Avky",
+    "name": "Avesta Krylbo",
+    "shortName": "Avesta Krylbo"
+  },
+  "Avs": {
+    "id": "Avs",
+    "name": "Avafors",
+    "shortName": "Avafors"
+  },
+  "Ava": {
+    "id": "Ava",
+    "name": "Avaviken",
+    "shortName": "Avaviken"
+  },
+  "Avk": {
+    "id": "Avk",
+    "name": "Almvik",
+    "shortName": "Almvik"
+  },
+  "Ax": {
+    "id": "Ax",
+    "name": "Axmarby",
+    "shortName": "Axmarby"
+  },
+  "Ay": {
+    "id": "Ay",
+    "name": "Alby",
+    "shortName": "Alby"
+  },
+  "Bad": {
+    "id": "Bad",
+    "name": "Badsta",
+    "shortName": "Badsta"
+  },
+  "Aä": {
+    "id": "Aä",
+    "name": "Alväng",
+    "shortName": "Alväng"
+  },
+  "B": {
+    "id": "B",
+    "name": "Björnlunda",
+    "shortName": "Björnlunda"
+  },
+  "Baa": {
+    "id": "Baa",
+    "name": "Barkåkra",
+    "shortName": "Barkåkra"
+  },
+  "Bda": {
+    "id": "Bda",
+    "name": "Blidstena",
+    "shortName": "Blidstena"
+  },
+  "Bbe": {
+    "id": "Bbe",
+    "name": "Blyberg",
+    "shortName": "Blyberg"
+  },
+  "Bby": {
+    "id": "Bby",
+    "name": "Brattby",
+    "shortName": "Brattby"
+  },
+  "Baö": {
+    "id": "Baö",
+    "name": "Backsjön",
+    "shortName": "Backsjön"
+  },
+  "Bdb": {
+    "id": "Bdb",
+    "name": "Badabruk",
+    "shortName": "Badabruk"
+  },
+  "Bdo": {
+    "id": "Bdo",
+    "name": "Broddbo",
+    "shortName": "Broddbo"
+  },
+  "Bdf": {
+    "id": "Bdf",
+    "name": "Bodafors",
+    "shortName": "Bodafors"
+  },
+  "Bdn": {
+    "id": "Bdn",
+    "name": "Boden C",
+    "shortName": "Boden"
+  },
+  "Bdl": {
+    "id": "Bdl",
+    "name": "Bäckedal",
+    "shortName": "Bäckedal"
+  },
+  "Bdy": {
+    "id": "Bdy",
+    "name": "Bredaryd",
+    "shortName": "Bredaryd"
+  },
+  "Bds": {
+    "id": "Bds",
+    "name": "Bodens södra",
+    "shortName": "Bodens södra"
+  },
+  "Be": {
+    "id": "Be",
+    "name": "Backe",
+    "shortName": "Backe"
+  },
+  "Bef": {
+    "id": "Bef",
+    "name": "Bengtsfors",
+    "shortName": "Bengtsfors"
+  },
+  "Ben": {
+    "id": "Ben",
+    "name": "Bredviken",
+    "shortName": "Bredviken"
+  },
+  "Bf": {
+    "id": "Bf",
+    "name": "Brunflo",
+    "shortName": "Brunflo"
+  },
+  "Bg": {
+    "id": "Bg",
+    "name": "Berga",
+    "shortName": "Berga"
+  },
+  "Bet": {
+    "id": "Bet",
+    "name": "Bruksberget",
+    "shortName": "Bruksberget"
+  },
+  "Bfo": {
+    "id": "Bfo",
+    "name": "Billingsfors",
+    "shortName": "Billingsfors"
+  },
+  "Bgd": {
+    "id": "Bgd",
+    "name": "Brogården",
+    "shortName": "Brogården"
+  },
+  "Bfs": {
+    "id": "Bfs",
+    "name": "Bergfors",
+    "shortName": "Bergfors"
+  },
+  "Bgm": {
+    "id": "Bgm",
+    "name": "Berghem",
+    "shortName": "Berghem"
+  },
+  "Bgv": {
+    "id": "Bgv",
+    "name": "Bälgviken",
+    "shortName": "Bälgviken"
+  },
+  "Bgs": {
+    "id": "Bgs",
+    "name": "Bryngenäs",
+    "shortName": "Bryngenäs"
+  },
+  "Bhs": {
+    "id": "Bhs",
+    "name": "Bohus",
+    "shortName": "Bohus"
+  },
+  "Bia": {
+    "id": "Bia",
+    "name": "Birsta",
+    "shortName": "Birsta"
+  },
+  "Bhb": {
+    "id": "Bhb",
+    "name": "Bräkne-Hoby",
+    "shortName": "Bräkne-Hoby"
+  },
+  "Bib": {
+    "id": "Bib",
+    "name": "Billeberga",
+    "shortName": "Billeberga"
+  },
+  "Bih": {
+    "id": "Bih",
+    "name": "Billesholm",
+    "shortName": "Billesholm"
+  },
+  "Bid": {
+    "id": "Bid",
+    "name": "Björnidet",
+    "shortName": "Björnidet"
+  },
+  "Bj": {
+    "id": "Bj",
+    "name": "Björna",
+    "shortName": "Björna"
+  },
+  "Bja": {
+    "id": "Bja",
+    "name": "Bjästa",
+    "shortName": "Bjästa"
+  },
+  "Bjb": {
+    "id": "Bjb",
+    "name": "Björneborg",
+    "shortName": "Björneborg"
+  },
+  "Bjf": {
+    "id": "Bjf",
+    "name": "Bjørnfjell",
+    "shortName": "Bjørnfjell"
+  },
+  "Bjh": {
+    "id": "Bjh",
+    "name": "Bjurhem",
+    "shortName": "Bjurhem"
+  },
+  "Bjn": {
+    "id": "Bjn",
+    "name": "Björnkulla",
+    "shortName": "Björnkulla"
+  },
+  "Bjuv": {
+    "id": "Bjuv",
+    "name": "Bjuv",
+    "shortName": "Bjuv"
+  },
+  "Bjo": {
+    "id": "Bjo",
+    "name": "Björketorp",
+    "shortName": "Björketorp"
+  },
+  "Bjm": {
+    "id": "Bjm",
+    "name": "Bjärnum",
+    "shortName": "Bjärnum"
+  },
+  "Bjö": {
+    "id": "Bjö",
+    "name": "Björnsjö",
+    "shortName": "Björnsjö"
+  },
+  "Bkb": {
+    "id": "Bkb",
+    "name": "Barkarby",
+    "shortName": "Barkarby"
+  },
+  "Bjy": {
+    "id": "Bjy",
+    "name": "Björköby",
+    "shortName": "Björköby"
+  },
+  "Bl": {
+    "id": "Bl",
+    "name": "Ballingslöv",
+    "shortName": "Ballingslöv"
+  },
+  "bla": {
+    "id": "bla",
+    "name": "blabla",
+    "shortName": "blabla"
+  },
+  "Bld": {
+    "id": "Bld",
+    "name": "Blädinge",
+    "shortName": "Blädinge"
+  },
+  "Blg": {
+    "id": "Blg",
+    "name": "Borlänge C",
+    "shortName": "Borlänge"
+  },
+  "Bln": {
+    "id": "Bln",
+    "name": "Björkliden",
+    "shortName": "Björkliden"
+  },
+  "Blv": {
+    "id": "Blv",
+    "name": "Burlöv",
+    "shortName": "Burlöv"
+  },
+  "Bma": {
+    "id": "Bma",
+    "name": "Blomstermåla",
+    "shortName": "Blomstermåla"
+  },
+  "Bml": {
+    "id": "Bml",
+    "name": "Bromölla",
+    "shortName": "Bromölla"
+  },
+  "Bmb": {
+    "id": "Bmb",
+    "name": "Blomberg",
+    "shortName": "Blomberg"
+  },
+  "Bmo": {
+    "id": "Bmo",
+    "name": "Båramo",
+    "shortName": "Båramo"
+  },
+  "Boda": {
+    "id": "Boda",
+    "name": "Boda",
+    "shortName": "Boda"
+  },
+  "Bnk": {
+    "id": "Bnk",
+    "name": "Blattnicksele",
+    "shortName": "Blattnicksele"
+  },
+  "Boa": {
+    "id": "Boa",
+    "name": "Borgstena",
+    "shortName": "Borgstena"
+  },
+  "Bn": {
+    "id": "Bn",
+    "name": "Bollnäs",
+    "shortName": "Bollnäs"
+  },
+  "Bna": {
+    "id": "Bna",
+    "name": "Brunna",
+    "shortName": "Brunna"
+  },
+  "Bog": {
+    "id": "Bog",
+    "name": "Bodaborg",
+    "shortName": "Bodaborg"
+  },
+  "Bof": {
+    "id": "Bof",
+    "name": "Bofors",
+    "shortName": "Bofors"
+  },
+  "Bom": {
+    "id": "Bom",
+    "name": "Bomansberget",
+    "shortName": "Bomansberget"
+  },
+  "Bop": {
+    "id": "Bop",
+    "name": "Botorp",
+    "shortName": "Botorp"
+  },
+  "Bor": {
+    "id": "Bor",
+    "name": "Bor",
+    "shortName": "Bor"
+  },
+  "Born": {
+    "id": "Born",
+    "name": "Born",
+    "shortName": "Born"
+  },
+  "Brh": {
+    "id": "Brh",
+    "name": "Brattheden",
+    "shortName": "Brattheden"
+  },
+  "Bre": {
+    "id": "Bre",
+    "name": "Bränninge",
+    "shortName": "Bränninge"
+  },
+  "Brn": {
+    "id": "Brn",
+    "name": "Brånan",
+    "shortName": "Brånan"
+  },
+  "Brd": {
+    "id": "Brd",
+    "name": "Brännland",
+    "shortName": "Brännland"
+  },
+  "Brdb": {
+    "id": "Brdb",
+    "name": "Brännlandsberget",
+    "shortName": "Brännlandsberget"
+  },
+  "Bp": {
+    "id": "Bp",
+    "name": "Brännarp",
+    "shortName": "Brännarp"
+  },
+  "Brny": {
+    "id": "Brny",
+    "name": "Bro Nygård",
+    "shortName": "Bro Nygård"
+  },
+  "Brk": {
+    "id": "Brk",
+    "name": "Brokind",
+    "shortName": "Brokind"
+  },
+  "Bra": {
+    "id": "Bra",
+    "name": "Brista",
+    "shortName": "Brista"
+  },
+  "Brg": {
+    "id": "Brg",
+    "name": "Brännberg",
+    "shortName": "Brännberg"
+  },
+  "Brin": {
+    "id": "Brin",
+    "name": "Brinellskolan",
+    "shortName": "Brinellskolan"
+  },
+  "Brl": {
+    "id": "Brl",
+    "name": "Brålanda",
+    "shortName": "Brålanda"
+  },
+  "Boy": {
+    "id": "Boy",
+    "name": "Bollebygd",
+    "shortName": "Bollebygd"
+  },
+  "Bry": {
+    "id": "Bry",
+    "name": "Bankeryd",
+    "shortName": "Bankeryd"
+  },
+  "Brå": {
+    "id": "Brå",
+    "name": "Bjurå",
+    "shortName": "Bjurå"
+  },
+  "Bro": {
+    "id": "Bro",
+    "name": "Bro",
+    "shortName": "Bro"
+  },
+  "Brs": {
+    "id": "Brs",
+    "name": "Brattsbacka",
+    "shortName": "Brattsbacka"
+  },
+  "Bs": {
+    "id": "Bs",
+    "name": "Borås C",
+    "shortName": "Borås"
+  },
+  "Bsd": {
+    "id": "Bsd",
+    "name": "Brunnsgård",
+    "shortName": "Brunnsgård"
+  },
+  "Brä": {
+    "id": "Brä",
+    "name": "Bränntjärn",
+    "shortName": "Bränntjärn"
+  },
+  "Bsg": {
+    "id": "Bsg",
+    "name": "Bispgården",
+    "shortName": "Bispgården"
+  },
+  "Brö": {
+    "id": "Brö",
+    "name": "Bredsjö",
+    "shortName": "Bredsjö"
+  },
+  "Bsp": {
+    "id": "Bsp",
+    "name": "Bestorp",
+    "shortName": "Bestorp"
+  },
+  "Bsa": {
+    "id": "Bsa",
+    "name": "Brastad",
+    "shortName": "Brastad"
+  },
+  "Bst": {
+    "id": "Bst",
+    "name": "Bastuträsk",
+    "shortName": "Bastuträsk"
+  },
+  "Bsb": {
+    "id": "Bsb",
+    "name": "Bensjöbacken",
+    "shortName": "Bensjöbacken"
+  },
+  "Bsä": {
+    "id": "Bsä",
+    "name": "Bjärka-Säby",
+    "shortName": "Bjärka-Säby"
+  },
+  "Bur": {
+    "id": "Bur",
+    "name": "Buresjön",
+    "shortName": "Buresjön"
+  },
+  "Btp": {
+    "id": "Btp",
+    "name": "Biskopstorp",
+    "shortName": "Biskopstorp"
+  },
+  "Bu": {
+    "id": "Bu",
+    "name": "Brunsbergstunneln",
+    "shortName": "Brunsbergstunneln"
+  },
+  "Bt": {
+    "id": "Bt",
+    "name": "Baggetorp",
+    "shortName": "Baggetorp"
+  },
+  "But": {
+    "id": "But",
+    "name": "Buterud",
+    "shortName": "Buterud"
+  },
+  "Bud": {
+    "id": "Bud",
+    "name": "Buddbyn",
+    "shortName": "Buddbyn"
+  },
+  "Btg": {
+    "id": "Btg",
+    "name": "Bratteborg",
+    "shortName": "Bratteborg"
+  },
+  "Btb": {
+    "id": "Btb",
+    "name": "Brattby",
+    "shortName": "Brattby"
+  },
+  "Bth": {
+    "id": "Bth",
+    "name": "Basthagen",
+    "shortName": "Basthagen"
+  },
+  "Btå": {
+    "id": "Btå",
+    "name": "Betåsen",
+    "shortName": "Betåsen"
+  },
+  "Buk": {
+    "id": "Buk",
+    "name": "Brunsberg",
+    "shortName": "Brunsberg"
+  },
+  "Bva": {
+    "id": "Bva",
+    "name": "Barva",
+    "shortName": "Barva"
+  },
+  "Bvr": {
+    "id": "Bvr",
+    "name": "Blackvreten",
+    "shortName": "Blackvreten"
+  },
+  "By": {
+    "id": "By",
+    "name": "Byvalla",
+    "shortName": "Byvalla"
+  },
+  "Bym": {
+    "id": "Bym",
+    "name": "Byarum",
+    "shortName": "Byarum"
+  },
+  "Bvv": {
+    "id": "Bvv",
+    "name": "Bråvallavägen",
+    "shortName": "Bråvallavägen"
+  },
+  "Byä": {
+    "id": "Byä",
+    "name": "Byälven",
+    "shortName": "Byälven"
+  },
+  "Bx": {
+    "id": "Bx",
+    "name": "Boxholm",
+    "shortName": "Boxholm"
+  },
+  "Båsö": {
+    "id": "Båsö",
+    "name": "Båstad södra",
+    "shortName": "Båstad södra"
+  },
+  "Båak": {
+    "id": "Båak",
+    "name": "Bergåsa",
+    "shortName": "Bergåsa"
+  },
+  "Bäf": {
+    "id": "Bäf",
+    "name": "Bäckefors",
+    "shortName": "Bäckefors"
+  },
+  "Bäl": {
+    "id": "Bäl",
+    "name": "Bällsta",
+    "shortName": "Bällsta"
+  },
+  "Bz": {
+    "id": "Bz",
+    "name": "Bruzaholm",
+    "shortName": "Bruzaholm"
+  },
+  "Bä": {
+    "id": "Bä",
+    "name": "Bräcke",
+    "shortName": "Bräcke"
+  },
+  "Bög": {
+    "id": "Bög",
+    "name": "Brännögård",
+    "shortName": "Brännögård"
+  },
+  "Böo": {
+    "id": "Böo",
+    "name": "Björbo",
+    "shortName": "Björbo"
+  },
+  "Båp": {
+    "id": "Båp",
+    "name": "Brågarp",
+    "shortName": "Brågarp"
+  },
+  "Bäb": {
+    "id": "Bäb",
+    "name": "Bäckebron",
+    "shortName": "Bäckebron"
+  },
+  "Bån": {
+    "id": "Bån",
+    "name": "Båstad",
+    "shortName": "Båstad"
+  },
+  "Båa": {
+    "id": "Båa",
+    "name": "Bergåsa",
+    "shortName": "Bergåsa"
+  },
+  "Bål": {
+    "id": "Bål",
+    "name": "Bålsta",
+    "shortName": "Bålsta"
+  },
+  "Bök": {
+    "id": "Bök",
+    "name": "Björkhult",
+    "shortName": "Björkhult"
+  },
+  "Bön": {
+    "id": "Bön",
+    "name": "Bodsjön",
+    "shortName": "Bodsjön"
+  },
+  "Cg": {
+    "id": "Cg",
+    "name": "Charlottenberg",
+    "shortName": "Charlottenberg"
+  },
+  "Cggr": {
+    "id": "Cggr",
+    "name": "riksgräns",
+    "shortName": "riksgräns"
+  },
+  "Ck": {
+    "id": "Ck",
+    "name": "Karlskrona C",
+    "shortName": "Karlskrona"
+  },
+  "Cas": {
+    "id": "Cas",
+    "name": "Callans såg",
+    "shortName": "Callans såg"
+  },
+  "Cph": {
+    "id": "Cph",
+    "name": "Copenhagen Airport",
+    "shortName": "Copenhagen Airport"
+  },
+  "Cr": {
+    "id": "Cr",
+    "name": "Kristianstad C",
+    "shortName": "Kristianstad"
+  },
+  "Crgb": {
+    "id": "Crgb",
+    "name": "Kristianstad GBG",
+    "shortName": "Kristianstad GBG"
+  },
+  "Crt": {
+    "id": "Crt",
+    "name": "Kristianstad Tivoliparken",
+    "shortName": "Kristianstad Tivoliparken"
+  },
+  "Crs": {
+    "id": "Crs",
+    "name": "Kristianstads södra",
+    "shortName": "Kristianstads södra"
+  },
+  "Dat": {
+    "id": "Dat",
+    "name": "Dammstorp",
+    "shortName": "Dammstorp"
+  },
+  "D": {
+    "id": "D",
+    "name": "Degerön",
+    "shortName": "Degerön"
+  },
+  "Dbn": {
+    "id": "Dbn",
+    "name": "Degerbäcken",
+    "shortName": "Degerbäcken"
+  },
+  "Cst": {
+    "id": "Cst",
+    "name": "Stockholm Central",
+    "shortName": "Stockholm"
+  },
+  "Dfl": {
+    "id": "Dfl",
+    "name": "Dala-Floda",
+    "shortName": "Dala-Floda"
+  },
+  "De": {
+    "id": "De",
+    "name": "Deje",
+    "shortName": "Deje"
+  },
+  "De.ber": {
+    "id": "De.ber",
+    "name": "Berlin",
+    "shortName": "Berlin"
+  },
+  "Dg": {
+    "id": "Dg",
+    "name": "Degerfors",
+    "shortName": "Degerfors"
+  },
+  "Dgm": {
+    "id": "Dgm",
+    "name": "Degermyr",
+    "shortName": "Degermyr"
+  },
+  "Dgn": {
+    "id": "Dgn",
+    "name": "Dalgränsen",
+    "shortName": "Dalgränsen"
+  },
+  "Dis": {
+    "id": "Dis",
+    "name": "Diö",
+    "shortName": "Diö"
+  },
+  "Dgö": {
+    "id": "Dgö",
+    "name": "Daglösen",
+    "shortName": "Daglösen"
+  },
+  "Diö": {
+    "id": "Diö",
+    "name": "Diö Norra",
+    "shortName": "Diö Norra"
+  },
+  "Dje": {
+    "id": "Dje",
+    "name": "Djursholms Ekeby",
+    "shortName": "Djursholms Ekeby"
+  },
+  "Dj": {
+    "id": "Dj",
+    "name": "Dala-Järna",
+    "shortName": "Dala-Järna"
+  },
+  "Djö": {
+    "id": "Djö",
+    "name": "Djursholms Ösby",
+    "shortName": "Djursholms Ösby"
+  },
+  "Dk": {
+    "id": "Dk",
+    "name": "Dockmyr",
+    "shortName": "Dockmyr"
+  },
+  "Dk.hg": {
+    "id": "Dk.hg",
+    "name": "Helsingör",
+    "shortName": "Helsingör"
+  },
+  "Dk.cph": {
+    "id": "Dk.cph",
+    "name": "Copenhagen Airport",
+    "shortName": "Cph Airport"
+  },
+  "Dk.kk": {
+    "id": "Dk.kk",
+    "name": "Österport",
+    "shortName": "Österport"
+  },
+  "Dk.kh": {
+    "id": "Dk.kh",
+    "name": "Köpenhamn H",
+    "shortName": "Köpenhamn H"
+  },
+  "Dk.tåt": {
+    "id": "Dk.tåt",
+    "name": "Tårnby",
+    "shortName": "Tårnby"
+  },
+  "Dk.øre": {
+    "id": "Dk.øre",
+    "name": "Örestad",
+    "shortName": "Örestad"
+  },
+  "Dl": {
+    "id": "Dl",
+    "name": "Dingle",
+    "shortName": "Dingle"
+  },
+  "Dld": {
+    "id": "Dld",
+    "name": "Dals Långed",
+    "shortName": "Dals Långed"
+  },
+  "Dma": {
+    "id": "Dma",
+    "name": "Dannemora",
+    "shortName": "Dannemora"
+  },
+  "Dn": {
+    "id": "Dn",
+    "name": "Dagarn",
+    "shortName": "Dagarn"
+  },
+  "Dns": {
+    "id": "Dns",
+    "name": "Dynäs",
+    "shortName": "Dynäs"
+  },
+  "Dre": {
+    "id": "Dre",
+    "name": "Derome",
+    "shortName": "Derome"
+  },
+  "Drt": {
+    "id": "Drt",
+    "name": "Dals Rostock",
+    "shortName": "Dals Rostock"
+  },
+  "Dt": {
+    "id": "Dt",
+    "name": "Dingtuna",
+    "shortName": "Dingtuna"
+  },
+  "Dta": {
+    "id": "Dta",
+    "name": "Dorotea",
+    "shortName": "Dorotea"
+  },
+  "Dtc": {
+    "id": "Dtc",
+    "name": "Dorotea camping",
+    "shortName": "Dorotea camping"
+  },
+  "Duo": {
+    "id": "Duo",
+    "name": "Duvbo",
+    "shortName": "Duvbo"
+  },
+  "Du": {
+    "id": "Du",
+    "name": "Duved",
+    "shortName": "Duved"
+  },
+  "Dysn": {
+    "id": "Dysn",
+    "name": "Dynäs norra",
+    "shortName": "Dynäs norra"
+  },
+  "Dy": {
+    "id": "Dy",
+    "name": "Dysjön",
+    "shortName": "Dysjön"
+  },
+  "Då": {
+    "id": "Då",
+    "name": "Djurås",
+    "shortName": "Djurås"
+  },
+  "Dån": {
+    "id": "Dån",
+    "name": "Dånviken",
+    "shortName": "Dånviken"
+  },
+  "Döe": {
+    "id": "Döe",
+    "name": "Drömme",
+    "shortName": "Drömme"
+  },
+  "Döl": {
+    "id": "Döl",
+    "name": "Döljebro",
+    "shortName": "Döljebro"
+  },
+  "Dös": {
+    "id": "Dös",
+    "name": "Dösjebro",
+    "shortName": "Dösjebro"
+  },
+  "Ea": {
+    "id": "Ea",
+    "name": "Eldsberga",
+    "shortName": "Eldsberga"
+  },
+  "E": {
+    "id": "E",
+    "name": "Eslöv",
+    "shortName": "Eslöv"
+  },
+  "Ebg": {
+    "id": "Ebg",
+    "name": "Enstaberga",
+    "shortName": "Enstaberga"
+  },
+  "Ebk": {
+    "id": "Ebk",
+    "name": "Edsbjörke",
+    "shortName": "Edsbjörke"
+  },
+  "Eby": {
+    "id": "Eby",
+    "name": "Ekeby",
+    "shortName": "Ekeby"
+  },
+  "Ed": {
+    "id": "Ed",
+    "name": "Ed",
+    "shortName": "Ed"
+  },
+  "Eds": {
+    "id": "Eds",
+    "name": "Edsbyns södra",
+    "shortName": "Edsbyns södra"
+  },
+  "Edv": {
+    "id": "Edv",
+    "name": "Edsbyverken",
+    "shortName": "Edsbyverken"
+  },
+  "Ei": {
+    "id": "Ei",
+    "name": "Erikslund",
+    "shortName": "Erikslund"
+  },
+  "Edn": {
+    "id": "Edn",
+    "name": "Edsbyn",
+    "shortName": "Edsbyn"
+  },
+  "Ek": {
+    "id": "Ek",
+    "name": "Eksjö",
+    "shortName": "Eksjö"
+  },
+  "Ekg": {
+    "id": "Ekg",
+    "name": "Ekskogen",
+    "shortName": "Ekskogen"
+  },
+  "Eko": {
+    "id": "Eko",
+    "name": "Ekolsund",
+    "shortName": "Ekolsund"
+  },
+  "Ekh": {
+    "id": "Ekh",
+    "name": "Ekebohult",
+    "shortName": "Ekebohult"
+  },
+  "El": {
+    "id": "El",
+    "name": "Edsvalla",
+    "shortName": "Edsvalla"
+  },
+  "Eky": {
+    "id": "Eky",
+    "name": "Ekeryd",
+    "shortName": "Ekeryd"
+  },
+  "Em": {
+    "id": "Em",
+    "name": "Emmaboda",
+    "shortName": "Emmaboda"
+  },
+  "En": {
+    "id": "En",
+    "name": "Edane",
+    "shortName": "Edane"
+  },
+  "Enb": {
+    "id": "Enb",
+    "name": "Enebyberg",
+    "shortName": "Enebyberg"
+  },
+  "Ens": {
+    "id": "Ens",
+    "name": "Enafors",
+    "shortName": "Enafors"
+  },
+  "Ep": {
+    "id": "Ep",
+    "name": "Enköping",
+    "shortName": "Enköping"
+  },
+  "Er": {
+    "id": "Er",
+    "name": "Ervalla",
+    "shortName": "Ervalla"
+  },
+  "Era": {
+    "id": "Era",
+    "name": "Eneryda",
+    "shortName": "Eneryda"
+  },
+  "Erk": {
+    "id": "Erk",
+    "name": "Erikstad",
+    "shortName": "Erikstad"
+  },
+  "Esa": {
+    "id": "Esa",
+    "name": "Ensta",
+    "shortName": "Ensta"
+  },
+  "Esn": {
+    "id": "Esn",
+    "name": "Ekenässjön",
+    "shortName": "Ekenässjön"
+  },
+  "Et": {
+    "id": "Et",
+    "name": "Eskilstuna C",
+    "shortName": "Eskilstuna"
+  },
+  "Etk": {
+    "id": "Etk",
+    "name": "Ekträsk",
+    "shortName": "Ekträsk"
+  },
+  "Evb": {
+    "id": "Evb",
+    "name": "Erstaviksbadet",
+    "shortName": "Erstaviksbadet"
+  },
+  "F": {
+    "id": "F",
+    "name": "Falköping C",
+    "shortName": "Falköping"
+  },
+  "Eyd": {
+    "id": "Eyd",
+    "name": "Elgaryd",
+    "shortName": "Elgaryd"
+  },
+  "Fa": {
+    "id": "Fa",
+    "name": "Finnerödja",
+    "shortName": "Finnerödja"
+  },
+  "Faa": {
+    "id": "Faa",
+    "name": "Flodala",
+    "shortName": "Flodala"
+  },
+  "Fab": {
+    "id": "Fab",
+    "name": "Falkenberg",
+    "shortName": "Falkenberg"
+  },
+  "Fabg": {
+    "id": "Fabg",
+    "name": "Falkenbergs godsstation",
+    "shortName": "Falkenbergs godsstation"
+  },
+  "Fabp": {
+    "id": "Fabp",
+    "name": "Falkenberg",
+    "shortName": "Falkenberg"
+  },
+  "Fad": {
+    "id": "Fad",
+    "name": "Fästad",
+    "shortName": "Fästad"
+  },
+  "Fal": {
+    "id": "Fal",
+    "name": "Falerum",
+    "shortName": "Falerum"
+  },
+  "Fas": {
+    "id": "Fas",
+    "name": "Farsta strand",
+    "shortName": "Farsta strand"
+  },
+  "Fby": {
+    "id": "Fby",
+    "name": "Floby",
+    "shortName": "Floby"
+  },
+  "Fb": {
+    "id": "Fb",
+    "name": "Forsbacka",
+    "shortName": "Forsbacka"
+  },
+  "Fc": {
+    "id": "Fc",
+    "name": "Framnäs city",
+    "shortName": "Framnäs city"
+  },
+  "Fd": {
+    "id": "Fd",
+    "name": "Floda",
+    "shortName": "Floda"
+  },
+  "Fda": {
+    "id": "Fda",
+    "name": "Furudal",
+    "shortName": "Furudal"
+  },
+  "Fdf": {
+    "id": "Fdf",
+    "name": "Frändefors",
+    "shortName": "Frändefors"
+  },
+  "Fdl": {
+    "id": "Fdl",
+    "name": "Fredriksdal",
+    "shortName": "Fredriksdal"
+  },
+  "Feb": {
+    "id": "Feb",
+    "name": "Fellingsbro",
+    "shortName": "Fellingsbro"
+  },
+  "Feö": {
+    "id": "Feö",
+    "name": "Fågelsjö",
+    "shortName": "Fågelsjö"
+  },
+  "Ffl": {
+    "id": "Ffl",
+    "name": "Frufällan",
+    "shortName": "Frufällan"
+  },
+  "Ffs": {
+    "id": "Ffs",
+    "name": "Finnforsfallet",
+    "shortName": "Finnforsfallet"
+  },
+  "Fg": {
+    "id": "Fg",
+    "name": "Finspång",
+    "shortName": "Finspång"
+  },
+  "Fgc": {
+    "id": "Fgc",
+    "name": "Fagersta C",
+    "shortName": "Fagersta"
+  },
+  "Fgl": {
+    "id": "Fgl",
+    "name": "Fågelsta",
+    "shortName": "Fågelsta"
+  },
+  "Fgn": {
+    "id": "Fgn",
+    "name": "Fagersta Norra",
+    "shortName": "Fagersta N"
+  },
+  "Fgö": {
+    "id": "Fgö",
+    "name": "Fångsjöbacken",
+    "shortName": "Fångsjöbacken"
+  },
+  "Fgs": {
+    "id": "Fgs",
+    "name": "Fagersanna",
+    "shortName": "Fagersanna"
+  },
+  "Fgå": {
+    "id": "Fgå",
+    "name": "Fagerås",
+    "shortName": "Fagerås"
+  },
+  "Fhm": {
+    "id": "Fhm",
+    "name": "Forshem",
+    "shortName": "Forshem"
+  },
+  "Fi": {
+    "id": "Fi",
+    "name": "Fiskeby",
+    "shortName": "Fiskeby"
+  },
+  "Fia": {
+    "id": "Fia",
+    "name": "Finkelboda",
+    "shortName": "Finkelboda"
+  },
+  "Fid": {
+    "id": "Fid",
+    "name": "Filipstad",
+    "shortName": "Filipstad"
+  },
+  "Fikt": {
+    "id": "Fikt",
+    "name": "Fiktiv station",
+    "shortName": "Fiktiv station"
+  },
+  "Fil": {
+    "id": "Fil",
+    "name": "Fillan",
+    "shortName": "Fillan"
+  },
+  "Fin": {
+    "id": "Fin",
+    "name": "Finja",
+    "shortName": "Finja"
+  },
+  "Fiä": {
+    "id": "Fiä",
+    "name": "Filsbäck",
+    "shortName": "Filsbäck"
+  },
+  "Fkr": {
+    "id": "Fkr",
+    "name": "Fåker",
+    "shortName": "Fåker"
+  },
+  "Fki": {
+    "id": "Fki",
+    "name": "Fjälkinge",
+    "shortName": "Fjälkinge"
+  },
+  "Fjå": {
+    "id": "Fjå",
+    "name": "Fjällåsen",
+    "shortName": "Fjällåsen"
+  },
+  "Fl": {
+    "id": "Fl",
+    "name": "Flädie",
+    "shortName": "Flädie"
+  },
+  "Flb": {
+    "id": "Flb",
+    "name": "Flemingsberg",
+    "shortName": "Flemingsberg"
+  },
   "Fle": {
     "id": "Fle",
     "name": "Flen",
     "shortName": "Flen"
   },
-  "Cst":{
-    "id": "Cst",
-    "name": "Stockholm Central",
-    "shortName": "Stockholm C"
+  "Flgd": {
+    "id": "Flgd",
+    "name": "Friluftsgården",
+    "shortName": "Friluftsgården"
   },
-  "Sl":{
-    "id": "Sl",
-    "name": "Långsele",
-    "shortName": "Långsele"
+  "Fln": {
+    "id": "Fln",
+    "name": "Falun C",
+    "shortName": "Falun"
   },
-  "Hpbg":{
+  "Fls": {
+    "id": "Fls",
+    "name": "Flisby",
+    "shortName": "Flisby"
+  },
+  "Flp": {
+    "id": "Flp",
+    "name": "Flackarp",
+    "shortName": "Flackarp"
+  },
+  "Flu": {
+    "id": "Flu",
+    "name": "Flunbo",
+    "shortName": "Flunbo"
+  },
+  "Fm": {
+    "id": "Fm",
+    "name": "Forserum",
+    "shortName": "Forserum"
+  },
+  "Fmö": {
+    "id": "Fmö",
+    "name": "Forsmöllan",
+    "shortName": "Forsmöllan"
+  },
+  "Fnö": {
+    "id": "Fnö",
+    "name": "Frånö",
+    "shortName": "Frånö"
+  },
+  "Fod": {
+    "id": "Fod",
+    "name": "Forsheda",
+    "shortName": "Forsheda"
+  },
+  "Fok": {
+    "id": "Fok",
+    "name": "Folkesta",
+    "shortName": "Folkesta"
+  },
+  "Foo": {
+    "id": "Foo",
+    "name": "Foodia",
+    "shortName": "Foodia"
+  },
+  "Fre": {
+    "id": "Fre",
+    "name": "Fredrikslund",
+    "shortName": "Fredrikslund"
+  },
+  "Frd": {
+    "id": "Frd",
+    "name": "Frinnaryd",
+    "shortName": "Frinnaryd"
+  },
+  "Fra": {
+    "id": "Fra",
+    "name": "Fristad",
+    "shortName": "Fristad"
+  },
+  "Frl": {
+    "id": "Frl",
+    "name": "Fritsla",
+    "shortName": "Fritsla"
+  },
+  "Fs": {
+    "id": "Fs",
+    "name": "Fors",
+    "shortName": "Fors"
+  },
+  "Frå": {
+    "id": "Frå",
+    "name": "Frykåsen",
+    "shortName": "Frykåsen"
+  },
+  "Fsb": {
+    "id": "Fsb",
+    "name": "Fosieby",
+    "shortName": "Fosieby"
+  },
+  "Fsm": {
+    "id": "Fsm",
+    "name": "Forsmo",
+    "shortName": "Forsmo"
+  },
+  "Fsu": {
+    "id": "Fsu",
+    "name": "Frösunda",
+    "shortName": "Frösunda"
+  },
+  "Fsä": {
+    "id": "Fsä",
+    "name": "Fisksätra",
+    "shortName": "Fisksätra"
+  },
+  "Ft": {
+    "id": "Ft",
+    "name": "Fränsta",
+    "shortName": "Fränsta"
+  },
+  "Fsö": {
+    "id": "Fsö",
+    "name": "Flens övre",
+    "shortName": "Flens övre"
+  },
+  "Fv": {
+    "id": "Fv",
+    "name": "Frövi",
+    "shortName": "Frövi"
+  },
+  "Fur": {
+    "id": "Fur",
+    "name": "Furet",
+    "shortName": "Furet"
+  },
+  "Fvk": {
+    "id": "Fvk",
+    "name": "Furuvik",
+    "shortName": "Furuvik"
+  },
+  "Fvks": {
+    "id": "Fvks",
+    "name": "Furuvik",
+    "shortName": "Furuvik"
+  },
+  "Få": {
+    "id": "Få",
+    "name": "Frillesås",
+    "shortName": "Frillesås"
+  },
+  "Fål": {
+    "id": "Fål",
+    "name": "Fållinge",
+    "shortName": "Fållinge"
+  },
+  "Fåt": {
+    "id": "Fåt",
+    "name": "Fårhult",
+    "shortName": "Fårhult"
+  },
+  "Fär": {
+    "id": "Fär",
+    "name": "Fliskär",
+    "shortName": "Fliskär"
+  },
+  "För": {
+    "id": "För",
+    "name": "Förslöv",
+    "shortName": "Förslöv"
+  },
+  "Föv": {
+    "id": "Föv",
+    "name": "Förslöv",
+    "shortName": "Förslöv"
+  },
+  "G": {
+    "id": "G",
+    "name": "Göteborg C",
+    "shortName": "Göteborg"
+  },
+  "Ga": {
+    "id": "Ga",
+    "name": "Graninge",
+    "shortName": "Graninge"
+  },
+  "Gas": {
+    "id": "Gas",
+    "name": "Gamlestaden",
+    "shortName": "Gamlestaden"
+  },
+  "Gad": {
+    "id": "Gad",
+    "name": "Granstanda",
+    "shortName": "Granstanda"
+  },
+  "Gan": {
+    "id": "Gan",
+    "name": "Gantofta",
+    "shortName": "Gantofta"
+  },
+  "Gal": {
+    "id": "Gal",
+    "name": "Gamleby",
+    "shortName": "Gamleby"
+  },
+  "Gau": {
+    "id": "Gau",
+    "name": "Garnudden",
+    "shortName": "Garnudden"
+  },
+  "Gav": {
+    "id": "Gav",
+    "name": "Graningeverken",
+    "shortName": "Graningeverken"
+  },
+  "Gb": {
+    "id": "Gb",
+    "name": "Göteborgs norra",
+    "shortName": "Göteborgs norra"
+  },
+  "Gbco": {
+    "id": "Gbco",
+    "name": "Göteborg Combiterminal",
+    "shortName": "Göteborg Combiterminal"
+  },
+  "Gbm": {
+    "id": "Gbm",
+    "name": "Göteborg Marieholm",
+    "shortName": "Göteborg Marieholm"
+  },
+  "Gby": {
+    "id": "Gby",
+    "name": "Gimarpsby",
+    "shortName": "Gimarpsby"
+  },
+  "Gdl": {
+    "id": "Gdl",
+    "name": "Geijersdal",
+    "shortName": "Geijersdal"
+  },
+  "Gdv": {
+    "id": "Gdv",
+    "name": "Gröndalsviken",
+    "shortName": "Gröndalsviken"
+  },
+  "Ge": {
+    "id": "Ge",
+    "name": "Gottne",
+    "shortName": "Gottne"
+  },
+  "Gdö": {
+    "id": "Gdö",
+    "name": "Gårdsjö",
+    "shortName": "Gårdsjö"
+  },
+  "Gg": {
+    "id": "Gg",
+    "name": "Grängesberg",
+    "shortName": "Grängesberg"
+  },
+  "Gen": {
+    "id": "Gen",
+    "name": "Gåsträsken",
+    "shortName": "Gåsträsken"
+  },
+  "Ghn": {
+    "id": "Ghn",
+    "name": "Gripsholmsviken",
+    "shortName": "Gripsholmsviken"
+  },
+  "Ggm": {
+    "id": "Ggm",
+    "name": "Grängesbergs malmbangård",
+    "shortName": "Grängesbergs malmbangård"
+  },
+  "Ghu": {
+    "id": "Ghu",
+    "name": "Gula huset",
+    "shortName": "Gula huset"
+  },
+  "Ghy": {
+    "id": "Ghy",
+    "name": "Grythyttan",
+    "shortName": "Grythyttan"
+  },
+  "Ghyn": {
+    "id": "Ghyn",
+    "name": "Grythyttans norra",
+    "shortName": "Grythyttans norra"
+  },
+  "Gi": {
+    "id": "Gi",
+    "name": "Gistad",
+    "shortName": "Gistad"
+  },
+  "Gib": {
+    "id": "Gib",
+    "name": "Grillby",
+    "shortName": "Grillby"
+  },
+  "Gia": {
+    "id": "Gia",
+    "name": "Gideåbacka",
+    "shortName": "Gideåbacka"
+  },
+  "Gimt": {
+    "id": "Gimt",
+    "name": "Gimonäs timmer",
+    "shortName": "Gimonäs timmer"
+  },
+  "Gim": {
+    "id": "Gim",
+    "name": "Gimonäs",
+    "shortName": "Gimonäs"
+  },
+  "Glk": {
+    "id": "Glk",
+    "name": "Glommersträsk",
+    "shortName": "Glommersträsk"
+  },
+  "Gk": {
+    "id": "Gk",
+    "name": "Göteborg Kville",
+    "shortName": "Göteborg Kville"
+  },
+  "Glt": {
+    "id": "Glt",
+    "name": "Gullträsk",
+    "shortName": "Gullträsk"
+  },
+  "Gm": {
+    "id": "Gm",
+    "name": "Gemla",
+    "shortName": "Gemla"
+  },
+  "Glv": {
+    "id": "Glv",
+    "name": "Glumslöv",
+    "shortName": "Glumslöv"
+  },
+  "Gmo": {
+    "id": "Gmo",
+    "name": "Gimo",
+    "shortName": "Gimo"
+  },
+  "Gmp": {
+    "id": "Gmp",
+    "name": "Gamlarp",
+    "shortName": "Gamlarp"
+  },
+  "Gms": {
+    "id": "Gms",
+    "name": "Grums",
+    "shortName": "Grums"
+  },
+  "Gn": {
+    "id": "Gn",
+    "name": "Gnesta",
+    "shortName": "Gnesta"
+  },
+  "Gnb": {
+    "id": "Gnb",
+    "name": "Gunnesbo",
+    "shortName": "Gunnesbo"
+  },
+  "Gnd": {
+    "id": "Gnd",
+    "name": "Genevad",
+    "shortName": "Genevad"
+  },
+  "Gnf": {
+    "id": "Gnf",
+    "name": "Gagnef",
+    "shortName": "Gagnef"
+  },
+  "Gng": {
+    "id": "Gng",
+    "name": "Gullringen",
+    "shortName": "Gullringen"
+  },
+  "Gnö": {
+    "id": "Gnö",
+    "name": "Gnosjö",
+    "shortName": "Gnosjö"
+  },
+  "Gnå": {
+    "id": "Gnå",
+    "name": "Grönåsen",
+    "shortName": "Grönåsen"
+  },
+  "Gnp": {
+    "id": "Gnp",
+    "name": "Gnarp",
+    "shortName": "Gnarp"
+  },
+  "Go": {
+    "id": "Go",
+    "name": "Godegård",
+    "shortName": "Godegård"
+  },
+  "Gop": {
+    "id": "Gop",
+    "name": "Grästorp",
+    "shortName": "Grästorp"
+  },
+  "Gp": {
+    "id": "Gp",
+    "name": "Gripenberg",
+    "shortName": "Gripenberg"
+  },
+  "Gpc": {
+    "id": "Gpc",
+    "name": "Geogr. Polcirkeln",
+    "shortName": "Geogr. Polcirkeln"
+  },
+  "Gpf": {
+    "id": "Gpf",
+    "name": "Galoppfältet",
+    "shortName": "Galoppfältet"
+  },
+  "Gr": {
+    "id": "Gr",
+    "name": "Granbergsdal",
+    "shortName": "Granbergsdal"
+  },
+  "Grd": {
+    "id": "Grd",
+    "name": "Grevaryd",
+    "shortName": "Grevaryd"
+  },
+  "Grn": {
+    "id": "Grn",
+    "name": "Göringen",
+    "shortName": "Göringen"
+  },
+  "Grm": {
+    "id": "Grm",
+    "name": "Grimsås",
+    "shortName": "Grimsås"
+  },
+  "Gro": {
+    "id": "Gro",
+    "name": "Gubbero",
+    "shortName": "Gubbero"
+  },
+  "Grs": {
+    "id": "Grs",
+    "name": "Gransjö",
+    "shortName": "Gransjö"
+  },
+  "Gru": {
+    "id": "Gru",
+    "name": "Grundbro",
+    "shortName": "Grundbro"
+  },
+  "Gry": {
+    "id": "Gry",
+    "name": "Gryttje",
+    "shortName": "Gryttje"
+  },
+  "Grö": {
+    "id": "Grö",
+    "name": "Grötingen",
+    "shortName": "Grötingen"
+  },
+  "Gsh": {
+    "id": "Gsh",
+    "name": "Göteborg Skandiahamnen",
+    "shortName": "Göteborg Skandiahamnen"
+  },
+  "Gse": {
+    "id": "Gse",
+    "name": "Gunsen",
+    "shortName": "Gunsen"
+  },
+  "Gsn": {
+    "id": "Gsn",
+    "name": "Gastsjön",
+    "shortName": "Gastsjön"
+  },
+  "Gsp": {
+    "id": "Gsp",
+    "name": "Gullspång",
+    "shortName": "Gullspång"
+  },
+  "Gss": {
+    "id": "Gss",
+    "name": "Gärsnäs",
+    "shortName": "Gärsnäs"
+  },
+  "Gså": {
+    "id": "Gså",
+    "name": "Garsås",
+    "shortName": "Garsås"
+  },
+  "Gsv": {
+    "id": "Gsv",
+    "name": "Göteborg Sävenäs",
+    "shortName": "Göteborg Sävenäs"
+  },
+  "Gst": {
+    "id": "Gst",
+    "name": "Gammelstad",
+    "shortName": "Gammelstad"
+  },
+  "Gt": {
+    "id": "Gt",
+    "name": "Grimstorp",
+    "shortName": "Grimstorp"
+  },
+  "Gtf": {
+    "id": "Gtf",
+    "name": "Gustafs",
+    "shortName": "Gustafs"
+  },
+  "Gttu": {
+    "id": "Gttu",
+    "name": "Gamla Tortuna",
+    "shortName": "Gamla Tortuna"
+  },
+  "Gtå": {
+    "id": "Gtå",
+    "name": "Getå",
+    "shortName": "Getå"
+  },
+  "Gua": {
+    "id": "Gua",
+    "name": "Gullberna",
+    "shortName": "Gullberna"
+  },
+  "Gui": {
+    "id": "Gui",
+    "name": "Gussi",
+    "shortName": "Gussi"
+  },
+  "Gun": {
+    "id": "Gun",
+    "name": "Gunnarn",
+    "shortName": "Gunnarn"
+  },
+  "Guy": {
+    "id": "Guy",
+    "name": "Gunnarsbyn",
+    "shortName": "Gunnarsbyn"
+  },
+  "Gv": {
+    "id": "Gv",
+    "name": "Gällivare",
+    "shortName": "Gällivare"
+  },
+  "Gy": {
+    "id": "Gy",
+    "name": "Gäddmyr",
+    "shortName": "Gäddmyr"
+  },
+  "Gvo": {
+    "id": "Gvo",
+    "name": "Göteborg Volvo",
+    "shortName": "Göteborg Volvo"
+  },
+  "Gyo": {
+    "id": "Gyo",
+    "name": "Grycksbo",
+    "shortName": "Grycksbo"
+  },
+  "Gve": {
+    "id": "Gve",
+    "name": "Grevie",
+    "shortName": "Grevie"
+  },
+  "Gyt": {
+    "id": "Gyt",
+    "name": "Gyttorp",
+    "shortName": "Gyttorp"
+  },
+  "Gån": {
+    "id": "Gån",
+    "name": "Gålnäs",
+    "shortName": "Gålnäs"
+  },
+  "Gå": {
+    "id": "Gå",
+    "name": "Gångbron",
+    "shortName": "Gångbron"
+  },
+  "Gåp": {
+    "id": "Gåp",
+    "name": "Gåvetorp",
+    "shortName": "Gåvetorp"
+  },
+  "Gä": {
+    "id": "Gä",
+    "name": "Gävle C",
+    "shortName": "Gävle"
+  },
+  "Gä.g": {
+    "id": "Gä.g",
+    "name": "Gasklockorna",
+    "shortName": "Gasklockorna"
+  },
+  "Gä.f": {
+    "id": "Gä.f",
+    "name": "Fordonsmagasinet",
+    "shortName": "Fordonsmagasinet"
+  },
+  "Gä.h": {
+    "id": "Gä.h",
+    "name": "Gävle hamn",
+    "shortName": "Gävle hamn"
+  },
+  "Gä.j": {
+    "id": "Gä.j",
+    "name": "Järnvägsmuseum",
+    "shortName": "Järnvägsmuseum"
+  },
+  "Gäb": {
+    "id": "Gäb",
+    "name": "Gävle godsbangård",
+    "shortName": "Gävle godsbangård"
+  },
+  "Gäd": {
+    "id": "Gäd",
+    "name": "Gärdala",
+    "shortName": "Gärdala"
+  },
+  "Gäg": {
+    "id": "Gäg",
+    "name": "Gräsberg",
+    "shortName": "Gräsberg"
+  },
+  "Gö": {
+    "id": "Gö",
+    "name": "Gällö",
+    "shortName": "Gällö"
+  },
+  "Haa": {
+    "id": "Haa",
+    "name": "Hamra",
+    "shortName": "Hamra"
+  },
+  "Hak": {
+    "id": "Hak",
+    "name": "Hallstavik",
+    "shortName": "Hallstavik"
+  },
+  "Han": {
+    "id": "Han",
+    "name": "Harasjön",
+    "shortName": "Harasjön"
+  },
+  "Gön": {
+    "id": "Gön",
+    "name": "Gårdsjön",
+    "shortName": "Gårdsjön"
+  },
+  "Hal": {
+    "id": "Hal",
+    "name": "Hallinden",
+    "shortName": "Hallinden"
+  },
+  "Har": {
+    "id": "Har",
+    "name": "Harrå",
+    "shortName": "Harrå"
+  },
+  "Hb": {
+    "id": "Hb",
+    "name": "Helsingborg C",
+    "shortName": "Helsingborg"
+  },
+  "Hbd": {
+    "id": "Hbd",
+    "name": "Högboda",
+    "shortName": "Högboda"
+  },
+  "Hbe": {
+    "id": "Hbe",
+    "name": "Holberget",
+    "shortName": "Holberget"
+  },
+  "Hbgb": {
+    "id": "Hbgb",
+    "name": "Ramlösa",
+    "shortName": "Ramlösa"
+  },
+  "Hbä": {
+    "id": "Hbä",
+    "name": "Högbränna",
+    "shortName": "Högbränna"
+  },
+  "Hbr": {
+    "id": "Hbr",
+    "name": "Holsbybrunn",
+    "shortName": "Holsbybrunn"
+  },
+  "Hcp": {
+    "id": "Hcp",
+    "name": "Hoting camping",
+    "shortName": "Hoting camping"
+  },
+  "Hd": {
+    "id": "Hd",
+    "name": "Halmstad C",
+    "shortName": "Halmstad"
+  },
+  "Hdn": {
+    "id": "Hdn",
+    "name": "Holmsveden",
+    "shortName": "Holmsveden"
+  },
+  "Hdm": {
+    "id": "Hdm",
+    "name": "Hedemora",
+    "shortName": "Hedemora"
+  },
+  "Hdr": {
+    "id": "Hdr",
+    "name": "Halmstads rangerbangård",
+    "shortName": "Halmstads rangerbangård"
+  },
+  "Hdt": {
+    "id": "Hdt",
+    "name": "Hedlandet",
+    "shortName": "Hedlandet"
+  },
+  "He": {
+    "id": "He",
+    "name": "Heberg",
+    "shortName": "Heberg"
+  },
+  "Hed": {
+    "id": "Hed",
+    "name": "Henriksdal",
+    "shortName": "Henriksdal"
+  },
+  "Hel": {
+    "id": "Hel",
+    "name": "Helenelund",
+    "shortName": "Helenelund"
+  },
+  "Hes": {
+    "id": "Hes",
+    "name": "Helmershus",
+    "shortName": "Helmershus"
+  },
+  "Het": {
+    "id": "Het",
+    "name": "Hestra",
+    "shortName": "Hestra"
+  },
+  "Hesv": {
+    "id": "Hesv",
+    "name": "Hela Sverige",
+    "shortName": "Hela Sverige"
+  },
+  "Hf": {
+    "id": "Hf",
+    "name": "Hultsfred",
+    "shortName": "Hultsfred"
+  },
+  "Hfa": {
+    "id": "Hfa",
+    "name": "Hemfosa",
+    "shortName": "Hemfosa"
+  },
+  "Hfj": {
+    "id": "Hfj",
+    "name": "Hamrångefjärden",
+    "shortName": "Hamrångefjärden"
+  },
+  "Hfr": {
+    "id": "Hfr",
+    "name": "Hofors",
+    "shortName": "Hofors"
+  },
+  "Hfs": {
+    "id": "Hfs",
+    "name": "Holmfors",
+    "shortName": "Holmfors"
+  },
+  "Hg": {
+    "id": "Hg",
+    "name": "Hagaström",
+    "shortName": "Hagaström"
+  },
+  "Hge": {
+    "id": "Hge",
+    "name": "Hagge",
+    "shortName": "Hagge"
+  },
+  "Hgs": {
+    "id": "Hgs",
+    "name": "Häggenås",
+    "shortName": "Häggenås"
+  },
+  "Hgl": {
+    "id": "Hgl",
+    "name": "Hagalund",
+    "shortName": "Hagalund"
+  },
+  "Hgv": {
+    "id": "Hgv",
+    "name": "Häggvik",
+    "shortName": "Häggvik"
+  },
+  "Hgä": {
+    "id": "Hgä",
+    "name": "Hägernäs",
+    "shortName": "Hägernäs"
+  },
+  "Hgö": {
+    "id": "Hgö",
+    "name": "Högsjö",
+    "shortName": "Högsjö"
+  },
+  "Hhn": {
+    "id": "Hhn",
+    "name": "Hjorthagen",
+    "shortName": "Hjorthagen"
+  },
+  "Hh": {
+    "id": "Hh",
+    "name": "Hallstahammar",
+    "shortName": "Hallstahammar"
+  },
+  "Hie": {
+    "id": "Hie",
+    "name": "Hyllie",
+    "shortName": "Hyllie"
+  },
+  "Hil": {
+    "id": "Hil",
+    "name": "Hillared",
+    "shortName": "Hillared"
+  },
+  "Hj": {
+    "id": "Hj",
+    "name": "Hjulsbro",
+    "shortName": "Hjulsbro"
+  },
+  "Hjp": {
+    "id": "Hjp",
+    "name": "Hjärup",
+    "shortName": "Hjärup"
+  },
+  "Hka": {
+    "id": "Hka",
+    "name": "Huskvarna",
+    "shortName": "Huskvarna"
+  },
+  "Hkn": {
+    "id": "Hkn",
+    "name": "Hornkullen",
+    "shortName": "Hornkullen"
+  },
+  "Hks": {
+    "id": "Hks",
+    "name": "Hackås",
+    "shortName": "Hackås"
+  },
+  "Hkl": {
+    "id": "Hkl",
+    "name": "Hudiksvall",
+    "shortName": "Hudiksvall"
+  },
+  "Hl": {
+    "id": "Hl",
+    "name": "Horndal",
+    "shortName": "Horndal"
+  },
+  "Hkö": {
+    "id": "Hkö",
+    "name": "Hökön",
+    "shortName": "Hökön"
+  },
+  "Hlf": {
+    "id": "Hlf",
+    "name": "Hällefors",
+    "shortName": "Hällefors"
+  },
+  "Hlfn": {
+    "id": "Hlfn",
+    "name": "Hällefors norra",
+    "shortName": "Hällefors norra"
+  },
+  "Hlk": {
+    "id": "Hlk",
+    "name": "Hällekis",
+    "shortName": "Hällekis"
+  },
+  "Hlm": {
+    "id": "Hlm",
+    "name": "Helgum",
+    "shortName": "Helgum"
+  },
+  "Hlp": {
+    "id": "Hlp",
+    "name": "Hasslarp",
+    "shortName": "Hasslarp"
+  },
+  "Hlr": {
+    "id": "Hlr",
+    "name": "Horndals Bruk",
+    "shortName": "Horndal"
+  },
+  "Hlt": {
+    "id": "Hlt",
+    "name": "Herrhult",
+    "shortName": "Herrhult"
+  },
+  "Hls": {
+    "id": "Hls",
+    "name": "Hällnäs",
+    "shortName": "Hällnäs"
+  },
+  "Hlv": {
+    "id": "Hlv",
+    "name": "Hällevadsholm",
+    "shortName": "Hällevadsholm"
+  },
+  "Hly": {
+    "id": "Hly",
+    "name": "Hilleby",
+    "shortName": "Hilleby"
+  },
+  "Hlö": {
+    "id": "Hlö",
+    "name": "Hölö",
+    "shortName": "Hölö"
+  },
+  "Hm": {
+    "id": "Hm",
+    "name": "Hässleholm",
+    "shortName": "Hässleholm"
+  },
+  "Hma": {
+    "id": "Hma",
+    "name": "Hökmora",
+    "shortName": "Hökmora"
+  },
+  "Hmfs": {
+    "id": "Hmfs",
+    "name": "Hissmofors",
+    "shortName": "Hissmofors"
+  },
+  "Hmr": {
+    "id": "Hmr",
+    "name": "Hammar",
+    "shortName": "Hammar"
+  },
+  "Hmö": {
+    "id": "Hmö",
+    "name": "Holmsjö",
+    "shortName": "Holmsjö"
+  },
+  "Hnd": {
+    "id": "Hnd",
+    "name": "Handen",
+    "shortName": "Handen"
+  },
+  "Hnb": {
+    "id": "Hnb",
+    "name": "Hälsingenybo",
+    "shortName": "Hälsingenybo"
+  },
+  "Hnl": {
+    "id": "Hnl",
+    "name": "Hällenyland",
+    "shortName": "Hällenyland"
+  },
+  "Hnn": {
+    "id": "Hnn",
+    "name": "Hennan",
+    "shortName": "Hennan"
+  },
+  "Hno": {
+    "id": "Hno",
+    "name": "Hinsnoret",
+    "shortName": "Hinsnoret"
+  },
+  "Hnä": {
+    "id": "Hnä",
+    "name": "Hälleforsnäs",
+    "shortName": "Hälleforsnäs"
+  },
+  "Ho": {
+    "id": "Ho",
+    "name": "Habo",
+    "shortName": "Habo"
+  },
+  "Hok": {
+    "id": "Hok",
+    "name": "Hok",
+    "shortName": "Hok"
+  },
+  "Hokö": {
+    "id": "Hokö",
+    "name": "Hok",
+    "shortName": "Hok"
+  },
+  "Hod": {
+    "id": "Hod",
+    "name": "Holmsund",
+    "shortName": "Holmsund"
+  },
+  "Hova": {
+    "id": "Hova",
+    "name": "Hova",
+    "shortName": "Hova"
+  },
+  "Hoå": {
+    "id": "Hoå",
+    "name": "Holmån",
+    "shortName": "Holmån"
+  },
+  "Hp": {
+    "id": "Hp",
+    "name": "Haparanda",
+    "shortName": "Haparanda"
+  },
+  "Hpbg": {
     "id": "Hpbg",
     "name": "Hallsberg",
     "shortName": "Hallsberg"
   },
-  "Lp":{
+  "Hpn": {
+    "id": "Hpn",
+    "name": "Hallsberg Posten",
+    "shortName": "Hallsberg Posten"
+  },
+  "Hrbg": {
+    "id": "Hrbg",
+    "name": "Hallsbergs rangerbangård",
+    "shortName": "Hallsbergs rangerbangård"
+  },
+  "Hr": {
+    "id": "Hr",
+    "name": "Herrljunga",
+    "shortName": "Herrljunga"
+  },
+  "Hre": {
+    "id": "Hre",
+    "name": "Horred",
+    "shortName": "Horred"
+  },
+  "Hrm": {
+    "id": "Hrm",
+    "name": "Hargshamn",
+    "shortName": "Hargshamn"
+  },
+  "Hrl": {
+    "id": "Hrl",
+    "name": "Hörle",
+    "shortName": "Hörle"
+  },
+  "Hrt": {
+    "id": "Hrt",
+    "name": "Harrträsk",
+    "shortName": "Harrträsk"
+  },
+  "Hs": {
+    "id": "Hs",
+    "name": "Hasselfors",
+    "shortName": "Hasselfors"
+  },
+  "Hsa": {
+    "id": "Hsa",
+    "name": "Hovsta",
+    "shortName": "Hovsta"
+  },
+  "Hsb": {
+    "id": "Hsb",
+    "name": "Hedensbyn",
+    "shortName": "Hedensbyn"
+  },
+  "Hsd": {
+    "id": "Hsd",
+    "name": "Härnösand C",
+    "shortName": "Härnösand"
+  },
+  "Hsk": {
+    "id": "Hsk",
+    "name": "Hanaskog",
+    "shortName": "Hanaskog"
+  },
+  "Hsr": {
+    "id": "Hsr",
+    "name": "Hasslerör",
+    "shortName": "Hasslerör"
+  },
+  "Hsy": {
+    "id": "Hsy",
+    "name": "Hussjöby",
+    "shortName": "Hussjöby"
+  },
+  "Hsö": {
+    "id": "Hsö",
+    "name": "Hörnsjö",
+    "shortName": "Hörnsjö"
+  },
+  "Ht": {
+    "id": "Ht",
+    "name": "Hednoret",
+    "shortName": "Hednoret"
+  },
+  "Hto": {
+    "id": "Hto",
+    "name": "Hillerstorp",
+    "shortName": "Hillerstorp"
+  },
+  "Hu": {
+    "id": "Hu",
+    "name": "Huddinge",
+    "shortName": "Huddinge"
+  },
+  "Htg": {
+    "id": "Htg",
+    "name": "Hoting",
+    "shortName": "Hoting"
+  },
+  "Hud": {
+    "id": "Hud",
+    "name": "Hulingsryd",
+    "shortName": "Hulingsryd"
+  },
+  "Humn": {
+    "id": "Humn",
+    "name": "Husums norra",
+    "shortName": "Husums norra"
+  },
+  "Hum": {
+    "id": "Hum",
+    "name": "Husum",
+    "shortName": "Husum"
+  },
+  "Hul": {
+    "id": "Hul",
+    "name": "Hult",
+    "shortName": "Hult"
+  },
+  "Huv": {
+    "id": "Huv",
+    "name": "Huvudsta",
+    "shortName": "Huvudsta"
+  },
+  "Huö": {
+    "id": "Huö",
+    "name": "Hundsjön",
+    "shortName": "Hundsjön"
+  },
+  "Hv": {
+    "id": "Hv",
+    "name": "Hästveda",
+    "shortName": "Hästveda"
+  },
+  "Hva": {
+    "id": "Hva",
+    "name": "Hallavadet",
+    "shortName": "Hallavadet"
+  },
+  "Hvd": {
+    "id": "Hvd",
+    "name": "Hjältevad",
+    "shortName": "Hjältevad"
+  },
+  "Hvp": {
+    "id": "Hvp",
+    "name": "Hovmantorp",
+    "shortName": "Hovmantorp"
+  },
+  "Hvn": {
+    "id": "Hvn",
+    "name": "Hallviken",
+    "shortName": "Hallviken"
+  },
+  "Hvr": {
+    "id": "Hvr",
+    "name": "Håverud",
+    "shortName": "Håverud"
+  },
+  "Hvs": {
+    "id": "Hvs",
+    "name": "Hovslätt",
+    "shortName": "Hovslätt"
+  },
+  "Hxä": {
+    "id": "Hxä",
+    "name": "Haxäng",
+    "shortName": "Haxäng"
+  },
+  "Hy": {
+    "id": "Hy",
+    "name": "Heby",
+    "shortName": "Heby"
+  },
+  "Hyb": {
+    "id": "Hyb",
+    "name": "Hyltebruk",
+    "shortName": "Hyltebruk"
+  },
+  "Hyl": {
+    "id": "Hyl",
+    "name": "Hyllstofta",
+    "shortName": "Hyllstofta"
+  },
+  "Hå": {
+    "id": "Hå",
+    "name": "Håsjö",
+    "shortName": "Håsjö"
+  },
+  "Håg": {
+    "id": "Håg",
+    "name": "Harmånger",
+    "shortName": "Harmånger"
+  },
+  "Håk": {
+    "id": "Håk",
+    "name": "Håmojåkk",
+    "shortName": "Håmojåkk"
+  },
+  "Hån": {
+    "id": "Hån",
+    "name": "Hånger",
+    "shortName": "Hånger"
+  },
+  "Håp": {
+    "id": "Håp",
+    "name": "Håkantorp",
+    "shortName": "Håkantorp"
+  },
+  "Hål": {
+    "id": "Hål",
+    "name": "Hållsta",
+    "shortName": "Hållsta"
+  },
+  "Hås": {
+    "id": "Hås",
+    "name": "Hindås",
+    "shortName": "Hindås"
+  },
+  "Hä": {
+    "id": "Hä",
+    "name": "Hästbo",
+    "shortName": "Hästbo"
+  },
+  "Hän": {
+    "id": "Hän",
+    "name": "Häggsjön",
+    "shortName": "Häggsjön"
+  },
+  "Häd": {
+    "id": "Häd",
+    "name": "Härad",
+    "shortName": "Härad"
+  },
+  "Häb": {
+    "id": "Häb",
+    "name": "Hämrasviken",
+    "shortName": "Hämrasviken"
+  },
+  "Häp": {
+    "id": "Häp",
+    "name": "Häljarp",
+    "shortName": "Häljarp"
+  },
+  "Häy": {
+    "id": "Häy",
+    "name": "Härryda",
+    "shortName": "Härryda"
+  },
+  "Höf": {
+    "id": "Höf",
+    "name": "Hörnefors",
+    "shortName": "Hörnefors"
+  },
+  "Hö": {
+    "id": "Hö",
+    "name": "Höör",
+    "shortName": "Höör"
+  },
+  "Höja": {
+    "id": "Höja",
+    "name": "Höja",
+    "shortName": "Höja"
+  },
+  "Hög": {
+    "id": "Hög",
+    "name": "Högbysjön",
+    "shortName": "Högbysjön"
+  },
+  "Hön": {
+    "id": "Hön",
+    "name": "Högdalen",
+    "shortName": "Högdalen"
+  },
+  "Höy": {
+    "id": "Höy",
+    "name": "Högsby",
+    "shortName": "Högsby"
+  },
+  "Höo": {
+    "id": "Höo",
+    "name": "Hösjömo",
+    "shortName": "Hösjömo"
+  },
+  "Hös": {
+    "id": "Hös",
+    "name": "Hössjön",
+    "shortName": "Hössjön"
+  },
+  "Imr": {
+    "id": "Imr",
+    "name": "Ingmår",
+    "shortName": "Ingmår"
+  },
+  "In": {
+    "id": "In",
+    "name": "Insjön",
+    "shortName": "Insjön"
+  },
+  "Ip": {
+    "id": "Ip",
+    "name": "Igelstorp",
+    "shortName": "Igelstorp"
+  },
+  "Id": {
+    "id": "Id",
+    "name": "Iggesund",
+    "shortName": "Iggesund"
+  },
+  "Ipr": {
+    "id": "Ipr",
+    "name": "Impregneringen",
+    "shortName": "Impregneringen"
+  },
+  "Igb": {
+    "id": "Igb",
+    "name": "Igelboda",
+    "shortName": "Igelboda"
+  },
+  "Igt": {
+    "id": "Igt",
+    "name": "Ingatorp",
+    "shortName": "Ingatorp"
+  },
+  "Ibe": {
+    "id": "Ibe",
+    "name": "Ivarsbjörke",
+    "shortName": "Ivarsbjörke"
+  },
+  "Ist": {
+    "id": "Ist",
+    "name": "Isätra",
+    "shortName": "Isätra"
+  },
+  "J": {
+    "id": "J",
+    "name": "Jonsered östra",
+    "shortName": "Jonsered östra"
+  },
+  "Jli": {
+    "id": "Jli",
+    "name": "Jamtli",
+    "shortName": "Jamtli"
+  },
+  "Ka": {
+    "id": "Ka",
+    "name": "Kattarp",
+    "shortName": "Kattarp"
+  },
+  "Kasd": {
+    "id": "Kasd",
+    "name": "Karlskoga Dalbacksgatan",
+    "shortName": "Karlskoga Dalbacksgatan"
+  },
+  "Jbg": {
+    "id": "Jbg",
+    "name": "Johannisberg",
+    "shortName": "Johannisberg"
+  },
+  "Kaa": {
+    "id": "Kaa",
+    "name": "Koijuvaara",
+    "shortName": "Koijuvaara"
+  },
+  "Kac": {
+    "id": "Kac",
+    "name": "Kalmar C",
+    "shortName": "Kalmar"
+  },
+  "Jh": {
+    "id": "Jh",
+    "name": "Jordholmen",
+    "shortName": "Jordholmen"
+  },
+  "Jhl": {
+    "id": "Jhl",
+    "name": "Johannedal",
+    "shortName": "Johannedal"
+  },
+  "Jv": {
+    "id": "Jv",
+    "name": "Jonsered",
+    "shortName": "Jonsered"
+  },
+  "Jå": {
+    "id": "Jå",
+    "name": "Juån",
+    "shortName": "Juån"
+  },
+  "Jås": {
+    "id": "Jås",
+    "name": "Jädraås",
+    "shortName": "Jädraås"
+  },
+  "Jb": {
+    "id": "Jb",
+    "name": "Järbo",
+    "shortName": "Järbo"
+  },
+  "Jn": {
+    "id": "Jn",
+    "name": "Järna",
+    "shortName": "Järna"
+  },
+  "Jpn": {
+    "id": "Jpn",
+    "name": "Järpen",
+    "shortName": "Järpen"
+  },
+  "Jbk": {
+    "id": "Jbk",
+    "name": "Jädersbruk",
+    "shortName": "Jädersbruk"
+  },
+  "Js": {
+    "id": "Js",
+    "name": "Jämtlands Sikås",
+    "shortName": "Jämtlands Sikås"
+  },
+  "Jäf": {
+    "id": "Jäf",
+    "name": "Järnforsen",
+    "shortName": "Järnforsen"
+  },
+  "K": {
+    "id": "K",
+    "name": "Katrineholm C",
+    "shortName": "Katrineholm"
+  },
+  "Kap": {
+    "id": "Kap",
+    "name": "Karpalund",
+    "shortName": "Karpalund"
+  },
+  "Jbn": {
+    "id": "Jbn",
+    "name": "Jagbacken",
+    "shortName": "Jagbacken"
+  },
+  "Jbo": {
+    "id": "Jbo",
+    "name": "Jordbro",
+    "shortName": "Jordbro"
+  },
+  "Jk": {
+    "id": "Jk",
+    "name": "Jokkmokk",
+    "shortName": "Jokkmokk"
+  },
+  "Jkbn": {
+    "id": "Jkbn",
+    "name": "Jakobsberg norra",
+    "shortName": "Jakobsberg norra"
+  },
+  "Jkb": {
+    "id": "Jkb",
+    "name": "Jakobsberg",
+    "shortName": "Jakobsberg"
+  },
+  "Jrn": {
+    "id": "Jrn",
+    "name": "Jörn",
+    "shortName": "Jörn"
+  },
+  "Jlo": {
+    "id": "Jlo",
+    "name": "Järlebo",
+    "shortName": "Järlebo"
+  },
+  "Jps": {
+    "id": "Jps",
+    "name": "Järpås",
+    "shortName": "Järpås"
+  },
+  "Jö": {
+    "id": "Jö",
+    "name": "Jönköping C",
+    "shortName": "Jönköping"
+  },
+  "Jögb": {
+    "id": "Jögb",
+    "name": "Jönköpings godsbangård",
+    "shortName": "Jönköpings godsbangård"
+  },
+  "Jnt": {
+    "id": "Jnt",
+    "name": "Järneträsk",
+    "shortName": "Järneträsk"
+  },
+  "Ju": {
+    "id": "Ju",
+    "name": "Jularbo",
+    "shortName": "Jularbo"
+  },
+  "Kas": {
+    "id": "Kas",
+    "name": "Kalmar södra",
+    "shortName": "Kalmar södra"
+  },
+  "Jla": {
+    "id": "Jla",
+    "name": "Järlåsa",
+    "shortName": "Järlåsa"
+  },
+  "Jår": {
+    "id": "Jår",
+    "name": "Jönåker",
+    "shortName": "Jönåker"
+  },
+  "Jäy": {
+    "id": "Jäy",
+    "name": "Järlövsby",
+    "shortName": "Järlövsby"
+  },
+  "Jho": {
+    "id": "Jho",
+    "name": "Jakobshyttan",
+    "shortName": "Jakobshyttan"
+  },
+  "Jr": {
+    "id": "Jr",
+    "name": "Järvsö",
+    "shortName": "Järvsö"
+  },
+  "Jy": {
+    "id": "Jy",
+    "name": "Jenny",
+    "shortName": "Jenny"
+  },
+  "Kba": {
+    "id": "Kba",
+    "name": "Korsberga",
+    "shortName": "Korsberga"
+  },
+  "Kbb": {
+    "id": "Kbb",
+    "name": "Karlsborgsbruk",
+    "shortName": "Karlsborgsbruk"
+  },
+  "Kat": {
+    "id": "Kat",
+    "name": "Kattisavan",
+    "shortName": "Kattisavan"
+  },
+  "Kaä": {
+    "id": "Kaä",
+    "name": "Kattisträsk",
+    "shortName": "Kattisträsk"
+  },
+  "Kbg": {
+    "id": "Kbg",
+    "name": "Karlsborg",
+    "shortName": "Karlsborg"
+  },
+  "Kb": {
+    "id": "Kb",
+    "name": "Kungsbacka",
+    "shortName": "Kungsbacka"
+  },
+  "Kbn": {
+    "id": "Kbn",
+    "name": "Karbenning",
+    "shortName": "Karbenning"
+  },
+  "Kda": {
+    "id": "Kda",
+    "name": "Krigslida",
+    "shortName": "Krigslida"
+  },
+  "Kd": {
+    "id": "Kd",
+    "name": "Kågeröd",
+    "shortName": "Kågeröd"
+  },
+  "Kbä": {
+    "id": "Kbä",
+    "name": "Kolbäck",
+    "shortName": "Kolbäck"
+  },
+  "Kde": {
+    "id": "Kde",
+    "name": "Kode",
+    "shortName": "Kode"
+  },
+  "Keb": {
+    "id": "Keb",
+    "name": "Kejsarbäcken",
+    "shortName": "Kejsarbäcken"
+  },
+  "Ke": {
+    "id": "Ke",
+    "name": "Karlberg",
+    "shortName": "Karlberg"
+  },
+  "Kf": {
+    "id": "Kf",
+    "name": "Kortfors",
+    "shortName": "Kortfors"
+  },
+  "Kei": {
+    "id": "Kei",
+    "name": "Keräsjoki",
+    "shortName": "Keräsjoki"
+  },
+  "Kfn": {
+    "id": "Kfn",
+    "name": "Kolforsen",
+    "shortName": "Kolforsen"
+  },
+  "Kfs": {
+    "id": "Kfs",
+    "name": "Klintfors",
+    "shortName": "Klintfors"
+  },
+  "Kg": {
+    "id": "Kg",
+    "name": "Kävlinge",
+    "shortName": "Kävlinge"
+  },
+  "Kgl": {
+    "id": "Kgl",
+    "name": "Kragstalund",
+    "shortName": "Kragstalund"
+  },
+  "Kgd": {
+    "id": "Kgd",
+    "name": "Kungsgården",
+    "shortName": "Kungsgården"
+  },
+  "Kgs": {
+    "id": "Kgs",
+    "name": "Kragenäs",
+    "shortName": "Kragenäs"
+  },
+  "Kh": {
+    "id": "Kh",
+    "name": "Karlshamn",
+    "shortName": "Karlshamn"
+  },
+  "Khe": {
+    "id": "Khe",
+    "name": "Hede",
+    "shortName": "Hede"
+  },
+  "Khn": {
+    "id": "Khn",
+    "name": "Kristinehamn",
+    "shortName": "Kristinehamn"
+  },
+  "Khy": {
+    "id": "Khy",
+    "name": "Klenshyttan",
+    "shortName": "Klenshyttan"
+  },
+  "Khä": {
+    "id": "Khä",
+    "name": "Kallhäll",
+    "shortName": "Kallhäll"
+  },
+  "Kia": {
+    "id": "Kia",
+    "name": "Kirunavaara",
+    "shortName": "Kirunavaara"
+  },
+  "Kid": {
+    "id": "Kid",
+    "name": "Kinnared",
+    "shortName": "Kinnared"
+  },
+  "Kil": {
+    "id": "Kil",
+    "name": "Kil",
+    "shortName": "Kil"
+  },
+  "Kin": {
+    "id": "Kin",
+    "name": "Kinna",
+    "shortName": "Kinna"
+  },
+  "Kilo": {
+    "id": "Kilo",
+    "name": "Kils omformarstation",
+    "shortName": "Kils omformarstation"
+  },
+  "Kisa": {
+    "id": "Kisa",
+    "name": "Kisa",
+    "shortName": "Kisa"
+  },
+  "Kit": {
+    "id": "Kit",
+    "name": "Kitajaur",
+    "shortName": "Kitajaur"
+  },
+  "Kju": {
+    "id": "Kju",
+    "name": "Kjula",
+    "shortName": "Kjula"
+  },
+  "Kjå": {
+    "id": "Kjå",
+    "name": "Katterjåkk",
+    "shortName": "Katterjåkk"
+  },
+  "Kl": {
+    "id": "Kl",
+    "name": "Klippan",
+    "shortName": "Klippan"
+  },
+  "Kkä": {
+    "id": "Kkä",
+    "name": "Karskär",
+    "shortName": "Karskär"
+  },
+  "Kla": {
+    "id": "Kla",
+    "name": "Kumla",
+    "shortName": "Kumla"
+  },
+  "Klbn": {
+    "id": "Klbn",
+    "name": "Klockarbäcken",
+    "shortName": "Klockarbäcken"
+  },
+  "Kll": {
+    "id": "Kll",
+    "name": "Källby",
+    "shortName": "Källby"
+  },
+  "Klh": {
+    "id": "Klh",
+    "name": "Kallholsfors",
+    "shortName": "Kallholsfors"
+  },
+  "Kln": {
+    "id": "Kln",
+    "name": "Kälarne",
+    "shortName": "Kälarne"
+  },
+  "Klo": {
+    "id": "Klo",
+    "name": "Klocksta",
+    "shortName": "Klocksta"
+  },
+  "Klr": {
+    "id": "Klr",
+    "name": "Koler",
+    "shortName": "Koler"
+  },
+  "Kls": {
+    "id": "Kls",
+    "name": "Kilafors",
+    "shortName": "Kilafors"
+  },
+  "Klv": {
+    "id": "Klv",
+    "name": "Kilvo",
+    "shortName": "Kilvo"
+  },
+  "Klx": {
+    "id": "Klx",
+    "name": "Kalix",
+    "shortName": "Kalix"
+  },
+  "Klxi": {
+    "id": "Klxi",
+    "name": "Kalix industriområde",
+    "shortName": "Kalix industriområde"
+  },
+  "Kmb": {
+    "id": "Kmb",
+    "name": "Kiruna",
+    "shortName": "Kiruna"
+  },
+  "Kly": {
+    "id": "Kly",
+    "name": "Karlsby",
+    "shortName": "Karlsby"
+  },
+  "Km": {
+    "id": "Km",
+    "name": "Kilsmo",
+    "shortName": "Kilsmo"
+  },
+  "Kms": {
+    "id": "Kms",
+    "name": "Kimstad",
+    "shortName": "Kimstad"
+  },
+  "Kmy": {
+    "id": "Kmy",
+    "name": "Kummelby",
+    "shortName": "Kummelby"
+  },
+  "Knl": {
+    "id": "Knl",
+    "name": "Knalleland",
+    "shortName": "Knalleland"
+  },
+  "Kn": {
+    "id": "Kn",
+    "name": "Knivsta",
+    "shortName": "Knivsta"
+  },
+  "Knp": {
+    "id": "Knp",
+    "name": "Knapptorp",
+    "shortName": "Knapptorp"
+  },
+  "Kns": {
+    "id": "Kns",
+    "name": "Kolsnäs",
+    "shortName": "Kolsnäs"
+  },
+  "Ko": {
+    "id": "Ko",
+    "name": "Kornsjö-gränsen",
+    "shortName": "Kornsjö-gränsen"
+  },
+  "Knä": {
+    "id": "Knä",
+    "name": "Knäred",
+    "shortName": "Knäred"
+  },
+  "Koe": {
+    "id": "Koe",
+    "name": "Kolke",
+    "shortName": "Kolke"
+  },
+  "Kon": {
+    "id": "Kon",
+    "name": "Kolmården",
+    "shortName": "Kolmården"
+  },
+  "Koj": {
+    "id": "Koj",
+    "name": "Kosjärv",
+    "shortName": "Kosjärv"
+  },
+  "Kos": {
+    "id": "Kos",
+    "name": "Koskullskulle",
+    "shortName": "Koskullskulle"
+  },
+  "Koä": {
+    "id": "Koä",
+    "name": "Korsnäs",
+    "shortName": "Korsnäs"
+  },
+  "Kp": {
+    "id": "Kp",
+    "name": "Köping",
+    "shortName": "Köping"
+  },
+  "Kpe": {
+    "id": "Kpe",
+    "name": "Kaisepakte",
+    "shortName": "Kaisepakte"
+  },
+  "Kpg": {
+    "id": "Kpg",
+    "name": "Kopparberg",
+    "shortName": "Kopparberg"
+  },
+  "Kpkv": {
+    "id": "Kpkv",
+    "name": "Korpklev",
+    "shortName": "Korpklev"
+  },
+  "Kpm": {
+    "id": "Kpm",
+    "name": "Köpmannebro",
+    "shortName": "Köpmannebro"
+  },
+  "Kr": {
+    "id": "Kr",
+    "name": "Killeberg",
+    "shortName": "Killeberg"
+  },
+  "Kral": {
+    "id": "Kral",
+    "name": "Kiruna lokbangård",
+    "shortName": "Kiruna lokbangård"
+  },
+  "Kra": {
+    "id": "Kra",
+    "name": "Kiruna central",
+    "shortName": "Kiruna central"
+  },
+  "krax": {
+    "id": "krax",
+    "name": "Kiruna nya",
+    "shortName": "Kiruna nya"
+  },
+  "Krb": {
+    "id": "Krb",
+    "name": "Karsbäcken",
+    "shortName": "Karsbäcken"
+  },
+  "Krd": {
+    "id": "Krd",
+    "name": "Kållered",
+    "shortName": "Kållered"
+  },
+  "Krf": {
+    "id": "Krf",
+    "name": "Kramfors",
+    "shortName": "Kramfors"
+  },
+  "Kri": {
+    "id": "Kri",
+    "name": "Karungi",
+    "shortName": "Karungi"
+  },
+  "Krl": {
+    "id": "Krl",
+    "name": "Kringlan",
+    "shortName": "Kringlan"
+  },
+  "Krm": {
+    "id": "Krm",
+    "name": "Krokom",
+    "shortName": "Krokom"
+  },
+  "Krn": {
+    "id": "Krn",
+    "name": "Krampen",
+    "shortName": "Krampen"
+  },
+  "Krog": {
+    "id": "Krog",
+    "name": "Krogsta",
+    "shortName": "Krogsta"
+  },
+  "Kroj": {
+    "id": "Kroj",
+    "name": "Krokom OJ",
+    "shortName": "Krokom OJ"
+  },
+  "Ks": {
+    "id": "Ks",
+    "name": "Karlstad C",
+    "shortName": "Karlstad"
+  },
+  "Kröb": {
+    "id": "Kröb",
+    "name": "Krökesbo",
+    "shortName": "Krökesbo"
+  },
+  "Ksac": {
+    "id": "Ksac",
+    "name": "Karlskoga centrum",
+    "shortName": "Karlskoga centrum"
+  },
+  "Kst": {
+    "id": "Kst",
+    "name": "Kistinge",
+    "shortName": "Kistinge"
+  },
+  "Ksg": {
+    "id": "Ksg",
+    "name": "Karlsberg",
+    "shortName": "Karlsberg"
+  },
+  "Ksu": {
+    "id": "Ksu",
+    "name": "Kvicksund",
+    "shortName": "Kvicksund"
+  },
+  "Ksö": {
+    "id": "Ksö",
+    "name": "Karsjö",
+    "shortName": "Karsjö"
+  },
+  "Ksus": {
+    "id": "Ksus",
+    "name": "Kvicksund",
+    "shortName": "Kvicksund"
+  },
+  "Kt": {
+    "id": "Kt",
+    "name": "Kapellet",
+    "shortName": "Kapellet"
+  },
+  "Ktm": {
+    "id": "Ktm",
+    "name": "Kaitum",
+    "shortName": "Kaitum"
+  },
+  "Ktä": {
+    "id": "Ktä",
+    "name": "Korsträsk",
+    "shortName": "Korsträsk"
+  },
+  "Kud": {
+    "id": "Kud",
+    "name": "Klingerud",
+    "shortName": "Klingerud"
+  },
+  "Kv": {
+    "id": "Kv",
+    "name": "Krokvik",
+    "shortName": "Krokvik"
+  },
+  "Kva": {
+    "id": "Kva",
+    "name": "Koskivaara",
+    "shortName": "Koskivaara"
+  },
+  "Kvh": {
+    "id": "Kvh",
+    "name": "Klevshult",
+    "shortName": "Klevshult"
+  },
+  "Kvf": {
+    "id": "Kvf",
+    "name": "Kvillsfors",
+    "shortName": "Kvillsfors"
+  },
+  "Kvi": {
+    "id": "Kvi",
+    "name": "Kvidinge",
+    "shortName": "Kvidinge"
+  },
+  "Kvä": {
+    "id": "Kvä",
+    "name": "Välsviken",
+    "shortName": "Välsviken"
+  },
+  "Kvö": {
+    "id": "Kvö",
+    "name": "Kvarnsjö",
+    "shortName": "Kvarnsjö"
+  },
+  "Kx": {
+    "id": "Kx",
+    "name": "Kalixfors",
+    "shortName": "Kalixfors"
+  },
+  "Kå": {
+    "id": "Kå",
+    "name": "Kopparåsen",
+    "shortName": "Kopparåsen"
+  },
+  "Kåb": {
+    "id": "Kåb",
+    "name": "Kåbdalis",
+    "shortName": "Kåbdalis"
+  },
+  "Kä": {
+    "id": "Kä",
+    "name": "Källeryd",
+    "shortName": "Källeryd"
+  },
+  "Kår": {
+    "id": "Kår",
+    "name": "Kårsta",
+    "shortName": "Kårsta"
+  },
+  "Käd": {
+    "id": "Käd",
+    "name": "Kärda",
+    "shortName": "Kärda"
+  },
+  "Käb": {
+    "id": "Käb",
+    "name": "Kärreberga",
+    "shortName": "Kärreberga"
+  },
+  "Käe": {
+    "id": "Käe",
+    "name": "Källene",
+    "shortName": "Källene"
+  },
+  "Kän": {
+    "id": "Kän",
+    "name": "Kungsängen",
+    "shortName": "Kungsängen"
+  },
+  "Käp": {
+    "id": "Käp",
+    "name": "Käppsta",
+    "shortName": "Käppsta"
+  },
+  "Kär": {
+    "id": "Kär",
+    "name": "Kärrgruvan",
+    "shortName": "Kärrgruvan"
+  },
+  "Köa": {
+    "id": "Köa",
+    "name": "Könsa",
+    "shortName": "Könsa"
+  },
+  "Köp": {
+    "id": "Köp",
+    "name": "Köpingebro",
+    "shortName": "Köpingebro"
+  },
+  "Käv": {
+    "id": "Käv",
+    "name": "Kälvattnet",
+    "shortName": "Kälvattnet"
+  },
+  "Kör": {
+    "id": "Kör",
+    "name": "Kungsör",
+    "shortName": "Kungsör"
+  },
+  "Köt": {
+    "id": "Köt",
+    "name": "Köpetorp",
+    "shortName": "Köpetorp"
+  },
+  "Lab": {
+    "id": "Lab",
+    "name": "Lappberg",
+    "shortName": "Lappberg"
+  },
+  "Lag": {
+    "id": "Lag",
+    "name": "Lagan",
+    "shortName": "Lagan"
+  },
+  "La": {
+    "id": "La",
+    "name": "Ludvika",
+    "shortName": "Ludvika"
+  },
+  "L": {
+    "id": "L",
+    "name": "Ljungby",
+    "shortName": "Ljungby"
+  },
+  "Laov": {
+    "id": "Laov",
+    "name": "Laholm",
+    "shortName": "Laholm"
+  },
+  "Lb": {
+    "id": "Lb",
+    "name": "Lingbo",
+    "shortName": "Lingbo"
+  },
+  "Lbo": {
+    "id": "Lbo",
+    "name": "Långebro",
+    "shortName": "Långebro"
+  },
+  "Ld": {
+    "id": "Ld",
+    "name": "Lindesberg",
+    "shortName": "Lindesberg"
+  },
+  "Lbr": {
+    "id": "Lbr",
+    "name": "Länna bruk",
+    "shortName": "Länna bruk"
+  },
+  "Ldl": {
+    "id": "Ldl",
+    "name": "Lidlund",
+    "shortName": "Lidlund"
+  },
+  "Ldm": {
+    "id": "Ldm",
+    "name": "Lindholmen",
+    "shortName": "Lindholmen"
+  },
+  "Ldo": {
+    "id": "Ldo",
+    "name": "Lindome",
+    "shortName": "Lindome"
+  },
+  "Le": {
+    "id": "Le",
+    "name": "Luleå C",
+    "shortName": "Luleå"
+  },
+  "Ldt": {
+    "id": "Ldt",
+    "name": "Lindefallet",
+    "shortName": "Lindefallet"
+  },
+  "Lea": {
+    "id": "Lea",
+    "name": "Leksboda",
+    "shortName": "Leksboda"
+  },
+  "Len": {
+    "id": "Len",
+    "name": "Lene",
+    "shortName": "Lene"
+  },
+  "Lek": {
+    "id": "Lek",
+    "name": "Lekarekulle",
+    "shortName": "Lekarekulle"
+  },
+  "Les": {
+    "id": "Les",
+    "name": "Lödöse Södra",
+    "shortName": "Lödöse Södra"
+  },
+  "Let": {
+    "id": "Let",
+    "name": "Lilla Edet",
+    "shortName": "Lilla Edet"
+  },
+  "Lf": {
+    "id": "Lf",
+    "name": "Lindfors",
+    "shortName": "Lindfors"
+  },
+  "Lg": {
+    "id": "Lg",
+    "name": "Läggesta",
+    "shortName": "Läggesta"
+  },
+  "Lgb": {
+    "id": "Lgb",
+    "name": "Långbron",
+    "shortName": "Långbron"
+  },
+  "Lgd": {
+    "id": "Lgd",
+    "name": "Ledsgård",
+    "shortName": "Ledsgård"
+  },
+  "Lgm": {
+    "id": "Lgm",
+    "name": "Linghem",
+    "shortName": "Linghem"
+  },
+  "Lgn": {
+    "id": "Lgn",
+    "name": "Läggesta nedre",
+    "shortName": "Läggesta nedre"
+  },
+  "Lgå": {
+    "id": "Lgå",
+    "name": "Lindgården",
+    "shortName": "Lindgården"
+  },
+  "Lh": {
+    "id": "Lh",
+    "name": "Lammhult",
+    "shortName": "Lammhult"
+  },
+  "Lhl": {
+    "id": "Lhl",
+    "name": "Lahäll",
+    "shortName": "Lahäll"
+  },
+  "Lhr": {
+    "id": "Lhr",
+    "name": "Lillhamra",
+    "shortName": "Lillhamra"
+  },
+  "Lia": {
+    "id": "Lia",
+    "name": "Lillaryd",
+    "shortName": "Lillaryd"
+  },
+  "Lib": {
+    "id": "Lib",
+    "name": "Lilla Brogården",
+    "shortName": "Lilla Brogården"
+  },
+  "Lin": {
+    "id": "Lin",
+    "name": "Linaälv",
+    "shortName": "Linaälv"
+  },
+  "Lis": {
+    "id": "Lis",
+    "name": "Liseberg",
+    "shortName": "Liseberg"
+  },
+  "Lit": {
+    "id": "Lit",
+    "name": "Lit",
+    "shortName": "Lit"
+  },
+  "Liv": {
+    "id": "Liv",
+    "name": "Lingvallen",
+    "shortName": "Lingvallen"
+  },
+  "Liä": {
+    "id": "Liä",
+    "name": "Lillängen",
+    "shortName": "Lillängen"
+  },
+  "Liö": {
+    "id": "Liö",
+    "name": "Lillsjödal",
+    "shortName": "Lillsjödal"
+  },
+  "Lj": {
+    "id": "Lj",
+    "name": "Ljungskile",
+    "shortName": "Ljungskile"
+  },
+  "Ljdr": {
+    "id": "Ljdr",
+    "name": "Ljungbyheds grusgrop",
+    "shortName": "Ljungbyheds grusgrop"
+  },
+  "Lju": {
+    "id": "Lju",
+    "name": "Ljung",
+    "shortName": "Ljung"
+  },
+  "Ljun": {
+    "id": "Ljun",
+    "name": "Ljungaverks lastplats",
+    "shortName": "Ljungaverks lastplats"
+  },
+  "Ljv": {
+    "id": "Ljv",
+    "name": "Ljungaverk",
+    "shortName": "Ljungaverk"
+  },
+  "Lkgb": {
+    "id": "Lkgb",
+    "name": "Landskrona godsbangård",
+    "shortName": "Landskrona godsbangård"
+  },
+  "Lkm": {
+    "id": "Lkm",
+    "name": "Lökom",
+    "shortName": "Lökom"
+  },
+  "Lkn": {
+    "id": "Lkn",
+    "name": "Lindekullen",
+    "shortName": "Lindekullen"
+  },
+  "Lkä": {
+    "id": "Lkä",
+    "name": "Lakaträsk",
+    "shortName": "Lakaträsk"
+  },
+  "Lkp": {
+    "id": "Lkp",
+    "name": "Lidköping",
+    "shortName": "Lidköping"
+  },
+  "Lkö": {
+    "id": "Lkö",
+    "name": "Landskrona",
+    "shortName": "Landskrona"
+  },
+  "Lln": {
+    "id": "Lln",
+    "name": "Linddalen",
+    "shortName": "Linddalen"
+  },
+  "Lm": {
+    "id": "Lm",
+    "name": "Liljeholmen",
+    "shortName": "Liljeholmen"
+  },
+  "Lmm": {
+    "id": "Lmm",
+    "name": "Lemmeströ",
+    "shortName": "Lemmeströ"
+  },
+  "Lme": {
+    "id": "Lme",
+    "name": "Limmared",
+    "shortName": "Limmared"
+  },
+  "Lmn": {
+    "id": "Lmn",
+    "name": "Långviksmon",
+    "shortName": "Långviksmon"
+  },
+  "Lms": {
+    "id": "Lms",
+    "name": "Lomselenäs",
+    "shortName": "Lomselenäs"
+  },
+  "Lmo": {
+    "id": "Lmo",
+    "name": "Löcknamon",
+    "shortName": "Löcknamon"
+  },
+  "Lna": {
+    "id": "Lna",
+    "name": "Länna",
+    "shortName": "Länna"
+  },
+  "Lnk": {
+    "id": "Lnk",
+    "name": "Lernacken",
+    "shortName": "Lernacken"
+  },
+  "Lns": {
+    "id": "Lns",
+    "name": "Lidnäs",
+    "shortName": "Lidnäs"
+  },
+  "Lnv": {
+    "id": "Lnv",
+    "name": "Långvattnet",
+    "shortName": "Långvattnet"
+  },
+  "Lnå": {
+    "id": "Lnå",
+    "name": "Lugnås",
+    "shortName": "Lugnås"
+  },
+  "Lo": {
+    "id": "Lo",
+    "name": "Lessebo",
+    "shortName": "Lessebo"
+  },
+  "Loc": {
+    "id": "Loc",
+    "name": "Locket",
+    "shortName": "Locket"
+  },
+  "Loka": {
+    "id": "Loka",
+    "name": "Loka",
+    "shortName": "Loka"
+  },
+  "Lom": {
+    "id": "Lom",
+    "name": "Lomsmyren",
+    "shortName": "Lomsmyren"
+  },
+  "Lot": {
+    "id": "Lot",
+    "name": "Lottefors",
+    "shortName": "Lottefors"
+  },
+  "Lp": {
     "id": "Lp",
-    "name": "Altorp",
-    "shortName": "Altorp"
+    "name": "Linköping C",
+    "shortName": "Linköping"
   },
-  "Blg":{
-    "id": "Blg",
-    "name": "Borlänge C",
-    "shortName": "Borlänge"
+  "Lpk": {
+    "id": "Lpk",
+    "name": "Lappträsk",
+    "shortName": "Lappträsk"
   },
-  "Söö":{
+  "Lrd": {
+    "id": "Lrd",
+    "name": "Landeryd",
+    "shortName": "Landeryd"
+  },
+  "Lr": {
+    "id": "Lr",
+    "name": "Lerum",
+    "shortName": "Lerum"
+  },
+  "Lre": {
+    "id": "Lre",
+    "name": "Lästringe",
+    "shortName": "Lästringe"
+  },
+  "Lrg": {
+    "id": "Lrg",
+    "name": "Laduberg",
+    "shortName": "Laduberg"
+  },
+  "Lrp": {
+    "id": "Lrp",
+    "name": "Lockarp",
+    "shortName": "Lockarp"
+  },
+  "Lrt": {
+    "id": "Lrt",
+    "name": "Lerot",
+    "shortName": "Lerot"
+  },
+  "Ls": {
+    "id": "Ls",
+    "name": "Ljusdal",
+    "shortName": "Ljusdal"
+  },
+  "Lsb": {
+    "id": "Lsb",
+    "name": "Ljusne bruk",
+    "shortName": "Ljusne bruk"
+  },
+  "Lse": {
+    "id": "Lse",
+    "name": "Ljusne",
+    "shortName": "Ljusne"
+  },
+  "Lsd": {
+    "id": "Lsd",
+    "name": "Leksand",
+    "shortName": "Leksand"
+  },
+  "Lsj": {
+    "id": "Lsj",
+    "name": "Långsjön",
+    "shortName": "Långsjön"
+  },
+  "Lsl": {
+    "id": "Lsl",
+    "name": "Långsele",
+    "shortName": "Långsele"
+  },
+  "Lsn": {
+    "id": "Lsn",
+    "name": "Losesjön",
+    "shortName": "Losesjön"
+  },
+  "Lsp": {
+    "id": "Lsp",
+    "name": "Lycksele industrispår",
+    "shortName": "Lycksele industrispår"
+  },
+  "Lså": {
+    "id": "Lså",
+    "name": "Ljuså",
+    "shortName": "Ljuså"
+  },
+  "Ltk": {
+    "id": "Ltk",
+    "name": "Långträsk",
+    "shortName": "Långträsk"
+  },
+  "Ltj": {
+    "id": "Ltj",
+    "name": "Lilltjära",
+    "shortName": "Lilltjära"
+  },
+  "Ltn": {
+    "id": "Ltn",
+    "name": "Löten",
+    "shortName": "Löten"
+  },
+  "Ltr": {
+    "id": "Ltr",
+    "name": "Loster",
+    "shortName": "Loster"
+  },
+  "Lub": {
+    "id": "Lub",
+    "name": "Lundby",
+    "shortName": "Lundby"
+  },
+  "Lu": {
+    "id": "Lu",
+    "name": "Lund C",
+    "shortName": "Lund"
+  },
+  "Luk": {
+    "id": "Luk",
+    "name": "Lugnvik",
+    "shortName": "Lugnvik"
+  },
+  "Luä": {
+    "id": "Luä",
+    "name": "Lubboträsk",
+    "shortName": "Lubboträsk"
+  },
+  "Lup": {
+    "id": "Lup",
+    "name": "Lunnarp",
+    "shortName": "Lunnarp"
+  },
+  "Lvd": {
+    "id": "Lvd",
+    "name": "Lövliden",
+    "shortName": "Lövliden"
+  },
+  "Lve": {
+    "id": "Lve",
+    "name": "Lovene",
+    "shortName": "Lovene"
+  },
+  "Ly": {
+    "id": "Ly",
+    "name": "Lycksele",
+    "shortName": "Lycksele"
+  },
+  "Lyd": {
+    "id": "Lyd",
+    "name": "Lyrestad",
+    "shortName": "Lyrestad"
+  },
+  "Lye": {
+    "id": "Lye",
+    "name": "Lyse",
+    "shortName": "Lyse"
+  },
+  "Lyg": {
+    "id": "Lyg",
+    "name": "Lyckselesågen",
+    "shortName": "Lyckselesågen"
+  },
+  "Lys": {
+    "id": "Lys",
+    "name": "Lysekil",
+    "shortName": "Lysekil"
+  },
+  "Lyt": {
+    "id": "Lyt",
+    "name": "Lycksele timmer",
+    "shortName": "Lycksele timmer"
+  },
+  "Lyv": {
+    "id": "Lyv",
+    "name": "Lysvik",
+    "shortName": "Lysvik"
+  },
+  "Låk": {
+    "id": "Låk",
+    "name": "Låktatjåkka",
+    "shortName": "Låktatjåkka"
+  },
+  "Lå": {
+    "id": "Lå",
+    "name": "Laxå",
+    "shortName": "Laxå"
+  },
+  "Lö": {
+    "id": "Lö",
+    "name": "Lörstrand",
+    "shortName": "Lörstrand"
+  },
+  "Löb": {
+    "id": "Löb",
+    "name": "Lövberga",
+    "shortName": "Lövberga"
+  },
+  "Lön": {
+    "id": "Lön",
+    "name": "Lönneberga",
+    "shortName": "Lönneberga"
+  },
+  "Löo": {
+    "id": "Löo",
+    "name": "Lönsboda",
+    "shortName": "Lönsboda"
+  },
+  "Löt": {
+    "id": "Löt",
+    "name": "Löt",
+    "shortName": "Löt"
+  },
+  "Löö": {
+    "id": "Löö",
+    "name": "Lödöse",
+    "shortName": "Lödöse"
+  },
+  "Lövh": {
+    "id": "Lövh",
+    "name": "Lövholmen",
+    "shortName": "Lövholmen"
+  },
+  "M": {
+    "id": "M",
+    "name": "Malmö C",
+    "shortName": "Malmö"
+  },
+  "Ma": {
+    "id": "Ma",
+    "name": "Mattmar",
+    "shortName": "Mattmar"
+  },
+  "Maa": {
+    "id": "Maa",
+    "name": "Marma",
+    "shortName": "Marma"
+  },
+  "Mar": {
+    "id": "Mar",
+    "name": "Marieholm",
+    "shortName": "Marieholm"
+  },
+  "Maj": {
+    "id": "Maj",
+    "name": "Maj",
+    "shortName": "Maj"
+  },
+  "Mb": {
+    "id": "Mb",
+    "name": "Mobodarne",
+    "shortName": "Mobodarne"
+  },
+  "Mbv": {
+    "id": "Mbv",
+    "name": "Murbergsviken",
+    "shortName": "Murbergsviken"
+  },
+  "Mby": {
+    "id": "Mby",
+    "name": "Malmby",
+    "shortName": "Malmby"
+  },
+  "Mbä": {
+    "id": "Mbä",
+    "name": "Malmbäck",
+    "shortName": "Malmbäck"
+  },
+  "Mcp": {
+    "id": "Mcp",
+    "name": "Meselefors camping",
+    "shortName": "Meselefors camping"
+  },
+  "Mdm": {
+    "id": "Mdm",
+    "name": "Mariedamm",
+    "shortName": "Mariedamm"
+  },
+  "Mdl": {
+    "id": "Mdl",
+    "name": "Moradal",
+    "shortName": "Moradal"
+  },
+  "Mdn": {
+    "id": "Mdn",
+    "name": "Mölndal",
+    "shortName": "Mölndal"
+  },
+  "Mdö": {
+    "id": "Mdö",
+    "name": "Mölndals övre",
+    "shortName": "Mölndals övre"
+  },
+  "Me": {
+    "id": "Me",
+    "name": "Marmaverken",
+    "shortName": "Marmaverken"
+  },
+  "Meh": {
+    "id": "Meh",
+    "name": "Mehedeby",
+    "shortName": "Mehedeby"
+  },
+  "Mfd": {
+    "id": "Mfd",
+    "name": "Mariefred",
+    "shortName": "Mariefred"
+  },
+  "Mfj": {
+    "id": "Mfj",
+    "name": "Mockfjärd",
+    "shortName": "Mockfjärd"
+  },
+  "Mfn": {
+    "id": "Mfn",
+    "name": "Munkflohögen",
+    "shortName": "Munkflohögen"
+  },
+  "Mfs": {
+    "id": "Mfs",
+    "name": "Malungsfors",
+    "shortName": "Malungsfors"
+  },
+  "Mfå": {
+    "id": "Mfå",
+    "name": "Mariefreds ångbåtsstation",
+    "shortName": "Mariefreds ångbåtsstation"
+  },
+  "Mrd.ax": {
+    "id": "Mrd.ax",
+    "name": "Axhult",
+    "shortName": "Axhult"
+  },
+  "Mgb": {
+    "id": "Mgb",
+    "name": "Malmö godsbangård",
+    "shortName": "Malmö godsbangård"
+  },
+  "Mrh": {
+    "id": "Mrh",
+    "name": "Marsvinsholm",
+    "shortName": "Marsvinsholm"
+  },
+  "Mh": {
+    "id": "Mh",
+    "name": "Moholm",
+    "shortName": "Moholm"
+  },
+  "Mhn": {
+    "id": "Mhn",
+    "name": "Myrheden",
+    "shortName": "Myrheden"
+  },
+  "Mrs": {
+    "id": "Mrs",
+    "name": "Morshyttan",
+    "shortName": "Morshyttan"
+  },
+  "Mrm": {
+    "id": "Mrm",
+    "name": "Marma",
+    "shortName": "Marma"
+  },
+  "Mi": {
+    "id": "Mi",
+    "name": "Mörsil",
+    "shortName": "Mörsil"
+  },
+  "Mru": {
+    "id": "Mru",
+    "name": "Mörrum",
+    "shortName": "Mörrum"
+  },
+  "Ms": {
+    "id": "Ms",
+    "name": "Mosås",
+    "shortName": "Mosås"
+  },
+  "Mia": {
+    "id": "Mia",
+    "name": "Maria",
+    "shortName": "Maria"
+  },
+  "Mim": {
+    "id": "Mim",
+    "name": "Mimer",
+    "shortName": "Mimer"
+  },
+  "Msb": {
+    "id": "Msb",
+    "name": "Mönsterås bruk",
+    "shortName": "Mönsterås bruk"
+  },
+  "Mjv": {
+    "id": "Mjv",
+    "name": "Morjärv",
+    "shortName": "Morjärv"
+  },
+  "Mip": {
+    "id": "Mip",
+    "name": "Milletorp",
+    "shortName": "Milletorp"
+  },
+  "Msj": {
+    "id": "Msj",
+    "name": "Malmsjö",
+    "shortName": "Malmsjö"
+  },
+  "Mk": {
+    "id": "Mk",
+    "name": "Murjek",
+    "shortName": "Murjek"
+  },
+  "Msl": {
+    "id": "Msl",
+    "name": "Mellansel",
+    "shortName": "Mellansel"
+  },
+  "Msk": {
+    "id": "Msk",
+    "name": "Missenträsk",
+    "shortName": "Missenträsk"
+  },
+  "Mkl": {
+    "id": "Mkl",
+    "name": "Munkedal",
+    "shortName": "Munkedal"
+  },
+  "Msn": {
+    "id": "Msn",
+    "name": "Medskogsheden",
+    "shortName": "Medskogsheden"
+  },
+  "Mklh": {
+    "id": "Mklh",
+    "name": "Munkedals hamn",
+    "shortName": "Munkedals hamn"
+  },
+  "Mkln": {
+    "id": "Mkln",
+    "name": "Munkedals nedre",
+    "shortName": "Munkedals nedre"
+  },
+  "Mss": {
+    "id": "Mss",
+    "name": "Mönsterås",
+    "shortName": "Mönsterås"
+  },
+  "Mst": {
+    "id": "Mst",
+    "name": "Mariestad",
+    "shortName": "Mariestad"
+  },
+  "Mko": {
+    "id": "Mko",
+    "name": "Molkom",
+    "shortName": "Molkom"
+  },
+  "Msö": {
+    "id": "Msö",
+    "name": "Mellansjö",
+    "shortName": "Mellansjö"
+  },
+  "Ml": {
+    "id": "Ml",
+    "name": "Mellerud",
+    "shortName": "Mellerud"
+  },
+  "Mt": {
+    "id": "Mt",
+    "name": "Mantorp",
+    "shortName": "Mantorp"
+  },
+  "Mlf": {
+    "id": "Mlf",
+    "name": "Meselefors",
+    "shortName": "Meselefors"
+  },
+  "Mlb": {
+    "id": "Mlb",
+    "name": "Mellby",
+    "shortName": "Mellby"
+  },
+  "Mtm": {
+    "id": "Mtm",
+    "name": "Maitum",
+    "shortName": "Maitum"
+  },
+  "Mlg": {
+    "id": "Mlg",
+    "name": "Malung",
+    "shortName": "Malung"
+  },
+  "Mtn": {
+    "id": "Mtn",
+    "name": "Mertainen",
+    "shortName": "Mertainen"
+  },
+  "Mu": {
+    "id": "Mu",
+    "name": "Mullsjö",
+    "shortName": "Mullsjö"
+  },
+  "Mlgf": {
+    "id": "Mlgf",
+    "name": "Malung Folkhögskola",
+    "shortName": "Malung Folkh"
+  },
+  "Mud": {
+    "id": "Mud",
+    "name": "Mosselund",
+    "shortName": "Mosselund"
+  },
+  "Mlgg": {
+    "id": "Mlgg",
+    "name": "Malung Gymnasium",
+    "shortName": "Malung Gymn"
+  },
+  "My": {
+    "id": "My",
+    "name": "Mjölby",
+    "shortName": "Mjölby"
+  },
+  "Myk": {
+    "id": "Myk",
+    "name": "Mölnlycke",
+    "shortName": "Mölnlycke"
+  },
+  "Mln": {
+    "id": "Mln",
+    "name": "Marielund",
+    "shortName": "Marielund"
+  },
+  "Mlö": {
+    "id": "Mlö",
+    "name": "Mellösa",
+    "shortName": "Mellösa"
+  },
+  "Myn": {
+    "id": "Myn",
+    "name": "Myrbacken",
+    "shortName": "Myrbacken"
+  },
+  "Mmg": {
+    "id": "Mmg",
+    "name": "Mormorsgruvan",
+    "shortName": "Mormorsgruvan"
+  },
+  "Myra": {
+    "id": "Myra",
+    "name": "Myra",
+    "shortName": "Myra"
+  },
+  "Mnb": {
+    "id": "Mnb",
+    "name": "Molnby",
+    "shortName": "Molnby"
+  },
+  "Mnd": {
+    "id": "Mnd",
+    "name": "Mariannelund",
+    "shortName": "Mariannelund"
+  },
+  "Må": {
+    "id": "Må",
+    "name": "Morgongåva",
+    "shortName": "Morgongåva"
+  },
+  "Måa": {
+    "id": "Måa",
+    "name": "Målilla",
+    "shortName": "Målilla"
+  },
+  "Moc": {
+    "id": "Moc",
+    "name": "Motala Central",
+    "shortName": "Motala Central"
+  },
+  "Mo": {
+    "id": "Mo",
+    "name": "Moheda",
+    "shortName": "Moheda"
+  },
+  "Måp": {
+    "id": "Måp",
+    "name": "Månsarp",
+    "shortName": "Månsarp"
+  },
+  "Mäk": {
+    "id": "Mäk",
+    "name": "Märbäck",
+    "shortName": "Märbäck"
+  },
+  "Mog": {
+    "id": "Mog",
+    "name": "Mo grindar",
+    "shortName": "Mo grindar"
+  },
+  "Mon": {
+    "id": "Mon",
+    "name": "Mon",
+    "shortName": "Mon"
+  },
+  "Mö": {
+    "id": "Mö",
+    "name": "Mölnbo",
+    "shortName": "Mölnbo"
+  },
+  "Möa": {
+    "id": "Möa",
+    "name": "Mörlunda",
+    "shortName": "Mörlunda"
+  },
+  "Morp": {
+    "id": "Morp",
+    "name": "Munktorp",
+    "shortName": "Munktorp"
+  },
+  "Möb": {
+    "id": "Möb",
+    "name": "Mörby",
+    "shortName": "Mörby"
+  },
+  "Möl": {
+    "id": "Möl",
+    "name": "Mörtsal",
+    "shortName": "Mörtsal"
+  },
+  "Mot": {
+    "id": "Mot",
+    "name": "Motala C",
+    "shortName": "Motala"
+  },
+  "Mos": {
+    "id": "Mos",
+    "name": "Moskosel",
+    "shortName": "Moskosel"
+  },
+  "Möln": {
+    "id": "Möln",
+    "name": "Mörtsal norra",
+    "shortName": "Mörtsal norra"
+  },
+  "Moy": {
+    "id": "Moy",
+    "name": "Mollaryd",
+    "shortName": "Mollaryd"
+  },
+  "Mör": {
+    "id": "Mör",
+    "name": "Mörarp",
+    "shortName": "Mörarp"
+  },
+  "Mp": {
+    "id": "Mp",
+    "name": "Mölltorp",
+    "shortName": "Mölltorp"
+  },
+  "Mpb": {
+    "id": "Mpb",
+    "name": "Persborg",
+    "shortName": "Persborg"
+  },
+  "N": {
+    "id": "N",
+    "name": "Nässjö C",
+    "shortName": "Nässjö"
+  },
+  "Nb": {
+    "id": "Nb",
+    "name": "Näsberg",
+    "shortName": "Näsberg"
+  },
+  "Nba": {
+    "id": "Nba",
+    "name": "Nyboda",
+    "shortName": "Nyboda"
+  },
+  "Mr": {
+    "id": "Mr",
+    "name": "Märsta",
+    "shortName": "Märsta"
+  },
+  "Mra": {
+    "id": "Mra",
+    "name": "Mora",
+    "shortName": "Mora"
+  },
+  "Nbe": {
+    "id": "Nbe",
+    "name": "Näsbyallé",
+    "shortName": "Näsbyallé"
+  },
+  "Mras": {
+    "id": "Mras",
+    "name": "Morastrand",
+    "shortName": "Morastrand"
+  },
+  "Mrai": {
+    "id": "Mrai",
+    "name": "Mora kommuns industrispår",
+    "shortName": "Mora kommuns industrispår"
+  },
+  "Nbg": {
+    "id": "Nbg",
+    "name": "Norberg",
+    "shortName": "Norberg"
+  },
+  "Nbr": {
+    "id": "Nbr",
+    "name": "Nybybruk",
+    "shortName": "Nybybruk"
+  },
+  "Nbp": {
+    "id": "Nbp",
+    "name": "Näsbypark",
+    "shortName": "Näsbypark"
+  },
+  "Mrd": {
+    "id": "Mrd",
+    "name": "Markaryd",
+    "shortName": "Markaryd"
+  },
+  "Ng": {
+    "id": "Ng",
+    "name": "Norrhög",
+    "shortName": "Norrhög"
+  },
+  "Nbt": {
+    "id": "Nbt",
+    "name": "Norra bantorget",
+    "shortName": "Norra bantorget"
+  },
+  "Nd": {
+    "id": "Nd",
+    "name": "Nässundet",
+    "shortName": "Nässundet"
+  },
+  "Nh": {
+    "id": "Nh",
+    "name": "Norsholm",
+    "shortName": "Norsholm"
+  },
+  "Ngd": {
+    "id": "Ngd",
+    "name": "Nynäsgård",
+    "shortName": "Nynäsgård"
+  },
+  "Ndt": {
+    "id": "Ndt",
+    "name": "Norrsundet",
+    "shortName": "Norrsundet"
+  },
+  "Nhr": {
+    "id": "Nhr",
+    "name": "Norrahammar",
+    "shortName": "Norrahammar"
+  },
+  "Nhg": {
+    "id": "Nhg",
+    "name": "Nederhögen",
+    "shortName": "Nederhögen"
+  },
+  "Ndv": {
+    "id": "Ndv",
+    "name": "Norsesund västra",
+    "shortName": "Norsesund västra"
+  },
+  "Nk": {
+    "id": "Nk",
+    "name": "Nyköping C",
+    "shortName": "Nyköping"
+  },
+  "Neg": {
+    "id": "Neg",
+    "name": "Neglinge",
+    "shortName": "Neglinge"
+  },
+  "Ope": {
+    "id": "Ope",
+    "name": "Ope",
+    "shortName": "Ope"
+  },
+  "Nka": {
+    "id": "Nka",
+    "name": "Nykroppa",
+    "shortName": "Nykroppa"
+  },
+  "Nkp": {
+    "id": "Nkp",
+    "name": "Närkes Kvarntorp",
+    "shortName": "Närkes Kvarntorp"
+  },
+  "Nkr": {
+    "id": "Nkr",
+    "name": "Norra Kikkejaur",
+    "shortName": "Norra Kikkejaur"
+  },
+  "Nks": {
+    "id": "Nks",
+    "name": "Nyköping södra",
+    "shortName": "Nyköping södra"
+  },
+  "Nkt": {
+    "id": "Nkt",
+    "name": "Näverkärret",
+    "shortName": "Näverkärret"
+  },
+  "Nkv": {
+    "id": "Nkv",
+    "name": "Nykvarn",
+    "shortName": "Nykvarn"
+  },
+  "Nl": {
+    "id": "Nl",
+    "name": "Nelhammar",
+    "shortName": "Nelhammar"
+  },
+  "Nld": {
+    "id": "Nld",
+    "name": "Nyland",
+    "shortName": "Nyland"
+  },
+  "Nml": {
+    "id": "Nml",
+    "name": "Niemisel",
+    "shortName": "Niemisel"
+  },
+  "No.hld": {
+    "id": "No.hld",
+    "name": "Halden",
+    "shortName": "Halden"
+  },
+  "No.kat": {
+    "id": "No.kat",
+    "name": "Katterat",
+    "shortName": "Katterat"
+  },
+  "No.kvg": {
+    "id": "No.kvg",
+    "name": "Kongsvinger",
+    "shortName": "Kongsvinger"
+  },
+  "No.lil": {
+    "id": "No.lil",
+    "name": "Lilleström",
+    "shortName": "Lilleström"
+  },
+  "No.lls": {
+    "id": "No.lls",
+    "name": "Lilleström",
+    "shortName": "Lilleström"
+  },
+  "No.nk": {
+    "id": "No.nk",
+    "name": "Narvik",
+    "shortName": "Narvik"
+  },
+  "No.osl": {
+    "id": "No.osl",
+    "name": "Oslo",
+    "shortName": "Oslo"
+  },
+  "No.rom": {
+    "id": "No.rom",
+    "name": "Rombak",
+    "shortName": "Rombak"
+  },
+  "No.sbo": {
+    "id": "No.sbo",
+    "name": "Sarpsborg",
+    "shortName": "Sarpsborg"
+  },
+  "No.sms": {
+    "id": "No.sms",
+    "name": "Straumsnes",
+    "shortName": "Straumsnes"
+  },
+  "No.sös": {
+    "id": "No.sös",
+    "name": "Sösterbekk",
+    "shortName": "Sösterbekk"
+  },
+  "No.tnd": {
+    "id": "No.tnd",
+    "name": "Trondheim",
+    "shortName": "Trondheim"
+  },
+  "Noe": {
+    "id": "Noe",
+    "name": "Norrmjöle",
+    "shortName": "Norrmjöle"
+  },
+  "Nog": {
+    "id": "Nog",
+    "name": "Nordmaling",
+    "shortName": "Nordmaling"
+  },
+  "Nol": {
+    "id": "Nol",
+    "name": "Nol",
+    "shortName": "Nol"
+  },
+  "Non": {
+    "id": "Non",
+    "name": "Norrsjön",
+    "shortName": "Norrsjön"
+  },
+  "Norl": {
+    "id": "Norl",
+    "name": "Nordlunda",
+    "shortName": "Nordlunda"
+  },
+  "Nosk": {
+    "id": "Nosk",
+    "name": "Nordskogen",
+    "shortName": "Nordskogen"
+  },
+  "Nr": {
+    "id": "Nr",
+    "name": "Norrköping C",
+    "shortName": "Norrköping"
+  },
+  "Nrs": {
+    "id": "Nrs",
+    "name": "Norrfors",
+    "shortName": "Norrfors"
+  },
+  "Nrt": {
+    "id": "Nrt",
+    "name": "Nuortikon",
+    "shortName": "Nuortikon"
+  },
+  "Ns": {
+    "id": "Ns",
+    "name": "Norsesund",
+    "shortName": "Norsesund"
+  },
+  "Nst": {
+    "id": "Nst",
+    "name": "Stockholms norra",
+    "shortName": "Stockholms norra"
+  },
+  "Nsj": {
+    "id": "Nsj",
+    "name": "Nyckelsjön",
+    "shortName": "Nyckelsjön"
+  },
+  "Nsö": {
+    "id": "Nsö",
+    "name": "Nedansjö",
+    "shortName": "Nedansjö"
+  },
+  "Nte": {
+    "id": "Nte",
+    "name": "Nuorttagievlle",
+    "shortName": "Nuorttagievlle"
+  },
+  "Ntv": {
+    "id": "Ntv",
+    "name": "Nattavaara",
+    "shortName": "Nattavaara"
+  },
+  "Nvk": {
+    "id": "Nvk",
+    "name": "Norrviken",
+    "shortName": "Norrviken"
+  },
+  "Nvl": {
+    "id": "Nvl",
+    "name": "Norra Valbo",
+    "shortName": "Norra Valbo"
+  },
+  "Nvn": {
+    "id": "Nvn",
+    "name": "Notviken",
+    "shortName": "Notviken"
+  },
+  "Ny": {
+    "id": "Ny",
+    "name": "Nyhem",
+    "shortName": "Nyhem"
+  },
+  "Nyb": {
+    "id": "Nyb",
+    "name": "Nybro",
+    "shortName": "Nybro"
+  },
+  "Nyf": {
+    "id": "Nyf",
+    "name": "Nyfors",
+    "shortName": "Nyfors"
+  },
+  "Nyh": {
+    "id": "Nyh",
+    "name": "Nynäshamn",
+    "shortName": "Nynäshamn"
+  },
+  "Nyå": {
+    "id": "Nyå",
+    "name": "Nyåker",
+    "shortName": "Nyåker"
+  },
+  "Nås": {
+    "id": "Nås",
+    "name": "Nås",
+    "shortName": "Nås"
+  },
+  "Nä": {
+    "id": "Nä",
+    "name": "Nälden",
+    "shortName": "Nälden"
+  },
+  "Nät": {
+    "id": "Nät",
+    "name": "Nättraby",
+    "shortName": "Nättraby"
+  },
+  "Nöe": {
+    "id": "Nöe",
+    "name": "Nödinge",
+    "shortName": "Nödinge"
+  },
+  "Nöes": {
+    "id": "Nöes",
+    "name": "Nödinge södra",
+    "shortName": "Nödinge södra"
+  },
+  "O": {
+    "id": "O",
+    "name": "Osby",
+    "shortName": "Osby"
+  },
+  "Ob": {
+    "id": "Ob",
+    "name": "Ockelbo",
+    "shortName": "Ockelbo"
+  },
+  "Of": {
+    "id": "Of",
+    "name": "Olofström",
+    "shortName": "Olofström"
+  },
+  "Ofö": {
+    "id": "Ofö",
+    "name": "Olofström Övre-till Volvo",
+    "shortName": "Olofström Övre-till Volvo"
+  },
+  "Oh": {
+    "id": "Oh",
+    "name": "Oskarshamn",
+    "shortName": "Oskarshamn"
+  },
+  "Ohs": {
+    "id": "Ohs",
+    "name": "Ohs Bruk",
+    "shortName": "Ohs Bruk"
+  },
+  "Ol": {
+    "id": "Ol",
+    "name": "Oleby",
+    "shortName": "Oleby"
+  },
+  "Om": {
+    "id": "Om",
+    "name": "Oskarström",
+    "shortName": "Oskarström"
+  },
+  "On": {
+    "id": "On",
+    "name": "Oringen",
+    "shortName": "Oringen"
+  },
+  "Oxm": {
+    "id": "Oxm",
+    "name": "Oxmyran",
+    "shortName": "Oxmyran"
+  },
+  "P": {
+    "id": "P",
+    "name": "Partille",
+    "shortName": "Partille"
+  },
+  "Pb": {
+    "id": "Pb",
+    "name": "Prässebo",
+    "shortName": "Prässebo"
+  },
+  "Pbg": {
+    "id": "Pbg",
+    "name": "Persberg",
+    "shortName": "Persberg"
+  },
+  "Pc": {
+    "id": "Pc",
+    "name": "Polcirkeln",
+    "shortName": "Polcirkeln"
+  },
+  "Pea": {
+    "id": "Pea",
+    "name": "Peuravaara",
+    "shortName": "Peuravaara"
+  },
+  "Phm": {
+    "id": "Phm",
+    "name": "Peberholm",
+    "shortName": "Peberholm"
+  },
+  "Pii": {
+    "id": "Pii",
+    "name": "Pitkäjärvi",
+    "shortName": "Pitkäjärvi"
+  },
+  "Pj": {
+    "id": "Pj",
+    "name": "Porjus",
+    "shortName": "Porjus"
+  },
+  "Pjf": {
+    "id": "Pjf",
+    "name": "Porjusfallen",
+    "shortName": "Porjusfallen"
+  },
+  "Pl": {
+    "id": "Pl",
+    "name": "Pilgrimstad",
+    "shortName": "Pilgrimstad"
+  },
+  "Plm": {
+    "id": "Plm",
+    "name": "Pauliström",
+    "shortName": "Pauliström"
+  },
+  "Pol": {
+    "id": "Pol",
+    "name": "Pol-spåret (oljedepå)",
+    "shortName": "Pol-spåret (oljedepå)"
+  },
+  "Pm": {
+    "id": "Pm",
+    "name": "Prästmon",
+    "shortName": "Prästmon"
+  },
+  "Pt": {
+    "id": "Pt",
+    "name": "Perstorp",
+    "shortName": "Perstorp"
+  },
+  "Pte": {
+    "id": "Pte",
+    "name": "Pallanite",
+    "shortName": "Pallanite"
+  },
+  "Ptå": {
+    "id": "Ptå",
+    "name": "Piteå",
+    "shortName": "Piteå"
+  },
+  "På": {
+    "id": "På",
+    "name": "Pålsboda",
+    "shortName": "Pålsboda"
+  },
+  "Påa": {
+    "id": "Påa",
+    "name": "Påarp",
+    "shortName": "Påarp"
+  },
+  "Påt": {
+    "id": "Påt",
+    "name": "Pålberget",
+    "shortName": "Pålberget"
+  },
+  "Päb": {
+    "id": "Päb",
+    "name": "Piteälvsbron",
+    "shortName": "Piteälvsbron"
+  },
+  "Pöb": {
+    "id": "Pöb",
+    "name": "Pölsebo",
+    "shortName": "Pölsebo"
+  },
+  "R": {
+    "id": "R",
+    "name": "Rotebro",
+    "shortName": "Rotebro"
+  },
+  "Ram": {
+    "id": "Ram",
+    "name": "Ramlösa",
+    "shortName": "Ramlösa"
+  },
+  "Ran": {
+    "id": "Ran",
+    "name": "Rian",
+    "shortName": "Rian"
+  },
+  "Ras": {
+    "id": "Ras",
+    "name": "Ralingsås",
+    "shortName": "Ralingsås"
+  },
+  "Rb": {
+    "id": "Rb",
+    "name": "Ronneby",
+    "shortName": "Ronneby"
+  },
+  "Rbk": {
+    "id": "Rbk",
+    "name": "Råbäck",
+    "shortName": "Råbäck"
+  },
+  "Rbh": {
+    "id": "Rbh",
+    "name": "Rabbalshede",
+    "shortName": "Rabbalshede"
+  },
+  "Rbo": {
+    "id": "Rbo",
+    "name": "Röstbo",
+    "shortName": "Röstbo"
+  },
+  "Rby": {
+    "id": "Rby",
+    "name": "Rockneby",
+    "shortName": "Rockneby"
+  },
+  "Rbä": {
+    "id": "Rbä",
+    "name": "Repbäcken",
+    "shortName": "Repbäcken"
+  },
+  "Rd": {
+    "id": "Rd",
+    "name": "Rävlanda",
+    "shortName": "Rävlanda"
+  },
+  "Rdb": {
+    "id": "Rdb",
+    "name": "Rydbo",
+    "shortName": "Rydbo"
+  },
+  "Rdg": {
+    "id": "Rdg",
+    "name": "Rydsgård",
+    "shortName": "Rydsgård"
+  },
+  "Ren": {
+    "id": "Ren",
+    "name": "Renviken",
+    "shortName": "Renviken"
+  },
+  "Rf": {
+    "id": "Rf",
+    "name": "Rimforsa",
+    "shortName": "Rimforsa"
+  },
+  "Rfb": {
+    "id": "Rfb",
+    "name": "Rimforsa brygga",
+    "shortName": "Rimforsa brygga"
+  },
+  "Rh": {
+    "id": "Rh",
+    "name": "Rönneshytta",
+    "shortName": "Rönneshytta"
+  },
+  "Rgn": {
+    "id": "Rgn",
+    "name": "Riksgränsen",
+    "shortName": "Riksgränsen"
+  },
+  "Rft": {
+    "id": "Rft",
+    "name": "Reftele",
+    "shortName": "Reftele"
+  },
+  "Riks": {
+    "id": "Riks",
+    "name": "Riksgräns Swe-Dk.",
+    "shortName": "Riksgräns Swe-Dk."
+  },
+  "Rjn.vd": {
+    "id": "Rjn.vd",
+    "name": "Vemdalen",
+    "shortName": "Vemdalen"
+  },
+  "Riksg": {
+    "id": "Riksg",
+    "name": "Riksgräns Swe-Dk.",
+    "shortName": "Riksgräns Swe-Dk."
+  },
+  "Rjn": {
+    "id": "Rjn",
+    "name": "Röjan",
+    "shortName": "Röjan"
+  },
+  "Rka": {
+    "id": "Rka",
+    "name": "Rinkaby",
+    "shortName": "Rinkaby"
+  },
+  "Rk": {
+    "id": "Rk",
+    "name": "Rörvik",
+    "shortName": "Rörvik"
+  },
+  "Rke": {
+    "id": "Rke",
+    "name": "Rekarne",
+    "shortName": "Rekarne"
+  },
+  "Rlå": {
+    "id": "Rlå",
+    "name": "Rällså",
+    "shortName": "Rällså"
+  },
+  "Rkö": {
+    "id": "Rkö",
+    "name": "Rocksjön",
+    "shortName": "Rocksjön"
+  },
+  "Rmh": {
+    "id": "Rmh",
+    "name": "Rämshyttan",
+    "shortName": "Rämshyttan"
+  },
+  "Rmn": {
+    "id": "Rmn",
+    "name": "Ramnäs",
+    "shortName": "Ramnäs"
+  },
+  "Rmtp": {
+    "id": "Rmtp",
+    "name": "Regumatorp",
+    "shortName": "Regumatorp"
+  },
+  "Rob": {
+    "id": "Rob",
+    "name": "Roback",
+    "shortName": "Roback"
+  },
+  "Rnb": {
+    "id": "Rnb",
+    "name": "Roslags Näsby",
+    "shortName": "Roslags Näsby"
+  },
+  "Ros": {
+    "id": "Ros",
+    "name": "Rossön",
+    "shortName": "Rossön"
+  },
+  "Rps": {
+    "id": "Rps",
+    "name": "Ripats",
+    "shortName": "Ripats"
+  },
+  "Rs": {
+    "id": "Rs",
+    "name": "Rosersberg",
+    "shortName": "Rosersberg"
+  },
+  "Rsi": {
+    "id": "Rsi",
+    "name": "Råtsi",
+    "shortName": "Råtsi"
+  },
+  "Rsä": {
+    "id": "Rsä",
+    "name": "Rönnskärsverken",
+    "shortName": "Rönnskärsverken"
+  },
+  "Rsn": {
+    "id": "Rsn",
+    "name": "Rensjön",
+    "shortName": "Rensjön"
+  },
+  "Rsö": {
+    "id": "Rsö",
+    "name": "Ramsjö",
+    "shortName": "Ramsjö"
+  },
+  "Rt": {
+    "id": "Rt",
+    "name": "Ransta",
+    "shortName": "Ransta"
+  },
+  "Rte": {
+    "id": "Rte",
+    "name": "Röste",
+    "shortName": "Röste"
+  },
+  "Ru": {
+    "id": "Ru",
+    "name": "Ragunda",
+    "shortName": "Ragunda"
+  },
+  "Rts": {
+    "id": "Rts",
+    "name": "Rottneros",
+    "shortName": "Rottneros"
+  },
+  "Rud": {
+    "id": "Rud",
+    "name": "Ruda",
+    "shortName": "Ruda"
+  },
+  "Ruk": {
+    "id": "Ruk",
+    "name": "Rundvik",
+    "shortName": "Rundvik"
+  },
+  "Rus": {
+    "id": "Rus",
+    "name": "Runsala",
+    "shortName": "Runsala"
+  },
+  "Rum": {
+    "id": "Rum",
+    "name": "Runemo",
+    "shortName": "Runemo"
+  },
+  "Rv": {
+    "id": "Rv",
+    "name": "Rättvik",
+    "shortName": "Rättvik"
+  },
+  "Rut": {
+    "id": "Rut",
+    "name": "Rautas",
+    "shortName": "Rautas"
+  },
+  "Rvä": {
+    "id": "Rvä",
+    "name": "Ringvägen",
+    "shortName": "Ringvägen"
+  },
+  "Ry": {
+    "id": "Ry",
+    "name": "Rosshyttan",
+    "shortName": "Rosshyttan"
+  },
+  "Ryb": {
+    "id": "Ryb",
+    "name": "Ryssjöbrink",
+    "shortName": "Ryssjöbrink"
+  },
+  "Ryg": {
+    "id": "Ryg",
+    "name": "Ryggen",
+    "shortName": "Ryggen"
+  },
+  "Rye": {
+    "id": "Rye",
+    "name": "Rynge",
+    "shortName": "Rynge"
+  },
+  "Ryk": {
+    "id": "Ryk",
+    "name": "Rydöbruk",
+    "shortName": "Rydöbruk"
+  },
+  "Ryr": {
+    "id": "Ryr",
+    "name": "Ryr",
+    "shortName": "Ryr"
+  },
+  "Rym": {
+    "id": "Rym",
+    "name": "Rydaholm",
+    "shortName": "Rydaholm"
+  },
+  "Råg": {
+    "id": "Råg",
+    "name": "Rågsveden",
+    "shortName": "Rågsveden"
+  },
+  "Ryä": {
+    "id": "Ryä",
+    "name": "Rydebäck",
+    "shortName": "Rydebäck"
+  },
+  "Rån": {
+    "id": "Rån",
+    "name": "Råsjön",
+    "shortName": "Råsjön"
+  },
+  "Rås": {
+    "id": "Rås",
+    "name": "Råskogen",
+    "shortName": "Råskogen"
+  },
+  "Råö": {
+    "id": "Råö",
+    "name": "Rågön",
+    "shortName": "Rågön"
+  },
+  "Räp": {
+    "id": "Räp",
+    "name": "Räppe",
+    "shortName": "Räppe"
+  },
+  "Rö": {
+    "id": "Rö",
+    "name": "Rödberg",
+    "shortName": "Rödberg"
+  },
+  "Rön": {
+    "id": "Rön",
+    "name": "Rönninge",
+    "shortName": "Rönninge"
+  },
+  "S": {
+    "id": "S",
+    "name": "Sveg",
+    "shortName": "Sveg"
+  },
+  "Röp": {
+    "id": "Röp",
+    "name": "Rörstorp",
+    "shortName": "Rörstorp"
+  },
+  "Sae": {
+    "id": "Sae",
+    "name": "Sandared",
+    "shortName": "Sandared"
+  },
+  "Saf": {
+    "id": "Saf",
+    "name": "Staffanstorp",
+    "shortName": "Staffanstorp"
+  },
+  "Sak": {
+    "id": "Sak",
+    "name": "Sandbäck",
+    "shortName": "Sandbäck"
+  },
+  "Sam": {
+    "id": "Sam",
+    "name": "Samnan",
+    "shortName": "Samnan"
+  },
+  "Sarp": {
+    "id": "Sarp",
+    "name": "Sannarp",
+    "shortName": "Sannarp"
+  },
+  "Sas": {
+    "id": "Sas",
+    "name": "Salsta",
+    "shortName": "Salsta"
+  },
+  "Saö": {
+    "id": "Saö",
+    "name": "Skabersjö",
+    "shortName": "Skabersjö"
+  },
+  "Sau": {
+    "id": "Sau",
+    "name": "Stora Tuna",
+    "shortName": "Stora Tuna"
+  },
+  "Sba": {
+    "id": "Sba",
+    "name": "Spannarboda",
+    "shortName": "Spannarboda"
+  },
+  "Sbe": {
+    "id": "Sbe",
+    "name": "Saluböle",
+    "shortName": "Saluböle"
+  },
+  "Sbg": {
+    "id": "Sbg",
+    "name": "Smedberg",
+    "shortName": "Smedberg"
+  },
+  "Sbi": {
+    "id": "Sbi",
+    "name": "Storblåliden",
+    "shortName": "Storblåliden"
+  },
+  "Sbk": {
+    "id": "Sbk",
+    "name": "Stenbacken",
+    "shortName": "Stenbacken"
+  },
+  "Sbl": {
+    "id": "Sbl",
+    "name": "Skärblacka",
+    "shortName": "Skärblacka"
+  },
+  "Sbn": {
+    "id": "Sbn",
+    "name": "Saltsjöbaden",
+    "shortName": "Saltsjöbaden"
+  },
+  "Sbu": {
+    "id": "Sbu",
+    "name": "Strömsnäsbruk",
+    "shortName": "Strömsnäsbruk"
+  },
+  "Sby": {
+    "id": "Sby",
+    "name": "Norra Sunderbyn",
+    "shortName": "Norra Sunderbyn"
+  },
+  "Sci": {
+    "id": "Sci",
+    "name": "Stockholm City",
+    "shortName": "Stockholm City"
+  },
+  "Sbä": {
+    "id": "Sbä",
+    "name": "Sågbäcken",
+    "shortName": "Sågbäcken"
+  },
+  "Sde": {
+    "id": "Sde",
+    "name": "Sköldinge",
+    "shortName": "Sköldinge"
+  },
+  "Sdm": {
+    "id": "Sdm",
+    "name": "Sandmon",
+    "shortName": "Sandmon"
+  },
+  "Sdn": {
+    "id": "Sdn",
+    "name": "Saltsjö-Duvnäs",
+    "shortName": "Saltsjö-Duvnäs"
+  },
+  "Sdr": {
+    "id": "Sdr",
+    "name": "Smålandsstenar",
+    "shortName": "Smålandsstenar"
+  },
+  "Sdnä": {
+    "id": "Sdnä",
+    "name": "Sandsjönäs",
+    "shortName": "Sandsjönäs"
+  },
+  "Sdy": {
+    "id": "Sdy",
+    "name": "Smedby",
+    "shortName": "Smedby"
+  },
+  "Sea": {
+    "id": "Sea",
+    "name": "Svedala",
+    "shortName": "Svedala"
+  },
+  "See": {
+    "id": "See",
+    "name": "Skene",
+    "shortName": "Skene"
+  },
+  "Sege": {
+    "id": "Sege",
+    "name": "Sege",
+    "shortName": "Sege"
+  },
+  "Sen": {
+    "id": "Sen",
+    "name": "Stavreviken",
+    "shortName": "Stavreviken"
+  },
+  "Sel": {
+    "id": "Sel",
+    "name": "Sävedalen",
+    "shortName": "Sävedalen"
+  },
+  "Set": {
+    "id": "Set",
+    "name": "Stensundberget",
+    "shortName": "Stensundberget"
+  },
+  "Sf": {
+    "id": "Sf",
+    "name": "Storfors",
+    "shortName": "Storfors"
+  },
+  "Sfl": {
+    "id": "Sfl",
+    "name": "Säffle",
+    "shortName": "Säffle"
+  },
+  "Sfn": {
+    "id": "Sfn",
+    "name": "Storflon",
+    "shortName": "Storflon"
+  },
+  "Sg": {
+    "id": "Sg",
+    "name": "Stehag",
+    "shortName": "Stehag"
+  },
+  "Sgd": {
+    "id": "Sgd",
+    "name": "Strömstads godsbangård",
+    "shortName": "Strömstads godsbangård"
+  },
+  "Sgm": {
+    "id": "Sgm",
+    "name": "Segmon",
+    "shortName": "Segmon"
+  },
+  "Sgs": {
+    "id": "Sgs",
+    "name": "Strängnäs",
+    "shortName": "Strängnäs"
+  },
+  "Sgä": {
+    "id": "Sgä",
+    "name": "Slagnäs",
+    "shortName": "Slagnäs"
+  },
+  "Sh": {
+    "id": "Sh",
+    "name": "Stjärnhov",
+    "shortName": "Stjärnhov"
+  },
+  "Shr": {
+    "id": "Shr",
+    "name": "Surahammar",
+    "shortName": "Surahammar"
+  },
+  "Shm": {
+    "id": "Shm",
+    "name": "Söderhamn",
+    "shortName": "Söderhamn"
+  },
+  "Shv": {
+    "id": "Shv",
+    "name": "Söderhamn",
+    "shortName": "Söderhamn"
+  },
+  "Si": {
+    "id": "Si",
+    "name": "Simrishamn",
+    "shortName": "Simrishamn"
+  },
+  "Sic": {
+    "id": "Sic",
+    "name": "Silverdalen",
+    "shortName": "Silverdalen"
+  },
+  "Sid": {
+    "id": "Sid",
+    "name": "Silverdalens bruk",
+    "shortName": "Silverdalens bruk"
+  },
+  "Sii": {
+    "id": "Sii",
+    "name": "Silinge",
+    "shortName": "Silinge"
+  },
+  "Sif": {
+    "id": "Sif",
+    "name": "Sikfors",
+    "shortName": "Sikfors"
+  },
+  "Sik": {
+    "id": "Sik",
+    "name": "Svartvik",
+    "shortName": "Svartvik"
+  },
+  "Sir": {
+    "id": "Sir",
+    "name": "Sorsele industrispår",
+    "shortName": "Sorsele industrispår"
+  },
+  "Sjka": {
+    "id": "Sjka",
+    "name": "Sjisjka",
+    "shortName": "Sjisjka"
+  },
+  "Sjl": {
+    "id": "Sjl",
+    "name": "Saltsjö-Järla",
+    "shortName": "Saltsjö-Järla"
+  },
+  "Sk": {
+    "id": "Sk",
+    "name": "Skövde C",
+    "shortName": "Skövde"
+  },
+  "Sjv": {
+    "id": "Sjv",
+    "name": "Sjövägen",
+    "shortName": "Sjövägen"
+  },
+  "Skb": {
+    "id": "Skb",
+    "name": "Skinnskatteberg",
+    "shortName": "Skinnskatteberg"
+  },
+  "Skbl": {
+    "id": "Skbl",
+    "name": "Skälebol",
+    "shortName": "Skälebol"
+  },
+  "Skby": {
+    "id": "Skby",
+    "name": "Skavstaby",
+    "shortName": "Skavstaby"
+  },
+  "Ske": {
+    "id": "Ske",
+    "name": "Skee",
+    "shortName": "Skee"
+  },
+  "Skg": {
+    "id": "Skg",
+    "name": "Skogås",
+    "shortName": "Skogås"
+  },
+  "Skk": {
+    "id": "Skk",
+    "name": "Skönvik",
+    "shortName": "Skönvik"
+  },
+  "Skh": {
+    "id": "Skh",
+    "name": "Skelleftehamns nedre",
+    "shortName": "Skelleftehamns nedre"
+  },
+  "Skl": {
+    "id": "Skl",
+    "name": "Skellefteå",
+    "shortName": "Skellefteå"
+  },
+  "Skms": {
+    "id": "Skms",
+    "name": "Skymossen",
+    "shortName": "Skymossen"
+  },
+  "Skm": {
+    "id": "Skm",
+    "name": "Stenkumla",
+    "shortName": "Stenkumla"
+  },
+  "Skog": {
+    "id": "Skog",
+    "name": "Skoghall",
+    "shortName": "Skoghall"
+  },
+  "Skn": {
+    "id": "Skn",
+    "name": "Skänninge",
+    "shortName": "Skänninge"
+  },
+  "Skr": {
+    "id": "Skr",
+    "name": "Skåre",
+    "shortName": "Skåre"
+  },
+  "Skru": {
+    "id": "Skru",
+    "name": "Skållerud",
+    "shortName": "Skållerud"
+  },
+  "Skv": {
+    "id": "Skv",
+    "name": "Skebokvarn",
+    "shortName": "Skebokvarn"
+  },
+  "Skä": {
+    "id": "Skä",
+    "name": "Skästra",
+    "shortName": "Skästra"
+  },
+  "Slb": {
+    "id": "Slb",
+    "name": "Saleboda",
+    "shortName": "Saleboda"
+  },
+  "Sl": {
+    "id": "Sl",
+    "name": "Sala",
+    "shortName": "Sala"
+  },
+  "Skrt": {
+    "id": "Skrt",
+    "name": "Skäret",
+    "shortName": "Skäret"
+  },
+  "Skrp": {
+    "id": "Skrp",
+    "name": "Skogstorp",
+    "shortName": "Skogstorp"
+  },
+  "Slbk": {
+    "id": "Slbk",
+    "name": "Solbacka",
+    "shortName": "Solbacka"
+  },
+  "Sle": {
+    "id": "Sle",
+    "name": "Slätte",
+    "shortName": "Slätte"
+  },
+  "Slg": {
+    "id": "Slg",
+    "name": "Sällinge",
+    "shortName": "Sällinge"
+  },
+  "Sln": {
+    "id": "Sln",
+    "name": "Solsidan",
+    "shortName": "Solsidan"
+  },
+  "Slj": {
+    "id": "Slj",
+    "name": "Selsjön",
+    "shortName": "Selsjön"
+  },
+  "Slm": {
+    "id": "Slm",
+    "name": "Solum",
+    "shortName": "Solum"
+  },
+  "Slnä": {
+    "id": "Slnä",
+    "name": "Sellnäs",
+    "shortName": "Sellnäs"
+  },
+  "Slu": {
+    "id": "Slu",
+    "name": "Slussen",
+    "shortName": "Slussen"
+  },
+  "Slä": {
+    "id": "Slä",
+    "name": "Selknä",
+    "shortName": "Selknä"
+  },
+  "Sm": {
+    "id": "Sm",
+    "name": "Sandhem",
+    "shortName": "Sandhem"
+  },
+  "Smd": {
+    "id": "Smd",
+    "name": "Strömstad",
+    "shortName": "Strömstad"
+  },
+  "Smn": {
+    "id": "Smn",
+    "name": "Sommen",
+    "shortName": "Sommen"
+  },
+  "Smj": {
+    "id": "Smj",
+    "name": "Smedjebacken",
+    "shortName": "Smedjebacken"
+  },
+  "Smo": {
+    "id": "Smo",
+    "name": "Strömsbro",
+    "shortName": "Strömsbro"
+  },
+  "Smp": {
+    "id": "Smp",
+    "name": "Smedstorp",
+    "shortName": "Smedstorp"
+  },
+  "Smt": {
+    "id": "Smt",
+    "name": "Simonstorp",
+    "shortName": "Simonstorp"
+  },
+  "Smu": {
+    "id": "Smu",
+    "name": "Smålands Burseryd",
+    "shortName": "Smålands Burseryd"
+  },
+  "Små": {
+    "id": "Små",
+    "name": "Simeå",
+    "shortName": "Simeå"
+  },
+  "Snb": {
+    "id": "Snb",
+    "name": "Snickarbo",
+    "shortName": "Snickarbo"
+  },
+  "Sn": {
+    "id": "Sn",
+    "name": "Stenkullen",
+    "shortName": "Stenkullen"
+  },
+  "Sne": {
+    "id": "Sne",
+    "name": "Sandarne",
+    "shortName": "Sandarne"
+  },
+  "Sngå": {
+    "id": "Sngå",
+    "name": "Singsån",
+    "shortName": "Singsån"
+  },
+  "Snk": {
+    "id": "Snk",
+    "name": "Stensträsk",
+    "shortName": "Stensträsk"
+  },
+  "Snl": {
+    "id": "Snl",
+    "name": "Skanlog",
+    "shortName": "Skanlog"
+  },
+  "Snn": {
+    "id": "Snn",
+    "name": "Sennan",
+    "shortName": "Sennan"
+  },
+  "Snt": {
+    "id": "Snt",
+    "name": "Snyten",
+    "shortName": "Snyten"
+  },
+  "Snu": {
+    "id": "Snu",
+    "name": "Stenungsund",
+    "shortName": "Stenungsund"
+  },
+  "Snv": {
+    "id": "Snv",
+    "name": "Sandviken",
+    "shortName": "Sandviken"
+  },
+  "Snö": {
+    "id": "Snö",
+    "name": "Stensjön",
+    "shortName": "Stensjön"
+  },
+  "So": {
+    "id": "So",
+    "name": "Solna",
+    "shortName": "Solna"
+  },
+  "Soa": {
+    "id": "Soa",
+    "name": "Stordalen",
+    "shortName": "Stordalen"
+  },
+  "Sod": {
+    "id": "Sod",
+    "name": "Stockholm Odenplan",
+    "shortName": "Sthlm Odenplan"
+  },
+  "Soe": {
+    "id": "Soe",
+    "name": "Stolpen",
+    "shortName": "Stolpen"
+  },
+  "Sol": {
+    "id": "Sol",
+    "name": "Sollentuna",
+    "shortName": "Sollentuna"
+  },
+  "Som": {
+    "id": "Som",
+    "name": "Stormyran",
+    "shortName": "Stormyran"
+  },
+  "Sop": {
+    "id": "Sop",
+    "name": "Skorped",
+    "shortName": "Skorped"
+  },
+  "Soö": {
+    "id": "Soö",
+    "name": "Storsjö",
+    "shortName": "Storsjö"
+  },
+  "Sp": {
+    "id": "Sp",
+    "name": "Sparreholm",
+    "shortName": "Sparreholm"
+  },
+  "Spj": {
+    "id": "Spj",
+    "name": "Spjutsbygd",
+    "shortName": "Spjutsbygd"
+  },
+  "Sph": {
+    "id": "Sph",
+    "name": "Skeppshult",
+    "shortName": "Skeppshult"
+  },
+  "Spjb": {
+    "id": "Spjb",
+    "name": "Spjutbäcken",
+    "shortName": "Spjutbäcken"
+  },
+  "Spk": {
+    "id": "Spk",
+    "name": "Sprängsviken",
+    "shortName": "Sprängsviken"
+  },
+  "Spm": {
+    "id": "Spm",
+    "name": "Skeppmora",
+    "shortName": "Skeppmora"
+  },
+  "Spn": {
+    "id": "Spn",
+    "name": "Stolpstugan",
+    "shortName": "Stolpstugan"
+  },
+  "Spy": {
+    "id": "Spy",
+    "name": "Spännarhyttan",
+    "shortName": "Spännarhyttan"
+  },
+  "Spå": {
+    "id": "Spå",
+    "name": "Spånga",
+    "shortName": "Spånga"
+  },
+  "Spä": {
+    "id": "Spä",
+    "name": "Spångenäs",
+    "shortName": "Spångenäs"
+  },
+  "Sr": {
+    "id": "Sr",
+    "name": "Storå",
+    "shortName": "Storå"
+  },
+  "Srn": {
+    "id": "Srn",
+    "name": "Sörtjärn",
+    "shortName": "Sörtjärn"
+  },
+  "Sre": {
+    "id": "Sre",
+    "name": "Söderbärke",
+    "shortName": "Söderbärke"
+  },
+  "Sro": {
+    "id": "Sro",
+    "name": "Storebro",
+    "shortName": "Storebro"
+  },
+  "Srr": {
+    "id": "Srr",
+    "name": "Skattkärr",
+    "shortName": "Skattkärr"
+  },
+  "Srp": {
+    "id": "Srp",
+    "name": "Skurup",
+    "shortName": "Skurup"
+  },
+  "Srs": {
+    "id": "Srs",
+    "name": "Sorsele",
+    "shortName": "Sorsele"
+  },
+  "Srt": {
+    "id": "Srt",
+    "name": "Strömtorp",
+    "shortName": "Strömtorp"
+  },
+  "Srv": {
+    "id": "Srv",
+    "name": "Storvreta",
+    "shortName": "Storvreta"
+  },
+  "Ss": {
+    "id": "Ss",
+    "name": "Stenstorp",
+    "shortName": "Stenstorp"
+  },
+  "Ssa": {
+    "id": "Ssa",
+    "name": "Sjösa",
+    "shortName": "Sjösa"
+  },
+  "Ssh": {
+    "id": "Ssh",
+    "name": "Strömsholm",
+    "shortName": "Strömsholm"
+  },
+  "Ssd": {
+    "id": "Ssd",
+    "name": "Strömsund",
+    "shortName": "Strömsund"
+  },
+  "Ssä": {
+    "id": "Ssä",
+    "name": "Segersäng",
+    "shortName": "Segersäng"
+  },
+  "Sså": {
+    "id": "Sså",
+    "name": "Stenselesågen",
+    "shortName": "Stenselesågen"
+  },
+  "St": {
+    "id": "St",
+    "name": "Säter",
+    "shortName": "Säter"
+  },
+  "Sst": {
+    "id": "Sst",
+    "name": "Stockholms södra",
+    "shortName": "Stockholms södra"
+  },
+  "Ssu": {
+    "id": "Ssu",
+    "name": "Stocksund",
+    "shortName": "Stocksund"
+  },
+  "Sta": {
+    "id": "Sta",
+    "name": "Stuvsta",
+    "shortName": "Stuvsta"
+  },
+  "Stb": {
+    "id": "Stb",
+    "name": "Stångby",
+    "shortName": "Stångby"
+  },
+  "Std": {
+    "id": "Std",
+    "name": "Stöde",
+    "shortName": "Stöde"
+  },
+  "Ste": {
+    "id": "Ste",
+    "name": "Svarte",
+    "shortName": "Svarte"
+  },
+  "Sth": {
+    "id": "Sth",
+    "name": "Stora Höga",
+    "shortName": "Stora Höga"
+  },
+  "Sten": {
+    "id": "Sten",
+    "name": "Stegsskogen",
+    "shortName": "Stegsskogen"
+  },
+  "Sti": {
+    "id": "Sti",
+    "name": "Storbergets industrispår",
+    "shortName": "Storbergets industrispår"
+  },
+  "Stje": {
+    "id": "Stje",
+    "name": "Stjerneskolan",
+    "shortName": "Stjerneskolan"
+  },
+  "Stk": {
+    "id": "Stk",
+    "name": "Sikträsk",
+    "shortName": "Sikträsk"
+  },
+  "Stlv": {
+    "id": "Stlv",
+    "name": "Stora Levene",
+    "shortName": "Stora Levene"
+  },
+  "Stl": {
+    "id": "Stl",
+    "name": "Ställdalen",
+    "shortName": "Ställdalen"
+  },
+  "Sto": {
+    "id": "Sto",
+    "name": "Storträsk",
+    "shortName": "Storträsk"
+  },
+  "Ston": {
+    "id": "Ston",
+    "name": "Stockviksverkens nedre",
+    "shortName": "Stockviksverkens nedre"
+  },
+  "Stoö": {
+    "id": "Stoö",
+    "name": "Stockviksverkens övre",
+    "shortName": "Stockviksverkens övre"
+  },
+  "Stp": {
+    "id": "Stp",
+    "name": "Svågertorp / Malmö Syd",
+    "shortName": "Svågertorp"
+  },
+  "Str": {
+    "id": "Str",
+    "name": "Storlien",
+    "shortName": "Storlien"
+  },
+  "Strg": {
+    "id": "Strg",
+    "name": "Storlien gränsen",
+    "shortName": "Storlien gränsen"
+  },
+  "Sts": {
+    "id": "Sts",
+    "name": "Storsund",
+    "shortName": "Storsund"
+  },
+  "Stv": {
+    "id": "Stv",
+    "name": "Stavre",
+    "shortName": "Stavre"
+  },
+  "Stu": {
+    "id": "Stu",
+    "name": "Stugsund",
+    "shortName": "Stugsund"
+  },
+  "Stå": {
+    "id": "Stå",
+    "name": "Sollefteå",
+    "shortName": "Sollefteå"
+  },
+  "Stö": {
+    "id": "Stö",
+    "name": "Strångsjö",
+    "shortName": "Strångsjö"
+  },
+  "Stä": {
+    "id": "Stä",
+    "name": "Sandträsk",
+    "shortName": "Sandträsk"
+  },
+  "Suc": {
+    "id": "Suc",
+    "name": "Sundsvall C",
+    "shortName": "Sundsvall"
+  },
+  "Sub": {
+    "id": "Sub",
+    "name": "Sundbyberg",
+    "shortName": "Sundbyberg"
+  },
+  "Sues": {
+    "id": "Sues",
+    "name": "Surte Södra",
+    "shortName": "Surte Södra"
+  },
+  "Sue": {
+    "id": "Sue",
+    "name": "Surte",
+    "shortName": "Surte"
+  },
+  "Suf": {
+    "id": "Suf",
+    "name": "Sturefors",
+    "shortName": "Sturefors"
+  },
+  "Sui": {
+    "id": "Sui",
+    "name": "Skuckuviken",
+    "shortName": "Skuckuviken"
+  },
+  "Sun": {
+    "id": "Sun",
+    "name": "Sunne",
+    "shortName": "Sunne"
+  },
+  "Sumf": {
+    "id": "Sumf",
+    "name": "Storumans fabriksspår",
+    "shortName": "Storumans fabriksspår"
+  },
+  "Sum": {
+    "id": "Sum",
+    "name": "Storuman",
+    "shortName": "Storuman"
+  },
+  "Sus": {
+    "id": "Sus",
+    "name": "Sunderby sjukhus",
+    "shortName": "Sunderby sjh"
+  },
+  "Sur": {
+    "id": "Sur",
+    "name": "Skutskär",
+    "shortName": "Skutskär"
+  },
+  "Surn": {
+    "id": "Surn",
+    "name": "Skutskär norra",
+    "shortName": "Skutskär norra"
+  },
+  "Suv": {
+    "id": "Suv",
+    "name": "Sundsvall Västra",
+    "shortName": "Sundsvall V"
+  },
+  "Suvå": {
+    "id": "Suvå",
+    "name": "Sundsvalls västra",
+    "shortName": "Sundsvalls västra"
+  },
+  "Sv": {
+    "id": "Sv",
+    "name": "Storvik",
+    "shortName": "Storvik"
+  },
+  "svbn": {
+    "id": "svbn",
+    "name": "Svartbäcken Nedre",
+    "shortName": "Svartbäcken Nedre"
+  },
+  "Svc": {
+    "id": "Svc",
+    "name": "Svenstavik centrum",
+    "shortName": "Svenstavik c"
+  },
+  "Sve": {
+    "id": "Sve",
+    "name": "Säve",
+    "shortName": "Säve"
+  },
+  "Svg": {
+    "id": "Svg",
+    "name": "Svenshögen",
+    "shortName": "Svenshögen"
+  },
+  "Svj": {
+    "id": "Svj",
+    "name": "Svedje",
+    "shortName": "Svedje"
+  },
+  "Svi": {
+    "id": "Svi",
+    "name": "Södra Vi",
+    "shortName": "Södra Vi"
+  },
+  "Svk": {
+    "id": "Svk",
+    "name": "Svenstavik",
+    "shortName": "Svenstavik"
+  },
+  "Svt": {
+    "id": "Svt",
+    "name": "Sävast",
+    "shortName": "Sävast"
+  },
+  "Svv": {
+    "id": "Svv",
+    "name": "Svappavaara",
+    "shortName": "Svappavaara"
+  },
+  "Svå": {
+    "id": "Svå",
+    "name": "Svartå",
+    "shortName": "Svartå"
+  },
+  "Svö": {
+    "id": "Svö",
+    "name": "Skytts Vemmerlöv",
+    "shortName": "Skytts Vemmerlöv"
+  },
+  "Sy": {
+    "id": "Sy",
+    "name": "Stockaryd",
+    "shortName": "Stockaryd"
+  },
+  "Syd": {
+    "id": "Syd",
+    "name": "Skillingaryd",
+    "shortName": "Skillingaryd"
+  },
+  "Syt": {
+    "id": "Syt",
+    "name": "Skyttorp",
+    "shortName": "Skyttorp"
+  },
+  "Såb": {
+    "id": "Såb",
+    "name": "Stålboga",
+    "shortName": "Stålboga"
+  },
+  "Sårs": {
+    "id": "Sårs",
+    "name": "Söråkers södra",
+    "shortName": "Söråkers södra"
+  },
+  "Sån": {
+    "id": "Sån",
+    "name": "Stenåsen",
+    "shortName": "Stenåsen"
+  },
+  "Sä": {
+    "id": "Sä",
+    "name": "Sävsjö",
+    "shortName": "Sävsjö"
+  },
+  "Sän": {
+    "id": "Sän",
+    "name": "Sävastklinten",
+    "shortName": "Sävastklinten"
+  },
+  "Säg": {
+    "id": "Säg",
+    "name": "Söräng",
+    "shortName": "Söräng"
+  },
+  "Säp": {
+    "id": "Säp",
+    "name": "Skärpan",
+    "shortName": "Skärpan"
+  },
+  "Säu": {
+    "id": "Säu",
+    "name": "Sunnäsbruk",
+    "shortName": "Sunnäsbruk"
+  },
+  "Sär": {
+    "id": "Sär",
+    "name": "Sävenäs rangerbangård",
+    "shortName": "Sävenäs rangerbangård"
+  },
+  "Säv": {
+    "id": "Säv",
+    "name": "Sävenäs",
+    "shortName": "Sävenäs"
+  },
+  "Sävl": {
+    "id": "Sävl",
+    "name": "Sävenäs lokstation",
+    "shortName": "Sävenäs lokstation"
+  },
+  "Söc": {
+    "id": "Söc",
+    "name": "Södertälje centrum",
+    "shortName": "Södertälje C"
+  },
+  "Säy": {
+    "id": "Säy",
+    "name": "Säby",
+    "shortName": "Säby"
+  },
+  "Söd": {
+    "id": "Söd",
+    "name": "Södertälje hamn",
+    "shortName": "Södertälje hamn"
+  },
+  "Södy": {
+    "id": "Södy",
+    "name": "Söderby",
+    "shortName": "Söderby"
+  },
+  "Sök": {
+    "id": "Sök",
+    "name": "Stöcke",
+    "shortName": "Stöcke"
+  },
+  "Sög": {
+    "id": "Sög",
+    "name": "Sölvesborg",
+    "shortName": "Sölvesborg"
+  },
+  "Söka": {
+    "id": "Söka",
+    "name": "Södertälje kanal",
+    "shortName": "Södertälje kanal"
+  },
+  "Söla": {
+    "id": "Söla",
+    "name": "Sösdala",
+    "shortName": "Sösdala"
+  },
+  "Söu": {
+    "id": "Söu",
+    "name": "Södertälje Syd (SL)",
+    "shortName": "Södertälje Syd"
+  },
+  "Söv": {
+    "id": "Söv",
+    "name": "Skelleftehamns övre",
+    "shortName": "Skelleftehamns övre"
+  },
+  "Söö": {
     "id": "Söö",
     "name": "Södertälje Syd",
     "shortName": "Södertälje S"
+  },
+  "Söy": {
+    "id": "Söy",
+    "name": "Sjöbygget",
+    "shortName": "Sjöbygget"
+  },
+  "T": {
+    "id": "T",
+    "name": "Töreboda",
+    "shortName": "Töreboda"
+  },
+  "Tag": {
+    "id": "Tag",
+    "name": "Taberg",
+    "shortName": "Taberg"
+  },
+  "Tab": {
+    "id": "Tab",
+    "name": "Tattby",
+    "shortName": "Tattby"
+  },
+  "Tb": {
+    "id": "Tb",
+    "name": "Tillberga",
+    "shortName": "Tillberga"
+  },
+  "Tba": {
+    "id": "Tba",
+    "name": "Tystberga",
+    "shortName": "Tystberga"
+  },
+  "Tbl": {
+    "id": "Tbl",
+    "name": "Tibble",
+    "shortName": "Tibble"
+  },
+  "Tbn": {
+    "id": "Tbn",
+    "name": "Torbacken",
+    "shortName": "Torbacken"
+  },
+  "Tbo": {
+    "id": "Tbo",
+    "name": "Tobo",
+    "shortName": "Tobo"
+  },
+  "Tbr": {
+    "id": "Tbr",
+    "name": "Tibro",
+    "shortName": "Tibro"
+  },
+  "Tby": {
+    "id": "Tby",
+    "name": "Tandsbyn",
+    "shortName": "Tandsbyn"
+  },
+  "Tdj": {
+    "id": "Tdj",
+    "name": "Trödje",
+    "shortName": "Trödje"
+  },
+  "Teo": {
+    "id": "Teo",
+    "name": "Torebo",
+    "shortName": "Torebo"
+  },
+  "Tdö": {
+    "id": "Tdö",
+    "name": "Tandsjöborg",
+    "shortName": "Tandsjöborg"
+  },
+  "Tet": {
+    "id": "Tet",
+    "name": "Tolikberget",
+    "shortName": "Tolikberget"
+  },
+  "Test": {
+    "id": "Test",
+    "name": "Test visningsnamn",
+    "shortName": "Test kort visningsnamn"
+  },
+  "Tgp": {
+    "id": "Tgp",
+    "name": "Tågarp",
+    "shortName": "Tågarp"
+  },
+  "Tgs": {
+    "id": "Tgs",
+    "name": "Trångstad",
+    "shortName": "Trångstad"
+  },
+  "Th": {
+    "id": "Th",
+    "name": "Tenhult",
+    "shortName": "Tenhult"
+  },
+  "Thl": {
+    "id": "Thl",
+    "name": "Tornhill",
+    "shortName": "Tornhill"
+  },
+  "Thd": {
+    "id": "Thd",
+    "name": "Tallhed",
+    "shortName": "Tallhed"
+  },
+  "Thm": {
+    "id": "Thm",
+    "name": "Träskholm",
+    "shortName": "Träskholm"
+  },
+  "Thn": {
+    "id": "Thn",
+    "name": "Trollhättan C",
+    "shortName": "Trollhättan"
+  },
+  "Thö": {
+    "id": "Thö",
+    "name": "Trehörningsjö",
+    "shortName": "Trehörningsjö"
+  },
+  "Tim": {
+    "id": "Tim",
+    "name": "Timsfors",
+    "shortName": "Timsfors"
+  },
+  "Tip": {
+    "id": "Tip",
+    "name": "Tierp",
+    "shortName": "Tierp"
+  },
+  "Tj": {
+    "id": "Tj",
+    "name": "Tjunnaryd",
+    "shortName": "Tjunnaryd"
+  },
+  "Tjs": {
+    "id": "Tjs",
+    "name": "Tjugonde slussen",
+    "shortName": "Tjugonde slussen"
+  },
+  "Tjsk": {
+    "id": "Tjsk",
+    "name": "Tjustskolan",
+    "shortName": "Tjustskolan"
+  },
+  "Tjsp": {
+    "id": "Tjsp",
+    "name": "Tjustskolan",
+    "shortName": "Tjustskolan"
+  },
+  "Tjä": {
+    "id": "Tjä",
+    "name": "Tjärnvik",
+    "shortName": "Tjärnvik"
+  },
+  "Tl": {
+    "id": "Tl",
+    "name": "Tallåsen",
+    "shortName": "Tallåsen"
+  },
+  "Tkt": {
+    "id": "Tkt",
+    "name": "Turkiet",
+    "shortName": "Turkiet"
+  },
+  "Tlg": {
+    "id": "Tlg",
+    "name": "Tällberg",
+    "shortName": "Tällberg"
+  },
+  "Tli": {
+    "id": "Tli",
+    "name": "Tomelilla",
+    "shortName": "Tomelilla"
+  },
+  "Tlt": {
+    "id": "Tlt",
+    "name": "Tolita",
+    "shortName": "Tolita"
+  },
+  "Tm": {
+    "id": "Tm",
+    "name": "Tomteboda bangård",
+    "shortName": "Tomteboda bangård"
+  },
+  "Tmö": {
+    "id": "Tmö",
+    "name": "Tomteboda övre",
+    "shortName": "Tomteboda övre"
+  },
+  "Tn": {
+    "id": "Tn",
+    "name": "Tannefors",
+    "shortName": "Tannefors"
+  },
+  "Tna": {
+    "id": "Tna",
+    "name": "Tuna",
+    "shortName": "Tuna"
+  },
+  "Tnk": {
+    "id": "Tnk",
+    "name": "Torneträsk",
+    "shortName": "Torneträsk"
+  },
+  "Tns": {
+    "id": "Tns",
+    "name": "Tranås",
+    "shortName": "Tranås"
+  },
+  "Tnu": {
+    "id": "Tnu",
+    "name": "Tanum",
+    "shortName": "Tanum"
+  },
+  "To": {
+    "id": "To",
+    "name": "Torpshammar",
+    "shortName": "Torpshammar"
+  },
+  "Tob": {
+    "id": "Tob",
+    "name": "Totebo",
+    "shortName": "Totebo"
+  },
+  "Tof": {
+    "id": "Tof",
+    "name": "Tofta",
+    "shortName": "Tofta"
+  },
+  "Top": {
+    "id": "Top",
+    "name": "Torpåkra",
+    "shortName": "Torpåkra"
+  },
+  "Tou": {
+    "id": "Tou",
+    "name": "Torup",
+    "shortName": "Torup"
+  },
+  "Tot": {
+    "id": "Tot",
+    "name": "Toresta",
+    "shortName": "Toresta"
+  },
+  "Toy": {
+    "id": "Toy",
+    "name": "Torsby",
+    "shortName": "Torsby"
+  },
+  "Tpu": {
+    "id": "Tpu",
+    "name": "Tappudden",
+    "shortName": "Tappudden"
+  },
+  "Tp": {
+    "id": "Tp",
+    "name": "Teckomatorp",
+    "shortName": "Teckomatorp"
+  },
+  "Trd": {
+    "id": "Trd",
+    "name": "Traryd",
+    "shortName": "Traryd"
+  },
+  "Tre": {
+    "id": "Tre",
+    "name": "Trekanten",
+    "shortName": "Trekanten"
+  },
+  "Trg": {
+    "id": "Trg",
+    "name": "Trelleborg",
+    "shortName": "Trelleborg"
+  },
+  "Trm": {
+    "id": "Trm",
+    "name": "Trolmen",
+    "shortName": "Trolmen"
+  },
+  "Tri": {
+    "id": "Tri",
+    "name": "Triangeln",
+    "shortName": "Triangeln"
+  },
+  "Ts": {
+    "id": "Ts",
+    "name": "Tungelsta",
+    "shortName": "Tungelsta"
+  },
+  "Trå": {
+    "id": "Trå",
+    "name": "Timrå",
+    "shortName": "Timrå"
+  },
+  "Tsg": {
+    "id": "Tsg",
+    "name": "Tågsjöberg",
+    "shortName": "Tågsjöberg"
+  },
+  "Tsl": {
+    "id": "Tsl",
+    "name": "Tisselskog",
+    "shortName": "Tisselskog"
+  },
+  "Ttu": {
+    "id": "Ttu",
+    "name": "Tortuna",
+    "shortName": "Tortuna"
+  },
+  "Tså": {
+    "id": "Tså",
+    "name": "Torsåker",
+    "shortName": "Torsåker"
+  },
+  "Tu": {
+    "id": "Tu",
+    "name": "Tumba",
+    "shortName": "Tumba"
+  },
+  "Tud": {
+    "id": "Tud",
+    "name": "Tunadal",
+    "shortName": "Tunadal"
+  },
+  "Tug": {
+    "id": "Tug",
+    "name": "Tunagård",
+    "shortName": "Tunagård"
+  },
+  "Tul": {
+    "id": "Tul",
+    "name": "Tullinge",
+    "shortName": "Tullinge"
+  },
+  "Tun": {
+    "id": "Tun",
+    "name": "Tunneby",
+    "shortName": "Tunneby"
+  },
+  "Tvb": {
+    "id": "Tvb",
+    "name": "Tväråbäck",
+    "shortName": "Tväråbäck"
+  },
+  "Tvd": {
+    "id": "Tvd",
+    "name": "Torved",
+    "shortName": "Torved"
+  },
+  "Tvä": {
+    "id": "Tvä",
+    "name": "Tvärålund",
+    "shortName": "Tvärålund"
+  },
+  "Tx": {
+    "id": "Tx",
+    "name": "Taxinge-Näsby",
+    "shortName": "Taxinge-Näsby"
+  },
+  "Ty": {
+    "id": "Ty",
+    "name": "Tyringe",
+    "shortName": "Tyringe"
+  },
+  "Tye": {
+    "id": "Tye",
+    "name": "Tyllered",
+    "shortName": "Tyllered"
+  },
+  "Tås": {
+    "id": "Tås",
+    "name": "Tallås",
+    "shortName": "Tallås"
+  },
+  "Tåd": {
+    "id": "Tåd",
+    "name": "Trångsund",
+    "shortName": "Trångsund"
+  },
+  "Tåsg": {
+    "id": "Tåsg",
+    "name": "Tallås Grusgropsväxel",
+    "shortName": "Tallås Grusgropsväxel"
+  },
+  "Tåsw": {
+    "id": "Tåsw",
+    "name": "Tallås Grusgropsväxel",
+    "shortName": "Tallås Grusgropsväxel"
+  },
+  "Tåv": {
+    "id": "Tåv",
+    "name": "Trångsviken",
+    "shortName": "Trångsviken"
+  },
+  "Täb": {
+    "id": "Täb",
+    "name": "Täby kyrkby",
+    "shortName": "Täby kyrkby"
+  },
+  "Täl": {
+    "id": "Täl",
+    "name": "Tälle",
+    "shortName": "Tälle"
+  },
+  "Täc": {
+    "id": "Täc",
+    "name": "Täby Centrum",
+    "shortName": "Täby Centrum"
+  },
+  "Tälö": {
+    "id": "Tälö",
+    "name": "Täljö",
+    "shortName": "Täljö"
+  },
+  "Tö": {
+    "id": "Tö",
+    "name": "Tjörnarp",
+    "shortName": "Tjörnarp"
+  },
+  "Töd": {
+    "id": "Töd",
+    "name": "Trönödal",
+    "shortName": "Trönödal"
+  },
+  "Töe": {
+    "id": "Töe",
+    "name": "Tösse",
+    "shortName": "Tösse"
+  },
+  "Töv": {
+    "id": "Töv",
+    "name": "Töva",
+    "shortName": "Töva"
+  },
+  "U": {
+    "id": "U",
+    "name": "Uppsala C",
+    "shortName": "Uppsala"
+  },
+  "Uba": {
+    "id": "Uba",
+    "name": "Uggleboda",
+    "shortName": "Uggleboda"
+  },
+  "Udl": {
+    "id": "Udl",
+    "name": "Ulriksdal",
+    "shortName": "Ulriksdal"
+  },
+  "Uf": {
+    "id": "Uf",
+    "name": "Ulriksfors",
+    "shortName": "Ulriksfors"
+  },
+  "Ufio": {
+    "id": "Ufio",
+    "name": "Ulriksfors industriområde",
+    "shortName": "Ulriksfors industriområde"
+  },
+  "Ulh": {
+    "id": "Ulh",
+    "name": "Ulvhäll",
+    "shortName": "Ulvhäll"
+  },
+  "Un": {
+    "id": "Un",
+    "name": "Undersåker",
+    "shortName": "Undersåker"
+  },
+  "Uly": {
+    "id": "Uly",
+    "name": "Ulvshyttan",
+    "shortName": "Ulvshyttan"
+  },
+  "Una": {
+    "id": "Una",
+    "name": "Uppsala norra",
+    "shortName": "Uppsala norra"
+  },
+  "Uph": {
+    "id": "Uph",
+    "name": "Upphärad",
+    "shortName": "Upphärad"
+  },
+  "Unv": {
+    "id": "Unv",
+    "name": "Universitetet",
+    "shortName": "Universitetet"
+  },
+  "Upv": {
+    "id": "Upv",
+    "name": "Upplands Väsby",
+    "shortName": "Upplands Väsby"
+  },
+  "Utp": {
+    "id": "Utp",
+    "name": "Ulvstorp",
+    "shortName": "Ulvstorp"
+  },
+  "Uts": {
+    "id": "Uts",
+    "name": "Utsikten",
+    "shortName": "Utsikten"
+  },
+  "Uv": {
+    "id": "Uv",
+    "name": "Uddevalla C",
+    "shortName": "Uddevalla"
+  },
+  "Uvn": {
+    "id": "Uvn",
+    "name": "Ursviken",
+    "shortName": "Ursviken"
+  },
+  "Uå": {
+    "id": "Uå",
+    "name": "Umeå C",
+    "shortName": "Umeå"
+  },
+  "Uåö": {
+    "id": "Uåö",
+    "name": "Umeå östra",
+    "shortName": "Umeå östra"
+  },
+  "Uågb": {
+    "id": "Uågb",
+    "name": "Umeå godsbangård",
+    "shortName": "Umeå godsbangård"
+  },
+  "Uö": {
+    "id": "Uö",
+    "name": "Uddevalla Östra",
+    "shortName": "Uddevalla Ö"
+  },
+  "Vaa": {
+    "id": "Vaa",
+    "name": "Vara",
+    "shortName": "Vara"
+  },
+  "V": {
+    "id": "V",
+    "name": "Värnamo",
+    "shortName": "Värnamo"
+  },
+  "Vad": {
+    "id": "Vad",
+    "name": "Vad",
+    "shortName": "Vad"
+  },
+  "Vag": {
+    "id": "Vag",
+    "name": "Vargön",
+    "shortName": "Vargön"
+  },
+  "wAga": {
+    "id": "wAga",
+    "name": "Aga",
+    "shortName": "Aga"
+  },
+  "Vaj": {
+    "id": "Vaj",
+    "name": "Varjisträsk",
+    "shortName": "Varjisträsk"
+  },
+  "wAlv": {
+    "id": "wAlv",
+    "name": "Alvik",
+    "shortName": "Alvik"
+  },
+  "wAll": {
+    "id": "wAll",
+    "name": "Alléparken",
+    "shortName": "Alléparken"
+  },
+  "Vb": {
+    "id": "Vb",
+    "name": "Varberg",
+    "shortName": "Varberg"
+  },
+  "wBag": {
+    "id": "wBag",
+    "name": "Baggeby",
+    "shortName": "Baggeby"
+  },
+  "Vbd": {
+    "id": "Vbd",
+    "name": "Västra Bodarne",
+    "shortName": "Västra Bodarne"
+  },
+  "Vbm": {
+    "id": "Vbm",
+    "name": "Viggbyholm",
+    "shortName": "Viggbyholm"
+  },
+  "Vbt": {
+    "id": "Vbt",
+    "name": "Vejbyslätt",
+    "shortName": "Vejbyslätt"
+  },
+  "wBod": {
+    "id": "wBod",
+    "name": "Bodal",
+    "shortName": "Bodal"
+  },
+  "wBvi": {
+    "id": "wBvi",
+    "name": "Brevik",
+    "shortName": "Brevik"
+  },
+  "Vby": {
+    "id": "Vby",
+    "name": "Vännäsby",
+    "shortName": "Vännäsby"
+  },
+  "Vbä": {
+    "id": "Vbä",
+    "name": "Verkebäck",
+    "shortName": "Verkebäck"
+  },
+  "Vda": {
+    "id": "Vda",
+    "name": "Veda",
+    "shortName": "Veda"
+  },
+  "Vdb": {
+    "id": "Vdb",
+    "name": "Värmlands Bro",
+    "shortName": "Värmlands Bro"
+  },
+  "Vdi": {
+    "id": "Vdi",
+    "name": "Veddige",
+    "shortName": "Veddige"
+  },
+  "Vdn": {
+    "id": "Vdn",
+    "name": "Vindeln",
+    "shortName": "Vindeln"
+  },
+  "Vdv": {
+    "id": "Vdv",
+    "name": "Vedevåg",
+    "shortName": "Vedevåg"
+  },
+  "Ve": {
+    "id": "Ve",
+    "name": "Väse",
+    "shortName": "Väse"
+  },
+  "Veas": {
+    "id": "Veas",
+    "name": "Velanda Södra",
+    "shortName": "Velanda Södra"
+  },
+  "Vea": {
+    "id": "Vea",
+    "name": "Velanda",
+    "shortName": "Velanda"
+  },
+  "Ved": {
+    "id": "Ved",
+    "name": "Vedum",
+    "shortName": "Vedum"
+  },
+  "Vena": {
+    "id": "Vena",
+    "name": "Vena",
+    "shortName": "Vena"
+  },
+  "Vev": {
+    "id": "Vev",
+    "name": "Vendevägen",
+    "shortName": "Vendevägen"
+  },
+  "Vf": {
+    "id": "Vf",
+    "name": "Vartofta",
+    "shortName": "Vartofta"
+  },
+  "Vfa": {
+    "id": "Vfa",
+    "name": "Vissefjärda",
+    "shortName": "Vissefjärda"
+  },
+  "Vfo": {
+    "id": "Vfo",
+    "name": "Viskafors",
+    "shortName": "Viskafors"
+  },
+  "Vg": {
+    "id": "Vg",
+    "name": "Vänersborg C",
+    "shortName": "Vänersborg"
+  },
+  "Vgd": {
+    "id": "Vgd",
+    "name": "Vaggeryd",
+    "shortName": "Vaggeryd"
+  },
+  "Vga": {
+    "id": "Vga",
+    "name": "Vega",
+    "shortName": "Vega"
+  },
+  "wGåb": {
+    "id": "wGåb",
+    "name": "Gåshaga brygga",
+    "shortName": "Gåshaga brygga"
+  },
+  "Vgå": {
+    "id": "Vgå",
+    "name": "Vårgårda",
+    "shortName": "Vårgårda"
+  },
+  "wGåh": {
+    "id": "wGåh",
+    "name": "Gåshaga",
+    "shortName": "Gåshaga"
+  },
+  "Vh": {
+    "id": "Vh",
+    "name": "Vegeholm",
+    "shortName": "Vegeholm"
+  },
+  "Vhd": {
+    "id": "Vhd",
+    "name": "Vagnhärad",
+    "shortName": "Vagnhärad"
+  },
+  "Vha": {
+    "id": "Vha",
+    "name": "Vattholma",
+    "shortName": "Vattholma"
+  },
+  "Vhe": {
+    "id": "Vhe",
+    "name": "Västerhaninge",
+    "shortName": "Västerhaninge"
+  },
+  "wHlt": {
+    "id": "wHlt",
+    "name": "Höglandstorget",
+    "shortName": "Höglandstorget"
+  },
+  "Vht": {
+    "id": "Vht",
+    "name": "Värdshuset",
+    "shortName": "Värdshuset"
+  },
+  "Vhy": {
+    "id": "Vhy",
+    "name": "Vikmanshyttan",
+    "shortName": "Vikmanshyttan"
+  },
+  "wHöb": {
+    "id": "wHöb",
+    "name": "Högberga",
+    "shortName": "Högberga"
+  },
+  "Via": {
+    "id": "Via",
+    "name": "Via",
+    "shortName": "Via"
+  },
+  "Vib": {
+    "id": "Vib",
+    "name": "Vimmerby",
+    "shortName": "Vimmerby"
+  },
+  "Wibe": {
+    "id": "Wibe",
+    "name": "Wibe",
+    "shortName": "Wibe"
+  },
+  "Vid": {
+    "id": "Vid",
+    "name": "Västra Ingelstad",
+    "shortName": "V. Ingelstad"
+  },
+  "Vibh": {
+    "id": "Vibh",
+    "name": "Vimmerby Hamra",
+    "shortName": "Vimmerby Hamra"
+  },
+  "Vik": {
+    "id": "Vik",
+    "name": "Vikersvik",
+    "shortName": "Vikersvik"
+  },
+  "Vim": {
+    "id": "Vim",
+    "name": "Vimnarp",
+    "shortName": "Vimnarp"
+  },
+  "Vip": {
+    "id": "Vip",
+    "name": "Viarp",
+    "shortName": "Viarp"
+  },
+  "Vis": {
+    "id": "Vis",
+    "name": "Visinge",
+    "shortName": "Visinge"
+  },
+  "Visk": {
+    "id": "Visk",
+    "name": "Viskan",
+    "shortName": "Viskan"
+  },
+  "Vit": {
+    "id": "Vit",
+    "name": "Vittaryd",
+    "shortName": "Vittaryd"
+  },
+  "Vjm": {
+    "id": "Vjm",
+    "name": "Vojmån",
+    "shortName": "Vojmån"
+  },
+  "Vj": {
+    "id": "Vj",
+    "name": "Vassijaure",
+    "shortName": "Vassijaure"
+  },
+  "Vk": {
+    "id": "Vk",
+    "name": "Västervik",
+    "shortName": "Västervik"
+  },
+  "Vka": {
+    "id": "Vka",
+    "name": "Vika",
+    "shortName": "Vika"
+  },
+  "Vkj": {
+    "id": "Vkj",
+    "name": "Vaikijaur",
+    "shortName": "Vaikijaur"
+  },
+  "wKlv": {
+    "id": "wKlv",
+    "name": "Klövervägen",
+    "shortName": "Klövervägen"
+  },
+  "wKoa": {
+    "id": "wKoa",
+    "name": "Kottla",
+    "shortName": "Kottla"
+  },
+  "wKäp": {
+    "id": "wKäp",
+    "name": "Käppala",
+    "shortName": "Käppala"
+  },
+  "wLab": {
+    "id": "wLab",
+    "name": "Larsberg",
+    "shortName": "Larsberg"
+  },
+  "Vl": {
+    "id": "Vl",
+    "name": "Vallsta",
+    "shortName": "Vallsta"
+  },
+  "Vlb": {
+    "id": "Vlb",
+    "name": "Vilhelmsborg",
+    "shortName": "Vilhelmsborg"
+  },
+  "Vld": {
+    "id": "Vld",
+    "name": "Vinlidsberg",
+    "shortName": "Vinlidsberg"
+  },
+  "Vln": {
+    "id": "Vln",
+    "name": "Vallnäs",
+    "shortName": "Vallnäs"
+  },
+  "wLnb": {
+    "id": "wLnb",
+    "name": "Lundsbrunn kurort",
+    "shortName": "Lundsbrunn kurort"
+  },
+  "Vlt": {
+    "id": "Vlt",
+    "name": "Vallentuna",
+    "shortName": "Vallentuna"
+  },
+  "Vm": {
+    "id": "Vm",
+    "name": "Vattjom",
+    "shortName": "Vattjom"
+  },
+  "Vma": {
+    "id": "Vma",
+    "name": "Vilhelmina",
+    "shortName": "Vilhelmina"
+  },
+  "Vman": {
+    "id": "Vman",
+    "name": "Vilhelmina norra",
+    "shortName": "Vilhelmina norra"
+  },
+  "Vmat": {
+    "id": "Vmat",
+    "name": "Vilhelmina timmer",
+    "shortName": "Vilhelmina timmer"
+  },
+  "Vmu": {
+    "id": "Vmu",
+    "name": "Villersmuren",
+    "shortName": "Villersmuren"
+  },
+  "Vme": {
+    "id": "Vme",
+    "name": "VME",
+    "shortName": "VME"
+  },
+  "Vn": {
+    "id": "Vn",
+    "name": "Värtan",
+    "shortName": "Värtan"
+  },
+  "Vna": {
+    "id": "Vna",
+    "name": "Voxna",
+    "shortName": "Voxna"
+  },
+  "wNob": {
+    "id": "wNob",
+    "name": "Nockeby",
+    "shortName": "Nockeby"
+  },
+  "wNot": {
+    "id": "wNot",
+    "name": "Nockeby torg",
+    "shortName": "Nockeby torg"
+  },
+  "Vns": {
+    "id": "Vns",
+    "name": "Vännäs",
+    "shortName": "Vännäs"
+  },
+  "Vnt": {
+    "id": "Vnt",
+    "name": "Vackernäset",
+    "shortName": "Vackernäset"
+  },
+  "Vnö": {
+    "id": "Vnö",
+    "name": "Vinnö",
+    "shortName": "Vinnö"
+  },
+  "Vo": {
+    "id": "Vo",
+    "name": "Vansbro",
+    "shortName": "Vansbro"
+  },
+  "wOll": {
+    "id": "wOll",
+    "name": "Olovslund",
+    "shortName": "Olovslund"
+  },
+  "Vpm": {
+    "id": "Vpm",
+    "name": "Varpemossen",
+    "shortName": "Varpemossen"
+  },
+  "Vre": {
+    "id": "Vre",
+    "name": "Vrena",
+    "shortName": "Vrena"
+  },
+  "Vr": {
+    "id": "Vr",
+    "name": "Vingåker",
+    "shortName": "Vingåker"
+  },
+  "Vrn": {
+    "id": "Vrn",
+    "name": "Verveln",
+    "shortName": "Verveln"
+  },
+  "wRos": {
+    "id": "wRos",
+    "name": "Ropsten",
+    "shortName": "Ropsten"
+  },
+  "Vru": {
+    "id": "Vru",
+    "name": "Vekerum",
+    "shortName": "Vekerum"
+  },
+  "Vrö": {
+    "id": "Vrö",
+    "name": "Värö",
+    "shortName": "Värö"
+  },
+  "Vs": {
+    "id": "Vs",
+    "name": "Vislanda",
+    "shortName": "Vislanda"
+  },
+  "Vsd": {
+    "id": "Vsd",
+    "name": "Vikingstad",
+    "shortName": "Vikingstad"
+  },
+  "wSa": {
+    "id": "wSa",
+    "name": "Skara",
+    "shortName": "Skara"
+  },
+  "Vsj": {
+    "id": "Vsj",
+    "name": "Vittsjö",
+    "shortName": "Vittsjö"
+  },
+  "Vsg": {
+    "id": "Vsg",
+    "name": "Valskog",
+    "shortName": "Valskog"
+  },
+  "Vsk": {
+    "id": "Vsk",
+    "name": "Vuonoskogen",
+    "shortName": "Vuonoskogen"
+  },
+  "wSkr": {
+    "id": "wSkr",
+    "name": "Skärsätra",
+    "shortName": "Skärsätra"
+  },
+  "wSms": {
+    "id": "wSms",
+    "name": "Smedslätten",
+    "shortName": "Smedslätten"
+  },
+  "Vso": {
+    "id": "Vso",
+    "name": "Virsbo",
+    "shortName": "Virsbo"
+  },
+  "wSsu": {
+    "id": "wSsu",
+    "name": "Sissehult",
+    "shortName": "Sissehult"
+  },
+  "Vst": {
+    "id": "Vst",
+    "name": "Vadstena",
+    "shortName": "Vadstena"
+  },
+  "Vsö": {
+    "id": "Vsö",
+    "name": "Viresjö",
+    "shortName": "Viresjö"
+  },
+  "Vt": {
+    "id": "Vt",
+    "name": "Vretstorp",
+    "shortName": "Vretstorp"
+  },
+  "Vta": {
+    "id": "Vta",
+    "name": "Vetlanda",
+    "shortName": "Vetlanda"
+  },
+  "Vtn": {
+    "id": "Vtn",
+    "name": "Vattnäs",
+    "shortName": "Vattnäs"
+  },
+  "wTov": {
+    "id": "wTov",
+    "name": "Torsvik",
+    "shortName": "Torsvik"
+  },
+  "Vto": {
+    "id": "Vto",
+    "name": "Västra Torup",
+    "shortName": "Västra Torup"
+  },
+  "Vtv": {
+    "id": "Vtv",
+    "name": "Vitvattnet",
+    "shortName": "Vitvattnet"
+  },
+  "Vtå": {
+    "id": "Vtå",
+    "name": "Vitåfors",
+    "shortName": "Vitåfors"
+  },
+  "Vv": {
+    "id": "Vv",
+    "name": "Vallvik",
+    "shortName": "Vallvik"
+  },
+  "wTås": {
+    "id": "wTås",
+    "name": "Tallås Grusgropsväxel",
+    "shortName": "Tallås Grusgropsväxel"
+  },
+  "Vå": {
+    "id": "Vå",
+    "name": "Västerås C",
+    "shortName": "Västerås"
+  },
+  "Våb": {
+    "id": "Våb",
+    "name": "Vålberg",
+    "shortName": "Vålberg"
+  },
+  "Våk": {
+    "id": "Våk",
+    "name": "Vallåkra",
+    "shortName": "Vallåkra"
+  },
+  "wÅlG": {
+    "id": "wÅlG",
+    "name": "Ålstens Gård",
+    "shortName": "Ålstens Gård"
+  },
+  "wÅls": {
+    "id": "wÅls",
+    "name": "Ålstensgatan",
+    "shortName": "Ålstensgatan"
+  },
+  "Vån": {
+    "id": "Vån",
+    "name": "Västerås norra",
+    "shortName": "Västerås norra"
+  },
+  "Våv": {
+    "id": "Våv",
+    "name": "Västerås västra",
+    "shortName": "Västerås västra"
+  },
+  "Vä": {
+    "id": "Vä",
+    "name": "Väring",
+    "shortName": "Väring"
+  },
+  "Väd": {
+    "id": "Väd",
+    "name": "Vätteryd",
+    "shortName": "Vätteryd"
+  },
+  "Väj": {
+    "id": "Väj",
+    "name": "Väja",
+    "shortName": "Väja"
+  },
+  "Vät": {
+    "id": "Vät",
+    "name": "Västra Ämtervik",
+    "shortName": "Västra Ämtervik"
+  },
+  "Vän": {
+    "id": "Vän",
+    "name": "Vännäs norra",
+    "shortName": "Vännäs norra"
+  },
+  "Väy": {
+    "id": "Väy",
+    "name": "Västeraspby",
+    "shortName": "Västeraspby"
+  },
+  "Vö": {
+    "id": "Vö",
+    "name": "Växjö",
+    "shortName": "Växjö"
+  },
+  "Vön": {
+    "id": "Vön",
+    "name": "Vassjön",
+    "shortName": "Vassjön"
+  },
+  "Vöv": {
+    "id": "Vöv",
+    "name": "Vinslöv",
+    "shortName": "Vinslöv"
+  },
+  "xA": {
+    "id": "xA",
+    "name": "Anten",
+    "shortName": "Anten"
+  },
+  "xAkm": {
+    "id": "xAkm",
+    "name": "Ankarsrum",
+    "shortName": "Ankarsrum"
+  },
+  "xAlg": {
+    "id": "xAlg",
+    "name": "Almunge",
+    "shortName": "Almunge"
+  },
+  "xAlp": {
+    "id": "xAlp",
+    "name": "Altorp",
+    "shortName": "Altorp"
+  },
+  "xArl": {
+    "id": "xArl",
+    "name": "Arelid",
+    "shortName": "Arelid"
+  },
+  "xAsk": {
+    "id": "xAsk",
+    "name": "Aska",
+    "shortName": "Aska"
+  },
+  "xBb": {
+    "id": "xBb",
+    "name": "Brobacka",
+    "shortName": "Brobacka"
+  },
+  "xB": {
+    "id": "xB",
+    "name": "Bärby",
+    "shortName": "Bärby"
+  },
+  "xBlä": {
+    "id": "xBlä",
+    "name": "Blägda",
+    "shortName": "Blägda"
+  },
+  "xBn": {
+    "id": "xBn",
+    "name": "Bor Norra",
+    "shortName": "Bor Norra"
+  },
+  "xBvv": {
+    "id": "xBvv",
+    "name": "Bråvallavägen",
+    "shortName": "Bråvallavägen"
+  },
+  "xBäl": {
+    "id": "xBäl",
+    "name": "Bällsta",
+    "shortName": "Bällsta"
+  },
+  "xBöp": {
+    "id": "xBöp",
+    "name": "Brösarp",
+    "shortName": "Brösarp"
+  },
+  "xBös": {
+    "id": "xBös",
+    "name": "Brösarp södra",
+    "shortName": "Brösarp södra"
+  },
+  "xDir": {
+    "id": "xDir",
+    "name": "Dirhuvden",
+    "shortName": "Dirhuvden"
+  },
+  "xDje": {
+    "id": "xDje",
+    "name": "Djursholms Ekeby",
+    "shortName": "Djursholms Ekeby"
+  },
+  "xDjö": {
+    "id": "xDjö",
+    "name": "Djursholms Ösby",
+    "shortName": "Djursholms Ösby"
+  },
+  "xDkn": {
+    "id": "xDkn",
+    "name": "Dala kvarn",
+    "shortName": "Dala kvarn"
+  },
+  "xDo": {
+    "id": "xDo",
+    "name": "Delsbo",
+    "shortName": "Delsbo"
+  },
+  "xEkg": {
+    "id": "xEkg",
+    "name": "Ekskogen",
+    "shortName": "Ekskogen"
+  },
+  "xEkh": {
+    "id": "xEkh",
+    "name": "Ekebohult",
+    "shortName": "Ekebohult"
+  },
+  "xEkn": {
+    "id": "xEkn",
+    "name": "Eken",
+    "shortName": "Eken"
+  },
+  "xEnb": {
+    "id": "xEnb",
+    "name": "Enebyberg",
+    "shortName": "Enebyberg"
+  },
+  "xErn": {
+    "id": "xErn",
+    "name": "Ervalla NBVJ",
+    "shortName": "Ervalla NBVJ"
+  },
+  "xEsa": {
+    "id": "xEsa",
+    "name": "Ensta",
+    "shortName": "Ensta"
+  },
+  "xEvb": {
+    "id": "xEvb",
+    "name": "Erstaviksbadet",
+    "shortName": "Erstaviksbadet"
+  },
+  "xEyd": {
+    "id": "xEyd",
+    "name": "Elgaryd",
+    "shortName": "Elgaryd"
+  },
+  "xF": {
+    "id": "xF",
+    "name": "Faringe",
+    "shortName": "Faringe"
+  },
+  "xFb": {
+    "id": "xFb",
+    "name": "Funbo",
+    "shortName": "Funbo"
+  },
+  "xFgr": {
+    "id": "xFgr",
+    "name": "Fagerrör",
+    "shortName": "Fagerrör"
+  },
+  "xFie": {
+    "id": "xFie",
+    "name": "Fiskåsen",
+    "shortName": "Fiskåsen"
+  },
+  "xFia": {
+    "id": "xFia",
+    "name": "Finkelboda",
+    "shortName": "Finkelboda"
+  },
+  "xFl": {
+    "id": "xFl",
+    "name": "Fyrislund",
+    "shortName": "Fyrislund"
+  },
+  "xFla": {
+    "id": "xFla",
+    "name": "Flaten",
+    "shortName": "Flaten"
+  },
+  "xFmö": {
+    "id": "xFmö",
+    "name": "Forsmöllan",
+    "shortName": "Forsmöllan"
+  },
+  "xFsa": {
+    "id": "xFsa",
+    "name": "Forsa",
+    "shortName": "Forsa"
+  },
+  "xFos": {
+    "id": "xFos",
+    "name": "Fredriksfors",
+    "shortName": "Fredriksfors"
+  },
+  "xFsu": {
+    "id": "xFsu",
+    "name": "Frösunda",
+    "shortName": "Frösunda"
+  },
+  "xFsd": {
+    "id": "xFsd",
+    "name": "Fagersand",
+    "shortName": "Fagersand"
+  },
+  "xFsä": {
+    "id": "xFsä",
+    "name": "Fisksätra",
+    "shortName": "Fisksätra"
+  },
+  "xFåt": {
+    "id": "xFåt",
+    "name": "Fårhult",
+    "shortName": "Fårhult"
+  },
+  "xGby": {
+    "id": "xGby",
+    "name": "Gimarpsby",
+    "shortName": "Gimarpsby"
+  },
+  "xGa": {
+    "id": "xGa",
+    "name": "Gunsta",
+    "shortName": "Gunsta"
+  },
+  "xGim": {
+    "id": "xGim",
+    "name": "Gimarp",
+    "shortName": "Gimarp"
+  },
+  "xGhn": {
+    "id": "xGhn",
+    "name": "Gripsholmsviken",
+    "shortName": "Gripsholmsviken"
+  },
+  "xGnl": {
+    "id": "xGnl",
+    "name": "Gnötteln",
+    "shortName": "Gnötteln"
+  },
+  "xGpf": {
+    "id": "xGpf",
+    "name": "Galoppfältet",
+    "shortName": "Galoppfältet"
+  },
+  "xGr": {
+    "id": "xGr",
+    "name": "Gräfsnäs",
+    "shortName": "Gräfsnäs"
+  },
+  "Xgu": {
+    "id": "Xgu",
+    "name": "Gudå",
+    "shortName": "Gudå"
+  },
+  "xGyt": {
+    "id": "xGyt",
+    "name": "Gyttorp",
+    "shortName": "Gyttorp"
+  },
+  "xGyb": {
+    "id": "xGyb",
+    "name": "Gyllebosjö",
+    "shortName": "Gyllebosjö"
+  },
+  "xGåv": {
+    "id": "xGåv",
+    "name": "Gårdveda",
+    "shortName": "Gårdveda"
+  },
+  "xHap": {
+    "id": "xHap",
+    "name": "Hultarp",
+    "shortName": "Hultarp"
+  },
+  "xHbo": {
+    "id": "xHbo",
+    "name": "Hybo",
+    "shortName": "Hybo"
+  },
+  "xHdt": {
+    "id": "xHdt",
+    "name": "Hedlandet",
+    "shortName": "Hedlandet"
+  },
+  "Xhel": {
+    "id": "Xhel",
+    "name": "Hell",
+    "shortName": "Hell"
+  },
+  "xHed": {
+    "id": "xHed",
+    "name": "Henriksdal",
+    "shortName": "Henriksdal"
+  },
+  "xHgä": {
+    "id": "xHgä",
+    "name": "Hägernäs",
+    "shortName": "Hägernäs"
+  },
+  "xHhn": {
+    "id": "xHhn",
+    "name": "Hjorthagen",
+    "shortName": "Hjorthagen"
+  },
+  "xHjm": {
+    "id": "xHjm",
+    "name": "Hjortöström",
+    "shortName": "Hjortöström"
+  },
+  "xHhf": {
+    "id": "xHhf",
+    "name": "Hultsfreds Hembygdspark",
+    "shortName": "Hultsfreds Hembygdspark"
+  },
+  "xHkl": {
+    "id": "xHkl",
+    "name": "Hudiksvall (xHkl)",
+    "shortName": "Hudiksvall (xHkl)"
+  },
+  "xHjt": {
+    "id": "xHjt",
+    "name": "Hjorted",
+    "shortName": "Hjorted"
+  },
+  "Xhra": {
+    "id": "Xhra",
+    "name": "Hegra",
+    "shortName": "Hegra"
+  },
+  "xHpf": {
+    "id": "xHpf",
+    "name": "Hultsfred (xHpf)",
+    "shortName": "Hultsfred (xHpf)"
+  },
+  "xHy": {
+    "id": "xHy",
+    "name": "Hesselby",
+    "shortName": "Hesselby"
+  },
+  "xHäs": {
+    "id": "xHäs",
+    "name": "Hultanäs",
+    "shortName": "Hultanäs"
+  },
+  "xHön": {
+    "id": "xHön",
+    "name": "Härnön",
+    "shortName": "Härnön"
+  },
+  "xIgb": {
+    "id": "xIgb",
+    "name": "Igelboda",
+    "shortName": "Igelboda"
+  },
+  "xHöo": {
+    "id": "xHöo",
+    "name": "Hösjömo",
+    "shortName": "Hösjömo"
+  },
+  "xIpr": {
+    "id": "xIpr",
+    "name": "Impregneringen",
+    "shortName": "Impregneringen"
+  },
+  "xJ": {
+    "id": "xJ",
+    "name": "Järle",
+    "shortName": "Järle"
+  },
+  "xJås": {
+    "id": "xJås",
+    "name": "Jädraås",
+    "shortName": "Jädraås"
+  },
+  "xJbn": {
+    "id": "xJbn",
+    "name": "Jagbacken",
+    "shortName": "Jagbacken"
+  },
+  "Xkat": {
+    "id": "Xkat",
+    "name": "Katterat",
+    "shortName": "Katterat"
+  },
+  "xKgl": {
+    "id": "xKgl",
+    "name": "Kragstalund",
+    "shortName": "Kragstalund"
+  },
+  "xKh": {
+    "id": "xKh",
+    "name": "Källarhalsen",
+    "shortName": "Källarhalsen"
+  },
+  "xKht": {
+    "id": "xKht",
+    "name": "Kambshagtorp",
+    "shortName": "Kambshagtorp"
+  },
+  "Xkpr": {
+    "id": "Xkpr",
+    "name": "Kopperå",
+    "shortName": "Kopperå"
+  },
+  "xKår": {
+    "id": "xKår",
+    "name": "Kårsta",
+    "shortName": "Kårsta"
+  },
+  "xL": {
+    "id": "xL",
+    "name": "Löth",
+    "shortName": "Löth"
+  },
+  "xLba": {
+    "id": "xLba",
+    "name": "Långbacka",
+    "shortName": "Långbacka"
+  },
+  "xLbr": {
+    "id": "xLbr",
+    "name": "Länna bruk",
+    "shortName": "Länna bruk"
+  },
+  "xLdm": {
+    "id": "xLdm",
+    "name": "Lindholmen",
+    "shortName": "Lindholmen"
+  },
+  "xLgn": {
+    "id": "xLgn",
+    "name": "Läggesta nedre",
+    "shortName": "Läggesta nedre"
+  },
+  "xLh": {
+    "id": "xLh",
+    "name": "Lövstahagen",
+    "shortName": "Lövstahagen"
+  },
+  "xLhl": {
+    "id": "xLhl",
+    "name": "Lahäll",
+    "shortName": "Lahäll"
+  },
+  "xLiä": {
+    "id": "xLiä",
+    "name": "Lillängen",
+    "shortName": "Lillängen"
+  },
+  "xLjd": {
+    "id": "xLjd",
+    "name": "Ljungbyheds grusgrop",
+    "shortName": "Ljungbyheds grusgrop"
+  },
+  "xLm": {
+    "id": "xLm",
+    "name": "Lilla Mon",
+    "shortName": "Lilla Mon"
+  },
+  "xLna": {
+    "id": "xLna",
+    "name": "Länna",
+    "shortName": "Länna"
+  },
+  "xLnb": {
+    "id": "xLnb",
+    "name": "Lundsbrunn",
+    "shortName": "Lundsbrunn"
+  },
+  "xLåö": {
+    "id": "xLåö",
+    "name": "Långsjön",
+    "shortName": "Långsjön"
+  },
+  "xLäe": {
+    "id": "xLäe",
+    "name": "Länninge",
+    "shortName": "Länninge"
+  },
+  "xLöt": {
+    "id": "xLöt",
+    "name": "Löt",
+    "shortName": "Löt"
+  },
+  "Xmag": {
+    "id": "Xmag",
+    "name": "Magnor",
+    "shortName": "Magnor"
+  },
+  "xMfd": {
+    "id": "xMfd",
+    "name": "Mariefred",
+    "shortName": "Mariefred"
+  },
+  "Xmer": {
+    "id": "Xmer",
+    "name": "Meråker",
+    "shortName": "Meråker"
+  },
+  "xMfå": {
+    "id": "xMfå",
+    "name": "Mariefreds ångbåtsstation",
+    "shortName": "Mariefreds ångbåtsstation"
+  },
+  "xMg": {
+    "id": "xMg",
+    "name": "Moga",
+    "shortName": "Moga"
+  },
+  "xMl": {
+    "id": "xMl",
+    "name": "Marielund",
+    "shortName": "Marielund"
+  },
+  "xMln": {
+    "id": "xMln",
+    "name": "Marielund",
+    "shortName": "Marielund"
+  },
+  "xMnb": {
+    "id": "xMnb",
+    "name": "Molnby",
+    "shortName": "Molnby"
+  },
+  "xMop": {
+    "id": "xMop",
+    "name": "Mosstorp",
+    "shortName": "Mosstorp"
+  },
+  "xMsa": {
+    "id": "xMsa",
+    "name": "Målilla Sanatorium",
+    "shortName": "Målilla Sanatorium"
+  },
+  "xMus": {
+    "id": "xMus",
+    "name": "Munkebos",
+    "shortName": "Munkebos"
+  },
+  "xMyå": {
+    "id": "xMyå",
+    "name": "Myråsen",
+    "shortName": "Myråsen"
+  },
+  "xMöb": {
+    "id": "xMöb",
+    "name": "Mörby",
+    "shortName": "Mörby"
+  },
+  "xN": {
+    "id": "xN",
+    "name": "Nora stad",
+    "shortName": "Nora stad"
+  },
+  "xNbe": {
+    "id": "xNbe",
+    "name": "Näsbyallé",
+    "shortName": "Näsbyallé"
+  },
+  "xNbp": {
+    "id": "xNbp",
+    "name": "Näsbypark",
+    "shortName": "Näsbypark"
+  },
+  "xNeg": {
+    "id": "xNeg",
+    "name": "Neglinge",
+    "shortName": "Neglinge"
+  },
+  "Xnk": {
+    "id": "Xnk",
+    "name": "Narvik",
+    "shortName": "Narvik"
+  },
+  "xNv": {
+    "id": "xNv",
+    "name": "Näsviken",
+    "shortName": "Näsviken"
+  },
+  "xNys": {
+    "id": "xNys",
+    "name": "Nygårds Stall Dalhem",
+    "shortName": "Nygårds Stall Dalhem"
+  },
+  "xNka": {
+    "id": "xNka",
+    "name": "Nacka",
+    "shortName": "Nacka"
+  },
+  "xOhs": {
+    "id": "xOhs",
+    "name": "Ohs Bruk",
+    "shortName": "Ohs Bruk"
+  },
+  "xPh": {
+    "id": "xPh",
+    "name": "Pershyttan",
+    "shortName": "Pershyttan"
+  },
+  "xPgn": {
+    "id": "xPgn",
+    "name": "Pershyttevägen",
+    "shortName": "Pershyttevägen"
+  },
+  "xOta": {
+    "id": "xOta",
+    "name": "Ormsta",
+    "shortName": "Ormsta"
+  },
+  "xPte": {
+    "id": "xPte",
+    "name": "Pallanite",
+    "shortName": "Pallanite"
+  },
+  "xQo": {
+    "id": "xQo",
+    "name": "Kvarnabo",
+    "shortName": "Kvarnabo"
+  },
+  "xRa": {
+    "id": "xRa",
+    "name": "Roma",
+    "shortName": "Roma"
+  },
+  "xRav": {
+    "id": "xRav",
+    "name": "Ravlundabro",
+    "shortName": "Ravlundabro"
+  },
+  "xRaä": {
+    "id": "xRaä",
+    "name": "Ravlunda bränneri",
+    "shortName": "Ravlunda bränneri"
+  },
+  "xRdb": {
+    "id": "xRdb",
+    "name": "Rydbo",
+    "shortName": "Rydbo"
+  },
+  "xRnb": {
+    "id": "xRnb",
+    "name": "Roslags Näsby",
+    "shortName": "Roslags Näsby"
+  },
+  "Xrhm": {
+    "id": "Xrhm",
+    "name": "Ranheim",
+    "shortName": "Ranheim"
+  },
+  "xRok": {
+    "id": "xRok",
+    "name": "Roma kungsgård",
+    "shortName": "Roma kungsgård"
+  },
+  "xRvä": {
+    "id": "xRvä",
+    "name": "Ringvägen",
+    "shortName": "Ringvägen"
+  },
+  "Xrom": {
+    "id": "Xrom",
+    "name": "Rombakk",
+    "shortName": "Rombakk"
+  },
+  "xSa": {
+    "id": "xSa",
+    "name": "Skölsta",
+    "shortName": "Skölsta"
+  },
+  "xSac": {
+    "id": "xSac",
+    "name": "Skara camping",
+    "shortName": "Skara camping"
+  },
+  "xScs": {
+    "id": "xScs",
+    "name": "Scoutstugan",
+    "shortName": "Scoutstugan"
+  },
+  "xSbn": {
+    "id": "xSbn",
+    "name": "Saltsjöbaden",
+    "shortName": "Saltsjöbaden"
+  },
+  "xSdu": {
+    "id": "xSdu",
+    "name": "Sandudden",
+    "shortName": "Sandudden"
+  },
+  "xSdn": {
+    "id": "xSdn",
+    "name": "Saltsjö-Duvnäs",
+    "shortName": "Saltsjö-Duvnäs"
+  },
+  "xSik": {
+    "id": "xSik",
+    "name": "Sickla",
+    "shortName": "Sickla"
+  },
+  "xSjl": {
+    "id": "xSjl",
+    "name": "Saltsjö-Järla",
+    "shortName": "Saltsjö-Järla"
+  },
+  "xSjv": {
+    "id": "xSjv",
+    "name": "Sjövägen",
+    "shortName": "Sjövägen"
+  },
+  "xSln": {
+    "id": "xSln",
+    "name": "Solsidan",
+    "shortName": "Solsidan"
+  },
+  "xSlu": {
+    "id": "xSlu",
+    "name": "Slussen",
+    "shortName": "Slussen"
+  },
+  "xSlä": {
+    "id": "xSlä",
+    "name": "Selknä",
+    "shortName": "Selknä"
+  },
+  "xSmk": {
+    "id": "xSmk",
+    "name": "Skogsmark",
+    "shortName": "Skogsmark"
+  },
+  "xSm": {
+    "id": "xSm",
+    "name": "Stora Mon",
+    "shortName": "Stora Mon"
+  },
+  "xSn": {
+    "id": "xSn",
+    "name": "Stensjön",
+    "shortName": "Stensjön"
+  },
+  "xSoo": {
+    "id": "xSoo",
+    "name": "S:t Olof",
+    "shortName": "S:t Olof"
+  },
+  "xStä": {
+    "id": "xStä",
+    "name": "Storängen",
+    "shortName": "Storängen"
+  },
+  "xSpä": {
+    "id": "xSpä",
+    "name": "Spångenäs",
+    "shortName": "Spångenäs"
+  },
+  "xSsu": {
+    "id": "xSsu",
+    "name": "Stocksund",
+    "shortName": "Stocksund"
+  },
+  "xSvb": {
+    "id": "xSvb",
+    "name": "Svartbäcken Nedre",
+    "shortName": "Svartbäcken Nedre"
+  },
+  "xTab": {
+    "id": "xTab",
+    "name": "Tattby",
+    "shortName": "Tattby"
+  },
+  "xSöy": {
+    "id": "xSöy",
+    "name": "Sjöbygget",
+    "shortName": "Sjöbygget"
+  },
+  "xTbl": {
+    "id": "xTbl",
+    "name": "Tibble",
+    "shortName": "Tibble"
+  },
+  "xTe": {
+    "id": "xTe",
+    "name": "Tule",
+    "shortName": "Tule"
+  },
+  "xTeg": {
+    "id": "xTeg",
+    "name": "Tule grusgrop",
+    "shortName": "Tule grusgrop"
+  },
+  "xTib": {
+    "id": "xTib",
+    "name": "Triabo",
+    "shortName": "Triabo"
+  },
+  "xTip": {
+    "id": "xTip",
+    "name": "Tippen",
+    "shortName": "Tippen"
+  },
+  "xTna": {
+    "id": "xTna",
+    "name": "Tuna",
+    "shortName": "Tuna"
+  },
+  "Xtnd": {
+    "id": "Xtnd",
+    "name": "Trondheim",
+    "shortName": "Trondheim"
+  },
+  "xTob": {
+    "id": "xTob",
+    "name": "Totebo",
+    "shortName": "Totebo"
+  },
+  "xTog": {
+    "id": "xTog",
+    "name": "Tomtskog",
+    "shortName": "Tomtskog"
+  },
+  "xTp": {
+    "id": "xTp",
+    "name": "Torpa",
+    "shortName": "Torpa"
+  },
+  "xTug": {
+    "id": "xTug",
+    "name": "Tunagård",
+    "shortName": "Tunagård"
+  },
+  "xTsk": {
+    "id": "xTsk",
+    "name": "Trollskogen",
+    "shortName": "Trollskogen"
+  },
+  "xTve": {
+    "id": "xTve",
+    "name": "Tveta",
+    "shortName": "Tveta"
+  },
+  "xTx": {
+    "id": "xTx",
+    "name": "Taxinge-Näsby",
+    "shortName": "Taxinge-Näsby"
+  },
+  "xTås": {
+    "id": "xTås",
+    "name": "Tallås",
+    "shortName": "Tallås"
+  },
+  "xTäb": {
+    "id": "xTäb",
+    "name": "Täby kyrkby",
+    "shortName": "Täby kyrkby"
+  },
+  "xTäc": {
+    "id": "xTäc",
+    "name": "Täby Centrum",
+    "shortName": "Täby Centrum"
+  },
+  "xTäl": {
+    "id": "xTäl",
+    "name": "Täljö",
+    "shortName": "Täljö"
+  },
+  "xUnv": {
+    "id": "xUnv",
+    "name": "Universitetet",
+    "shortName": "Universitetet"
+  },
+  "xUö": {
+    "id": "xUö",
+    "name": "Uppsala Östra",
+    "shortName": "Uppsala Östra"
+  },
+  "xVas": {
+    "id": "xVas",
+    "name": "Valstad",
+    "shortName": "Valstad"
+  },
+  "xVbm": {
+    "id": "xVbm",
+    "name": "Viggbyholm",
+    "shortName": "Viggbyholm"
+  },
+  "xVbä": {
+    "id": "xVbä",
+    "name": "Verkebäck",
+    "shortName": "Verkebäck"
+  },
+  "xVen": {
+    "id": "xVen",
+    "name": "Vena",
+    "shortName": "Vena"
+  },
+  "xVht": {
+    "id": "xVht",
+    "name": "Värdshuset",
+    "shortName": "Värdshuset"
+  },
+  "xVev": {
+    "id": "xVev",
+    "name": "Vendevägen",
+    "shortName": "Vendevägen"
+  },
+  "xVlt": {
+    "id": "xVlt",
+    "name": "Vallentuna",
+    "shortName": "Vallentuna"
+  },
+  "xVis": {
+    "id": "xVis",
+    "name": "Visinge",
+    "shortName": "Visinge"
+  },
+  "xVir": {
+    "id": "xVir",
+    "name": "Virestad",
+    "shortName": "Virestad"
+  },
+  "xVsm": {
+    "id": "xVsm",
+    "name": "Virserum",
+    "shortName": "Virserum"
+  },
+  "xVst": {
+    "id": "xVst",
+    "name": "Vadstena",
+    "shortName": "Vadstena"
+  },
+  "xVtk": {
+    "id": "xVtk",
+    "name": "Vitaby kyrka",
+    "shortName": "Vitaby kyrka"
+  },
+  "xVty": {
+    "id": "xVty",
+    "name": "Vitaby",
+    "shortName": "Vitaby"
+  },
+  "xVäm": {
+    "id": "xVäm",
+    "name": "Väderum",
+    "shortName": "Väderum"
+  },
+  "xÅbg": {
+    "id": "xÅbg",
+    "name": "Åkersberga",
+    "shortName": "Åkersberga"
+  },
+  "xÅbo": {
+    "id": "xÅbo",
+    "name": "Åbo",
+    "shortName": "Åbo"
+  },
+  "xÅru": {
+    "id": "xÅru",
+    "name": "Åkers Runö",
+    "shortName": "Åkers Runö"
+  },
+  "xÄp": {
+    "id": "xÄp",
+    "name": "Älvstorp",
+    "shortName": "Älvstorp"
+  },
+  "xÖdh": {
+    "id": "xÖdh",
+    "name": "Ödhult",
+    "shortName": "Ödhult"
+  },
+  "xÅs": {
+    "id": "xÅs",
+    "name": "Årsta",
+    "shortName": "Årsta"
+  },
+  "xÅtp": {
+    "id": "xÅtp",
+    "name": "Åtorp",
+    "shortName": "Åtorp"
+  },
+  "xÖga": {
+    "id": "xÖga",
+    "name": "Östberga",
+    "shortName": "Östberga"
+  },
+  "xÖsk": {
+    "id": "xÖsk",
+    "name": "Österskär",
+    "shortName": "Österskär"
+  },
+  "xÖst": {
+    "id": "xÖst",
+    "name": "Stockholms Östra",
+    "shortName": "Stockholms Östra"
+  },
+  "xÖsv": {
+    "id": "xÖsv",
+    "name": "Östervik",
+    "shortName": "Östervik"
+  },
+  "xÖvl": {
+    "id": "xÖvl",
+    "name": "Östra Vemmerlöv",
+    "shortName": "Östra Vemmerlöv"
+  },
+  "Y": {
+    "id": "Y",
+    "name": "Ystad",
+    "shortName": "Ystad"
+  },
+  "Yb": {
+    "id": "Yb",
+    "name": "Ytterby",
+    "shortName": "Ytterby"
+  },
+  "Yl": {
+    "id": "Yl",
+    "name": "Ytterhogdal",
+    "shortName": "Ytterhogdal"
+  },
+  "Yö": {
+    "id": "Yö",
+    "name": "Yttersjön",
+    "shortName": "Yttersjön"
+  },
+  "Ym": {
+    "id": "Ym",
+    "name": "Yttermalung",
+    "shortName": "Yttermalung"
+  },
+  "Zcph": {
+    "id": "Zcph",
+    "name": "Copenhagen Airport",
+    "shortName": "Copenhagen Airport"
+  },
+  "Zdro": {
+    "id": "Zdro",
+    "name": "Drogden",
+    "shortName": "Drogden"
+  },
+  "Zhl": {
+    "id": "Zhl",
+    "name": "Hellerup",
+    "shortName": "Hellerup"
+  },
+  "Zgae": {
+    "id": "Zgae",
+    "name": "Espergaerde",
+    "shortName": "Espergaerde"
+  },
+  "Zhg": {
+    "id": "Zhg",
+    "name": "Helsingör",
+    "shortName": "Helsingör"
+  },
+  "Zkh": {
+    "id": "Zkh",
+    "name": "Köpenhamn",
+    "shortName": "Köpenhamn"
+  },
+  "Zhum": {
+    "id": "Zhum",
+    "name": "Humlebaek",
+    "shortName": "Humlebaek"
+  },
+  "Zkk": {
+    "id": "Zkk",
+    "name": "Österport",
+    "shortName": "Österport"
+  },
+  "Zkl": {
+    "id": "Zkl",
+    "name": "Klampenborg",
+    "shortName": "Klampenborg"
+  },
+  "Zkn": {
+    "id": "Zkn",
+    "name": "Nörreport",
+    "shortName": "Nörreport"
+  },
+  "Zni": {
+    "id": "Zni",
+    "name": "Nivå",
+    "shortName": "Nivå"
+  },
+  "Zklv": {
+    "id": "Zklv",
+    "name": "Kalvebod",
+    "shortName": "Kalvebod"
+  },
+  "Zok": {
+    "id": "Zok",
+    "name": "Kokkedal",
+    "shortName": "Kokkedal"
+  },
+  "Zru": {
+    "id": "Zru",
+    "name": "Rungsted",
+    "shortName": "Rungsted"
+  },
+  "Zsq": {
+    "id": "Zsq",
+    "name": "Snekkersten",
+    "shortName": "Snekkersten"
+  },
+  "Zså": {
+    "id": "Zså",
+    "name": "Skodsborg",
+    "shortName": "Skodsborg"
+  },
+  "Ztåt": {
+    "id": "Ztåt",
+    "name": "Tårnby",
+    "shortName": "Tårnby"
+  },
+  "Zvb": {
+    "id": "Zvb",
+    "name": "Vedbaek",
+    "shortName": "Vedbaek"
+  },
+  "Zöre": {
+    "id": "Zöre",
+    "name": "Örestad",
+    "shortName": "Örestad"
+  },
+  "Åa": {
+    "id": "Åa",
+    "name": "Åseda",
+    "shortName": "Åseda"
+  },
+  "Å": {
+    "id": "Å",
+    "name": "Åsbro",
+    "shortName": "Åsbro"
+  },
+  "Åb": {
+    "id": "Åb",
+    "name": "Åsensbruk",
+    "shortName": "Åsensbruk"
+  },
+  "Åba": {
+    "id": "Åba",
+    "name": "Ålberga",
+    "shortName": "Ålberga"
+  },
+  "Åbe": {
+    "id": "Åbe",
+    "name": "Årstaberg",
+    "shortName": "Årstaberg"
+  },
+  "Åbg": {
+    "id": "Åbg",
+    "name": "Åkersberga",
+    "shortName": "Åkersberga"
+  },
+  "Åbo": {
+    "id": "Åbo",
+    "name": "Åbo",
+    "shortName": "Åbo"
+  },
+  "Åby": {
+    "id": "Åby",
+    "name": "Åby",
+    "shortName": "Åby"
+  },
+  "Åbyg": {
+    "id": "Åbyg",
+    "name": "Åby godsbangård",
+    "shortName": "Åby godsbangård"
+  },
+  "Åd": {
+    "id": "Åd",
+    "name": "Ådalsliden",
+    "shortName": "Ådalsliden"
+  },
+  "Åggb": {
+    "id": "Åggb",
+    "name": "Ånge godsbangård",
+    "shortName": "Ånge godsbangård"
+  },
+  "Ågy": {
+    "id": "Ågy",
+    "name": "Ångebyn",
+    "shortName": "Ångebyn"
+  },
+  "Åg": {
+    "id": "Åg",
+    "name": "Ånge",
+    "shortName": "Ånge"
+  },
+  "Åh": {
+    "id": "Åh",
+    "name": "Åshammar",
+    "shortName": "Åshammar"
+  },
+  "Åk": {
+    "id": "Åk",
+    "name": "Åkarp",
+    "shortName": "Åkarp"
+  },
+  "Åhus": {
+    "id": "Åhus",
+    "name": "Åhus",
+    "shortName": "Åhus"
+  },
+  "Åkn": {
+    "id": "Åkn",
+    "name": "Åkarps norra",
+    "shortName": "Åkarps norra"
+  },
+  "Åks": {
+    "id": "Åks",
+    "name": "Åkers styckebruk",
+    "shortName": "Åkers styckebruk"
+  },
+  "Åkg": {
+    "id": "Åkg",
+    "name": "Årskogen",
+    "shortName": "Årskogen"
+  },
+  "Åkt": {
+    "id": "Åkt",
+    "name": "Åskott",
+    "shortName": "Åskott"
+  },
+  "Ål": {
+    "id": "Ål",
+    "name": "Åmål",
+    "shortName": "Åmål"
+  },
+  "Ålg": {
+    "id": "Ålg",
+    "name": "Ålsäng",
+    "shortName": "Ålsäng"
+  },
+  "Ånm": {
+    "id": "Ånm",
+    "name": "Ånimskog",
+    "shortName": "Ånimskog"
+  },
+  "Åmy": {
+    "id": "Åmy",
+    "name": "Åmyran",
+    "shortName": "Åmyran"
+  },
+  "Åm": {
+    "id": "Åm",
+    "name": "Åmsele",
+    "shortName": "Åmsele"
+  },
+  "Åmn": {
+    "id": "Åmn",
+    "name": "Ångsågsmossen",
+    "shortName": "Ångsågsmossen"
+  },
+  "Åmi": {
+    "id": "Åmi",
+    "name": "Åminne",
+    "shortName": "Åminne"
+  },
+  "Ånn": {
+    "id": "Ånn",
+    "name": "Ånn",
+    "shortName": "Ånn"
+  },
+  "Åp": {
+    "id": "Åp",
+    "name": "Åstorp",
+    "shortName": "Åstorp"
+  },
+  "Ård": {
+    "id": "Ård",
+    "name": "Åryd",
+    "shortName": "Åryd"
+  },
+  "Åru": {
+    "id": "Åru",
+    "name": "Åkers Runö",
+    "shortName": "Åkers Runö"
+  },
+  "Åre": {
+    "id": "Åre",
+    "name": "Åre",
+    "shortName": "Åre"
+  },
+  "Ås": {
+    "id": "Ås",
+    "name": "Ås",
+    "shortName": "Ås"
+  },
+  "Åsa": {
+    "id": "Åsa",
+    "name": "Åsa",
+    "shortName": "Åsa"
+  },
+  "Åsal": {
+    "id": "Åsal",
+    "name": "Åsarna central",
+    "shortName": "Åsarna central"
+  },
+  "Åsn": {
+    "id": "Åsn",
+    "name": "Åsarna",
+    "shortName": "Åsarna"
+  },
+  "Åsns": {
+    "id": "Åsns",
+    "name": "Åsarna Södra",
+    "shortName": "Åsarna Södra"
+  },
+  "Åsra": {
+    "id": "Åsra",
+    "name": "Åsarna Södra",
+    "shortName": "Åsarna Södra"
+  },
+  "Åst": {
+    "id": "Åst",
+    "name": "Åsträsk",
+    "shortName": "Åsträsk"
+  },
+  "Åtp": {
+    "id": "Åtp",
+    "name": "Åtorp",
+    "shortName": "Åtorp"
+  },
+  "Åt": {
+    "id": "Åt",
+    "name": "Åmotfors",
+    "shortName": "Åmotfors"
+  },
+  "Åvg": {
+    "id": "Åvg",
+    "name": "Åtvidaberg",
+    "shortName": "Åtvidaberg"
+  },
+  "Åä": {
+    "id": "Åä",
+    "name": "Åänge",
+    "shortName": "Åänge"
+  },
+  "Ä": {
+    "id": "Ä",
+    "name": "Ängelholm",
+    "shortName": "Ängelholm"
+  },
+  "Äba": {
+    "id": "Äba",
+    "name": "Älvboda",
+    "shortName": "Älvboda"
+  },
+  "Äbg": {
+    "id": "Äbg",
+    "name": "Ängelsberg",
+    "shortName": "Ängelsberg"
+  },
+  "Äbgb": {
+    "id": "Äbgb",
+    "name": "Ängelsbergs bruk",
+    "shortName": "Ängelsbergs bruk"
+  },
+  "Äfs": {
+    "id": "Äfs",
+    "name": "Äggfors",
+    "shortName": "Äggfors"
+  },
+  "Äh": {
+    "id": "Äh",
+    "name": "Älmhult",
+    "shortName": "Älmhult"
+  },
+  "Äl": {
+    "id": "Äl",
+    "name": "Älgarås",
+    "shortName": "Älgarås"
+  },
+  "Äkb": {
+    "id": "Äkb",
+    "name": "Älvkarleby",
+    "shortName": "Älvkarleby"
+  },
+  "Älo": {
+    "id": "Älo",
+    "name": "Älvho",
+    "shortName": "Älvho"
+  },
+  "Älr": {
+    "id": "Älr",
+    "name": "Älekärr",
+    "shortName": "Älekärr"
+  },
+  "Äls": {
+    "id": "Äls",
+    "name": "Älvros",
+    "shortName": "Älvros"
+  },
+  "Än": {
+    "id": "Än",
+    "name": "Älvängen",
+    "shortName": "Älvängen"
+  },
+  "Äng": {
+    "id": "Äng",
+    "name": "Äng",
+    "shortName": "Äng"
+  },
+  "Änö": {
+    "id": "Änö",
+    "name": "Ängersjö",
+    "shortName": "Ängersjö"
+  },
+  "Äp": {
+    "id": "Äp",
+    "name": "Äppelbo",
+    "shortName": "Äppelbo"
+  },
+  "Är": {
+    "id": "Är",
+    "name": "Ärla",
+    "shortName": "Ärla"
+  },
+  "Äs": {
+    "id": "Äs",
+    "name": "Älvsjö",
+    "shortName": "Älvsjö"
+  },
+  "Äsb": {
+    "id": "Äsb",
+    "name": "Älandsbro",
+    "shortName": "Älandsbro"
+  },
+  "Äsg": {
+    "id": "Äsg",
+    "name": "Älvsjö godsbangård",
+    "shortName": "Älvsjö godsbangård"
+  },
+  "Äsr": {
+    "id": "Äsr",
+    "name": "Äskekärr",
+    "shortName": "Äskekärr"
+  },
+  "Ätk": {
+    "id": "Ätk",
+    "name": "Ättekulla",
+    "shortName": "Ättekulla"
+  },
+  "Äy": {
+    "id": "Äy",
+    "name": "Älvsbyn",
+    "shortName": "Älvsbyn"
+  },
+  "Ö": {
+    "id": "Ö",
+    "name": "Örtofta",
+    "shortName": "Örtofta"
+  },
+  "Öa": {
+    "id": "Öa",
+    "name": "Ökna",
+    "shortName": "Ökna"
+  },
+  "Öal": {
+    "id": "Öal",
+    "name": "Österalnö",
+    "shortName": "Österalnö"
+  },
+  "Öb": {
+    "id": "Öb",
+    "name": "Örebro Södra",
+    "shortName": "Örebro S"
+  },
+  "Öbl": {
+    "id": "Öbl",
+    "name": "Ösjöbol",
+    "shortName": "Ösjöbol"
+  },
+  "Öbn": {
+    "id": "Öbn",
+    "name": "Örabäcken",
+    "shortName": "Örabäcken"
+  },
+  "Öda": {
+    "id": "Öda",
+    "name": "Ödåkra",
+    "shortName": "Ödåkra"
+  },
+  "Öbyi": {
+    "id": "Öbyi",
+    "name": "Öjebyns industriområde",
+    "shortName": "Öjebyns industriområde"
+  },
+  "Ög": {
+    "id": "Ög",
+    "name": "Östra Grevie",
+    "shortName": "Ö. Grevie"
+  },
+  "Öga": {
+    "id": "Öga",
+    "name": "Östberga",
+    "shortName": "Östberga"
+  },
+  "Ögd": {
+    "id": "Ögd",
+    "name": "Övergård",
+    "shortName": "Övergård"
+  },
+  "Öh": {
+    "id": "Öh",
+    "name": "Örbyhus",
+    "shortName": "Örbyhus"
+  },
+  "Öhl": {
+    "id": "Öhl",
+    "name": "Överhogdal",
+    "shortName": "Överhogdal"
+  },
+  "Öhlg": {
+    "id": "Öhlg",
+    "name": "Överhogdals grusgrop",
+    "shortName": "Överhogdals grusgrop"
+  },
+  "Öj": {
+    "id": "Öj",
+    "name": "Östansjö",
+    "shortName": "Östansjö"
+  },
+  "Ök": {
+    "id": "Ök",
+    "name": "Örnsköldsvik C",
+    "shortName": "Örnsköldsvik"
+  },
+  "Öjr": {
+    "id": "Öjr",
+    "name": "Öjervik",
+    "shortName": "Öjervik"
+  },
+  "Ökn": {
+    "id": "Ökn",
+    "name": "Örnsköldsvik norra",
+    "shortName": "Örnsköldsvik norra"
+  },
+  "Öl": {
+    "id": "Öl",
+    "name": "Ölme",
+    "shortName": "Ölme"
+  },
+  "Öna": {
+    "id": "Öna",
+    "name": "Önaskogen",
+    "shortName": "Önaskogen"
+  },
+  "Önd": {
+    "id": "Önd",
+    "name": "Önnestad",
+    "shortName": "Önnestad"
+  },
+  "Ör": {
+    "id": "Ör",
+    "name": "Örebro C",
+    "shortName": "Örebro"
+  },
+  "Örs": {
+    "id": "Örs",
+    "name": "Örsjö",
+    "shortName": "Örsjö"
+  },
+  "Ös": {
+    "id": "Ös",
+    "name": "Östersund C",
+    "shortName": "Östersund"
+  },
+  "Ösk": {
+    "id": "Ösk",
+    "name": "Österskär",
+    "shortName": "Österskär"
+  },
+  "Öso": {
+    "id": "Öso",
+    "name": "Ösmo",
+    "shortName": "Ösmo"
+  },
+  "Öst": {
+    "id": "Öst",
+    "name": "Stockholms Östra",
+    "shortName": "Stockholms Östra"
+  },
+  "Öså": {
+    "id": "Öså",
+    "name": "Österås",
+    "shortName": "Österås"
+  },
+  "Ösv": {
+    "id": "Ösv",
+    "name": "Östersund Västra",
+    "shortName": "Östersund V"
+  },
+  "Öte": {
+    "id": "Öte",
+    "name": "Östertälje",
+    "shortName": "Östertälje"
+  },
+  "Öv": {
+    "id": "Öv",
+    "name": "Östavall",
+    "shortName": "Östavall"
+  },
+  "Övm": {
+    "id": "Övm",
+    "name": "Överum",
+    "shortName": "Överum"
+  },
+  "Övb": {
+    "id": "Övb",
+    "name": "Överby",
+    "shortName": "Överby"
+  },
+  "Övmb": {
+    "id": "Övmb",
+    "name": "Överums Bruk",
+    "shortName": "Överums Bruk"
+  },
+  "Övn": {
+    "id": "Övn",
+    "name": "Östervärn",
+    "shortName": "Östervärn"
+  },
+  "Övö": {
+    "id": "Övö",
+    "name": "Övsjö",
+    "shortName": "Övsjö"
+  },
+  "Öx": {
+    "id": "Öx",
+    "name": "Öxnered",
+    "shortName": "Öxnered"
+  },
+  "Öä": {
+    "id": "Öä",
+    "name": "Öreälv",
+    "shortName": "Öreälv"
+  },
+  "Öäg": {
+    "id": "Öäg",
+    "name": "Österäng",
+    "shortName": "Österäng"
+  },
+  "Oph": {
+    "id": "Oph",
+    "name": "Opphem",
+    "shortName": "Opphem"
+  },
+  "Or": {
+    "id": "Or",
+    "name": "Olskroken",
+    "shortName": "Olskroken"
+  },
+  "Orn": {
+    "id": "Orn",
+    "name": "Ornäs",
+    "shortName": "Ornäs"
+  },
+  "Ors": {
+    "id": "Ors",
+    "name": "Orsa",
+    "shortName": "Orsa"
+  },
+  "Ory": {
+    "id": "Ory",
+    "name": "Ormaryd",
+    "shortName": "Ormaryd"
+  },
+  "Oryd": {
+    "id": "Oryd",
+    "name": "Oryd",
+    "shortName": "Oryd"
+  },
+  "Os": {
+    "id": "Os",
+    "name": "Orrskog",
+    "shortName": "Orrskog"
+  },
+  "Osl": {
+    "id": "Osl",
+    "name": "Oslättfors",
+    "shortName": "Oslättfors"
+  },
+  "Osö": {
+    "id": "Osö",
+    "name": "Ovansjö",
+    "shortName": "Ovansjö"
+  },
+  "Ot": {
+    "id": "Ot",
+    "name": "Ottebol",
+    "shortName": "Ottebol"
+  },
+  "Ota": {
+    "id": "Ota",
+    "name": "Ormsta",
+    "shortName": "Ormsta"
+  },
+  "Ovs": {
+    "id": "Ovs",
+    "name": "Ovako stål",
+    "shortName": "Ovako stål"
+  },
+  "Ox": {
+    "id": "Ox",
+    "name": "Oxie",
+    "shortName": "Oxie"
+  },
+  "Oxd": {
+    "id": "Oxd",
+    "name": "Oxelösund",
+    "shortName": "Oxelösund"
+  },
+  "Oxb": {
+    "id": "Oxb",
+    "name": "Oxberg",
+    "shortName": "Oxberg"
   }
 }

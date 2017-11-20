@@ -180,6 +180,8 @@ describe('train-announcement', function () {
               'LocationName': 'test-location-2'
             }],
             'EstimatedTimeAtLocation': '2017-01-01T11:33',
+            'PlannedEstimatedTimeAtLocation': '2017-01-02T12:22',
+            'ScheduledDepartureDateTime': '2017-01-03T13:33',
             'Canceled': false,
             'Deviation': ['Deviation 1', 'Deviation 2']
           }
@@ -200,14 +202,18 @@ describe('train-announcement', function () {
           expect(result).to.have.lengthOf(1)
           expect(result[0].train).to.equal('test-train')
           expect(result[0].track).to.equal('test-track')
-          expect(result[0].date).to.equal('2017-01-01')
-          expect(result[0].time).to.equal('11:22')
-          expect(result[0].destination).to.equal('test-location-name')
-          expect(result[0].via).to.deep.equal(['test-location-name-1', 'test-location-name-2'])
-          expect(result[0].estimatedDate).to.equal('2017-01-01')
-          expect(result[0].estimatedTime).to.equal('11:33')
           expect(result[0].canceled).to.equal(false)
           expect(result[0].deviation).to.deep.equal(['Deviation 1', 'Deviation 2'])
+          expect(result[0].date).to.equal('2017-01-01')
+          expect(result[0].time).to.equal('11:22')
+          expect(result[0].estimatedDate).to.equal('2017-01-01')
+          expect(result[0].estimatedTime).to.equal('11:33')
+          expect(result[0].plannedEstimatedDate).to.equal('2017-01-02')
+          expect(result[0].plannedEstimatedTime).to.equal('12:22')
+          expect(result[0].scheduledDepartureDate).to.equal('2017-01-03')
+          expect(result[0].scheduledDepartureTime).to.equal('13:33')
+          expect(result[0].destination).to.equal('test-location-name')
+          expect(result[0].via).to.deep.equal(['test-location-name-1', 'test-location-name-2'])
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met
