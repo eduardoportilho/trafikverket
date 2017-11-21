@@ -52,6 +52,28 @@ describe('train-station', function () {
         })
       })
 
+      it('should not add filters if no args are provided', function () {
+        let request = sinon.spy()
+        let fs = {'readFileSync': sinon.stub().returns('{apikey}|{filters}')}
+        let trainStation = proxyquire('../src/train-station', {
+          'request': request,
+          'path': sinon.stub(),
+          'fs': fs,
+          './train-stations.json': {}
+        })
+        let expectedBody = env['apiKey'] + '|'
+
+        // when
+        trainStation.getTrainStationsInfo()
+
+        // then
+        sinon.assert.calledWithMatch(request, {
+          method: 'POST',
+          url: env['url'],
+          body: expectedBody
+        })
+      })
+
       it('should create query with multiple filters', function () {
         let request = sinon.spy()
         let fs = {'readFileSync': sinon.stub().returns('{apikey}|{filters}')}

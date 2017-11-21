@@ -57,7 +57,7 @@ function getDepartures (fromStationId, toStationId, fromTime, toTime) {
         }
         let bodyObj = JSON.parse(body)
         let departures = handleDeparturesResponse(bodyObj)
-        resolve(departures)
+        resolve(deduplicateDepartures(departures))
       }
     )
   }).then(function (departures) {
@@ -121,27 +121,27 @@ function handleDeparturesResponse (jsonResponse) {
     if (anouncement['AdvertisedTimeAtLocation']) {
       let datetime = anouncement['AdvertisedTimeAtLocation'].split('T')
       date = datetime[0]
-      time = datetime[1]
+      time = formatTime(datetime[1])
     }
 
     delayed = false
     if (anouncement['EstimatedTimeAtLocation']) {
       let estimatedDatetime = anouncement['EstimatedTimeAtLocation'].split('T')
       estimatedDate = estimatedDatetime[0]
-      estimatedTime = estimatedDatetime[1]
+      estimatedTime = formatTime(estimatedDatetime[1])
       delayed = estimatedDate !== date || estimatedTime !== time
     }
 
     if (anouncement['PlannedEstimatedTimeAtLocation']) {
       let plannedEstimatedDatetime = anouncement['PlannedEstimatedTimeAtLocation'].split('T')
       plannedEstimatedDate = plannedEstimatedDatetime[0]
-      plannedEstimatedTime = plannedEstimatedDatetime[1]
+      plannedEstimatedTime = formatTime(plannedEstimatedDatetime[1])
     }
 
     if (anouncement['ScheduledDepartureDateTime']) {
       let scheduledDepartureDatetime = anouncement['ScheduledDepartureDateTime'].split('T')
       scheduledDepartureDate = scheduledDepartureDatetime[0]
-      scheduledDepartureTime = scheduledDepartureDatetime[1]
+      scheduledDepartureTime = formatTime(scheduledDepartureDatetime[1])
     }
 
     if (anouncement['ToLocation'] && anouncement['ToLocation'].length) {
@@ -156,7 +156,9 @@ function handleDeparturesResponse (jsonResponse) {
     }
 
     return {
+      _id: anouncement['ActivityId'],
       _informationOwner: anouncement['InformationOwner'],
+      _keyCount: Object.keys(anouncement).length,
       train: anouncement['AdvertisedTrainIdent'],
       track: anouncement['TrackAtLocation'],
       canceled: anouncement['Canceled'],
@@ -174,6 +176,47 @@ function handleDeparturesResponse (jsonResponse) {
       via: viaLocations
     }
   }).filter(departure => departure._informationOwner === 'SJ')
+}
+
+function formatTime (time) {
+  const tokens = time.split(':')
+  if (tokens.length > 1) {
+    return tokens[0] + ':' + tokens[1]
+  }
+  return time
+}
+
+function deduplicateDepartures (departures) {
+  const deptMap = {}
+  for (let departure of departures) {
+    let hash = getDepartureHash(departure)
+    if (!deptMap[hash]) {
+      deptMap[hash] = []
+    }
+    deptMap[hash].push(departure)
+  }
+  return Object.keys(deptMap).map(hash => mergeDepartures(deptMap[hash]))
+}
+
+function getDepartureHash (departure) {
+  return departure._informationOwner +
+    departure.train +
+    departure.date +
+    departure.time
+}
+
+function mergeDepartures (departures) {
+  // use the departure with more keys
+  let main = departures[0]
+  if (departures.length === 1) {
+    return main
+  }
+  departures.forEach(dept => {
+    if (dept._keyCount > main._keyCount) {
+      main = dept
+    }
+  })
+  return main
 }
 
 const mainExport = {

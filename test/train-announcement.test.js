@@ -310,6 +310,31 @@ describe('train-announcement', function () {
       request.invokeCallback(undefined, undefined, response)
     })
 
+    it('should preserve unknown time format', function (done) {
+      // given
+      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
+        'TrainAnnouncement': [
+          {
+            'InformationOwner': 'SJ',
+            'AdvertisedTrainIdent': 'test-train',
+            'AdvertisedTimeAtLocation': '2017-01-01T11h22'
+          }
+        ]
+      }]}})
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result[0].time).to.equal('11h22')
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+      request.invokeCallback(undefined, undefined, response)
+    })
+
     it('should exclude non SJ results', function (done) {
       // given
       let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
@@ -326,6 +351,51 @@ describe('train-announcement', function () {
       trafik.getDepartures('test')
         .then(function (result) {
           expect(result).to.have.lengthOf(0)
+          done()
+        })
+        // Catch the AssertionError thrown if the expectation above is not met
+        .catch(function (err) {
+          done(err)
+        })
+      request.invokeCallback(undefined, undefined, response)
+    })
+
+    it('should deduplicate results', function (done) {
+      // given
+      let response = JSON.stringify({'RESPONSE': {'RESULT': [ {
+        'TrainAnnouncement': [
+          {
+            'InformationOwner': 'SJ',
+            'AdvertisedTrainIdent': 'test-train',
+            'AdvertisedTimeAtLocation': '2017-01-01T11:22'
+          },
+          {
+            'InformationOwner': 'SJ',
+            'AdvertisedTrainIdent': 'test-train',
+            'AdvertisedTimeAtLocation': '2017-01-01T11:22',
+            'Deviation': ['A', 'B', 'C']
+          },
+          {
+            'InformationOwner': 'SJ',
+            'AdvertisedTrainIdent': 'test-train',
+            'AdvertisedTimeAtLocation': '2017-01-01T11:23'
+          }
+        ]
+      }]}})
+
+      // when
+      trafik.getDepartures('test')
+        .then(function (result) {
+          expect(result).to.have.lengthOf(2)
+
+          expect(result[0].train).to.equal('test-train')
+          expect(result[0].date).to.equal('2017-01-01')
+          expect(result[0].time).to.equal('11:22')
+          expect(result[0].deviation).to.deep.equal(['A', 'B', 'C'])
+
+          expect(result[1].train).to.equal('test-train')
+          expect(result[1].date).to.equal('2017-01-01')
+          expect(result[1].time).to.equal('11:23')
           done()
         })
         // Catch the AssertionError thrown if the expectation above is not met
