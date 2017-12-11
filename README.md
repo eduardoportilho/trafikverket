@@ -29,9 +29,11 @@ export TRAFIKVERKET_API_KEY=<your API key>
 * How do I test the api?
 
 ```
+$ npm run build
+$ cd dist
 $ env TRAFIKVERKET_API_KEY=<your API key> NODE_ENV=production node
 > let trafik = require('./index')
-> trafik.getDepartures('Fle').then((obj) => console.log(JSON.stringify(obj)))
+> trafik.getDepartures('Fle').then((obj) => console.log(JSON.stringify(obj, null, 2)))
 ```
 
 ## Roadmap:
