@@ -10,8 +10,9 @@ let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
  * Query the departures from a station
  * @param  {string} fromStationId Id of the station of departure
  * @param  {string} toStationId   Id of a station on the route of the train (optional)
- * @param  {string} fromTime      HH:mm:ss Includes trains leaving how long BEFORE the current time? (default: 00:30:00)
- * @param  {string} toTime        HH:mm:ss Includes trains leaving how long AFTER the current time? (default: 03:00:00)
+ * @param  {string} fromTime      HH:mm:ss Includes trains leaving how long AFTER the current time? (default: -00:30:00)
+ *                                  - If the value is negative, includes trains leaving before the current time
+ * @param  {string} toTime        HH:mm:ss Excludes trains leaving how long AFTER the current time? (default: 03:00:00)
  * @return {array}                Array of departure objects containing the following keys:
  *                                  - train {string}: Train id
  *                                  - track {string}: Track nunber at departing station
@@ -30,7 +31,7 @@ let xmlRequestFile = path.join(__dirname, 'train-announcement-request.xml')
  *                                  - via {string[]}: Name of the stations where the train stops
  */
 function getDepartures (fromStationId, toStationId, fromTime, toTime) {
-  fromTime = fromTime || '00:30:00'
+  fromTime = fromTime || '-00:30:00'
   toTime = toTime || '03:00:00'
 
   let optionalFilters = ''
